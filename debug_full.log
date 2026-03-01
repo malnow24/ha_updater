@@ -1,0 +1,84 @@
+2026-03-01 09:49:46,917 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 09:49:47,032 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 09:49:47,181 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 09:49:47,928 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 09:49:47,929 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 09:49:48,413 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 09:49:48,413 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 09:49:49,147 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 09:49:49,148 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 09:49:55,752 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 40
+2026-03-01 09:49:55,954 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 09:49:56,070 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 09:49:57,140 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: en - ap 25 3= nn
+2026-03-01 09:49:57,141 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:49:59,179 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ‘ ü| ee m - preis pro stück: $1625 b\ —  ——, s
+2026-03-01 09:49:59,180 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:49:59,469 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'J\nf u Dig\nL\nE ngenerses Angeböt: \\ L\n45x Weed Beute\nFres ro Stick: S1825 >\nKR srnmerns u\n'
+2026-03-01 09:50:00,754 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 13 ring — 46x woed-beutel > — preis pro stück: 51625 m a — nn “ 3
+2026-03-01 09:50:00,756 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:50:01,073 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'a.\nE ngehences Angebot: mm\n46x Weed-Beutel FI\nPreis so Stück: S1825 1\ney\nu m ..\n1\n'
+2026-03-01 09:50:01,074 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=46, Preis=182511
+2026-03-01 09:50:01,074 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $182511 | Menge: 46 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 09:50:01,481 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: b andh z bt ie bi zum e ei: ingehendes angebot: 46x weed-beutel ik preis pro stück: $1625 = — = | \ & \
+2026-03-01 09:50:02,221 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: b and bt ne bi z em r u —e ingehendes angebot: 2 46x weed-beutel sz preis pro stück: $1625 = — = | } ü \
+2026-03-01 09:50:02,890 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: _ es f tre ass - 46x weed-beutel = preis pro stück: $1625 sm: —— e
+2026-03-01 09:50:03,544 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li eingehendes angebot: == fa 46x weed-beutel u preis pro stück: $1625 u ir
+2026-03-01 09:50:04,193 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t si =;  eingehendes angebot: si fa preis pro stück: $1625 nn
+2026-03-01 09:50:04,845 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t si = eingehendes angebot: = fa even) + preis pro stück: $1625 kam
+2026-03-01 09:50:05,506 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: \ l grosshandel _ irre eingehendes angebot: = ei 46x weed-beutel = preis pro stück: 81625 \ m \
+2026-03-01 09:50:06,145 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: l grosshandel fr = =  46x weed-beutel i  preis pro stück: $1625 n
+2026-03-01 09:50:06,786 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li grosshandel i fr _ =— eingehendes angebot: = 6x weed-beute ? preis pro stück: $1625 ronassmınns we
+2026-03-01 09:50:07,442 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li ==. eingehendes angebot: > er 46x weed-beutel u r preis pro stück: $1625 tr rei
+2026-03-01 09:50:08,108 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li =>: eingehendes angebot: > ee“ 46x weed-beutel — r preis pro stück: $1625 u ei
+2026-03-01 09:50:08,764 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li => eingehendes angebot: i ei preis pro stück: $1625 - u
+2026-03-01 09:50:09,449 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li ==: eingehendes angebot: i fe preis pro stück: $1625 1“ u zz nen
+2026-03-01 09:50:10,105 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li =>: eingehendes angebot: a fe ——_ preis pro stück: $1625 vr be
+2026-03-01 09:50:10,744 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t =>: eingehendes angebot: = en 46x weed-beutel r — preis pro stück: $1625 x - r
+2026-03-01 09:50:11,378 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: l > eingehendes angebot: fe 46x weed-beutel u preis pro stück: $1625 \ fon \ ä
+2026-03-01 09:50:12,028 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li =>; eingehendes angebot: = re 46x weed-beutel " — preis pro stück: 81625. \ va |
+2026-03-01 09:50:12,676 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li =>: eingehendes angebot: = re 46x weed-beutel 7 u preis pro stück: $1625 ya 2
+2026-03-01 09:50:13,319 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li ==. eingehendes angebot: = ei er —— preis pro stück: $1625 u
+2026-03-01 09:50:13,958 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li >: eingehendes angebot: = ei er —— preis pro stück: $1625 -
+2026-03-01 09:50:14,596 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t ==: eingehendes angebot: = en oatagae tr preis pro stück: $1625 -z
+2026-03-01 09:50:15,220 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t >; eingehendes angebot: = ei 46x weed-beutel > preis pro stück: $1625 y
+2026-03-01 09:50:15,826 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t == 46x weed-beutel u preis pro stück: $1625 { (a "
+2026-03-01 09:50:17,353 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: = ey eingehendes angebot: == fe bene mn preis pro stück: $1625 u a,
+2026-03-01 09:50:17,354 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:50:17,656 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'u\nu\nEingehendes Angebot: En Ds\n46x Weed-Beutel THE\nPreis pro Stück: $1625\n1 "\nur, 1113\n'
+2026-03-01 09:50:17,658 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=46, Preis=162511113
+2026-03-01 09:50:17,664 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $162511113 | Menge: 46 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 09:50:18,056 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: == di eingehendes angebot: i fe 46x weed-beutel ar preis pro stück: $1625 bean rnnaaatrın
+2026-03-01 09:50:18,713 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: == a eingehendes angebot: = er 46x weed-beutel mi preis pro stück: $1625 bann, rnnaaatın
+2026-03-01 09:50:19,363 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: - == 4 eingehendes angebot: = fr doc wec-baua + preis pro stück: $1625 bi rnnaaatın
+2026-03-01 09:50:20,037 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: — = ey eingehendes angebot: zw ei 46x weed-beutel ns r preis pro stück: $1625 yen rnnaaatrın
+2026-03-01 09:50:20,678 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t grosshandel = ir eingehendes angebot =t 46x weed-beutel preis pro stück: $1625 \ \
+2026-03-01 09:50:21,333 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: l grosshandel i pr a = 46x weed-beutel - rb preis pro stück: $1625 \ . | m — \
+2026-03-01 09:50:21,977 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: er dr eingehendes angebot: u a 46x weed-beutel en preis pro stück: $1625 ye n
+2026-03-01 09:50:22,642 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li =>: eingehendes angebot: st fe 46x weed-beutel nr r preis pro stück: $1625 .- u |
+2026-03-01 09:50:23,292 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t > eingehendes angebot: = fe en + preis pro stück: $1625 -
+2026-03-01 09:50:23,920 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: li ==: eingehendes angebot: = en doc wec-baua + preis pro stück: $1625 =
+2026-03-01 09:50:24,571 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t == eingehendes angebot: pr 46x weed-beutel preis pro stück: $1625 fon r
+2026-03-01 09:50:25,201 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: t == eingehendes angebot: = ei in weed i preis pro stück: $1625 } u ä
+2026-03-01 09:50:25,839 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: l == eingehendes angebot: = ei 46x weec-beutel a preis pro stück: $1625 \ un - ı l
+2026-03-01 09:50:26,471 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: grosshandel = eingehendes angebot:  46x weed-beutel = preis pro stück: $1625
+2026-03-01 09:50:27,076 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: eingehendes angebot: 46x weed-beutel preis pro stück: 81625,
+2026-03-01 09:50:27,664 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 
+2026-03-01 09:50:28,985 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 
+2026-03-01 09:50:28,985 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:50:31,239 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: grosshandel = eingehendes angebot:  46x weed-beutel preis pro stück: $1625
+2026-03-01 09:50:31,240 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:50:31,486 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'Ä |\nEingehendes Angebot:\n46x Weed-Beutel\nPreis pro Stück: 51625\n'
+2026-03-01 09:50:31,487 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=46, Preis=51625
+2026-03-01 09:50:31,501 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $51625 | Menge: 46 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 09:50:31,798 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 
+2026-03-01 09:50:33,018 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 
+2026-03-01 09:50:33,019 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:50:35,226 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: = — eingehendes angebot: 46x weed-beutel preis pro stück: $1625,
+2026-03-01 09:50:35,226 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:50:35,504 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'ee\n} u——\nee\nEingehendes Angebot:\n46x Weed-Beutel\nPreis pro Stück: 51625\n'
+2026-03-01 09:50:35,505 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=46, Preis=51625
+2026-03-01 09:50:35,524 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $51625 | Menge: 46 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 09:56:10,312 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
+2026-03-01 09:56:10,313 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
+2026-03-01 09:56:10,313 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
