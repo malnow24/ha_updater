@@ -2620,3 +2620,203 @@
 2026-03-01 13:26:34,150 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (14.9s).
 2026-03-01 13:26:34,151 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
 2026-03-01 13:26:49,098 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:36:44,179 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 13:36:44,285 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 13:36:44,429 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 13:36:45,134 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 13:36:45,136 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 13:36:45,593 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 13:36:45,593 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 13:36:46,278 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 13:36:46,279 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 13:36:51,169 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 13:36:51,169 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:36:51,764 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'Needsubern'
+2026-03-01 13:36:52,101 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (14.9s).
+2026-03-01 13:36:52,103 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:36:57,807 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 13:36:58,074 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:36:58,414 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (14.9s).
+2026-03-01 13:36:58,415 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:37:13,622 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:37:14,415 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:37:15,220 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:37:16,034 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:16,034 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'JXWEEDSUBERN' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:37:16,397 [INFO] SyndicateTool: [Aktion] 'JXWEEDSUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:37:16,400 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:37:16,757 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:37:18,273 [INFO] SyndicateTool: [KI] Ungültiger Text – aus Favoriten entfernt. Suche weiter...
+2026-03-01 13:37:18,647 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:18,647 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'JXWEEDSUBERN' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:37:19,955 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:21,215 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:22,471 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:23,718 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:24,963 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:26,208 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:27,489 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:28,779 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:30,021 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:31,294 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:32,536 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 13:37:32,778 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:33,092 [INFO] SyndicateTool: [Aktion] 'JXWEEDSUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:37:33,092 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:37:34,114 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:37:34,391 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'JXWEEDSUBERN'...
+2026-03-01 13:37:49,470 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:37:49,480 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'jxweedsubern' -> 15.1s.
+2026-03-01 13:37:49,748 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:37:50,484 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:37:50,822 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:37:50,823 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:38:06,201 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:38:06,946 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:38:07,689 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:38:08,015 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:38:08,015 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:38:23,435 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:38:24,205 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:38:24,944 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:38:25,274 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:38:25,275 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:38:40,648 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:38:41,394 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:38:42,133 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:38:42,461 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:38:42,461 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:38:57,840 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:38:58,582 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:38:59,338 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:38:59,672 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:38:59,672 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:39:15,051 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:39:15,793 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:39:16,532 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:39:16,862 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:39:16,863 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:39:32,247 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:39:33,005 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:39:33,755 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:39:34,082 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:39:34,082 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:39:49,456 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:39:50,198 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:39:50,928 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:39:51,245 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:39:51,245 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:40:06,632 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:40:07,403 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:40:08,158 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:40:08,476 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:40:08,476 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:40:23,901 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:40:24,658 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:40:25,411 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:40:25,820 [INFO] SyndicateTool: [Aktion] 'JXWEEDSUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:40:25,821 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:40:26,830 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:40:27,089 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'JXWEEDSUBERN'...
+2026-03-01 13:40:42,105 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:40:42,115 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'jxweedsubern' -> 15.0s.
+2026-03-01 13:40:42,420 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:40:43,181 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:40:43,572 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:40:43,573 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:40:58,956 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:40:59,696 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:41:00,449 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:41:00,883 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:41:00,884 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:41:16,257 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:41:17,063 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:41:17,809 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:41:18,137 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:41:18,137 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:41:37,566 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:41:37,926 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:41:37,927 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:41:57,345 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern\ner'
+2026-03-01 13:41:57,719 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:41:57,720 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:42:13,107 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:42:13,854 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:42:14,598 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:42:14,976 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:42:14,977 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:42:30,406 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:42:31,161 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:42:31,904 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:42:32,312 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:42:32,314 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:42:47,685 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:42:48,425 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:42:49,172 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:42:49,549 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:42:49,549 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:43:04,920 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:43:05,661 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:43:06,410 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:43:06,795 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.0s).
+2026-03-01 13:43:06,795 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:43:22,161 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:43:22,905 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'bbrechen'
+2026-03-01 13:43:23,644 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:43:24,029 [INFO] SyndicateTool: [Aktion] 'JXWEEDSUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:43:24,030 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:43:25,883 [INFO] SyndicateTool: [KI] Ungültiger Text – aus Favoriten entfernt. Suche weiter...
+2026-03-01 13:43:26,183 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:26,606 [INFO] SyndicateTool: [Aktion] 'WEED SÄUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:43:26,606 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:43:28,467 [INFO] SyndicateTool: [KI] Ungültiger Text – aus Favoriten entfernt. Suche weiter...
+2026-03-01 13:43:28,742 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:28,742 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'JXWEEDSUBERN' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:43:30,004 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:31,248 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:32,496 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:33,752 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:34,999 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:43:36,247 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:37,481 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:38,723 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:39,953 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:41,198 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:42,444 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:43,693 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:44,968 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:46,218 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:47,497 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:48,498 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:43:50,504 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:43:50,782 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:43:51,784 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:45:13,391 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:45:13,648 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:45:14,907 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:45:16,169 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:45:17,471 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'ROLEPI'
+2026-03-01 13:45:17,472 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'ROLEPI' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:45:17,877 [INFO] SyndicateTool: [Aktion] 'ROLEPI' aktiv! Drücke 'E'.
+2026-03-01 13:45:17,877 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:45:19,764 [INFO] SyndicateTool: [KI] Ungültiger Text – aus Favoriten entfernt. Suche weiter...
+2026-03-01 13:45:28,860 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:45:34,373 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:45:35,978 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:45:37,983 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:45:48,447 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:46:11,481 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:46:13,813 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 13:46:36,336 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:46:36,977 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @19sven83 - discord) - Bot pausiert.
+2026-03-01 13:46:41,982 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:46:42,303 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:46:43,615 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:46:44,618 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @vom_finanzamt_gesucht - discord) - Bot pausiert.
+2026-03-01 13:47:30,690 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:47:31,057 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:47:32,429 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:47:33,430 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 13:51:16,141 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
+2026-03-01 13:51:16,142 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
+2026-03-01 13:51:16,143 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
