@@ -602,3 +602,146 @@
 2026-03-01 10:19:50,554 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=55
 2026-03-01 10:19:50,554 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
 2026-03-01 10:19:51,772 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 10:23:23,283 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 10:23:23,404 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 10:23:23,565 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 10:23:24,301 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 10:23:24,303 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 10:23:24,793 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 10:23:24,794 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 10:23:25,492 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 10:23:25,492 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 10:24:02,333 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 40
+2026-03-01 10:24:02,534 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:24:02,656 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 10:24:03,747 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:03,748 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:05,506 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:05,506 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:07,253 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:07,255 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:08,862 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:08,863 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:10,471 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:10,471 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:12,092 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:12,093 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:13,741 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:13,742 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:15,546 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:15,548 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:17,153 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:17,155 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:18,687 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:18,688 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:19,424 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:24:50,966 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:24:51,983 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:51,983 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:53,758 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:53,761 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:55,575 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:55,576 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:57,575 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:57,577 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:24:59,640 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:24:59,641 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:00,344 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:25:12,892 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:25:13,988 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:13,989 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:15,787 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:15,788 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:17,497 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:17,497 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:19,292 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:19,292 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:21,071 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:21,072 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:22,879 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:22,880 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:24,666 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:24,666 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:26,360 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:26,360 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:28,166 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:28,167 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:29,893 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:29,893 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:31,791 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:31,791 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:33,672 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:33,674 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:35,393 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:35,393 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:37,231 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:37,231 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:38,931 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:38,932 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:41,024 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:41,025 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:42,898 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:42,899 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:44,842 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:44,842 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:46,710 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:46,711 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:48,418 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:48,419 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:50,310 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:50,310 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:52,069 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:52,069 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:53,955 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:53,956 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:55,832 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:55,832 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:57,552 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:57,553 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:25:59,507 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:25:59,508 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:01,452 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:01,453 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:03,339 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:03,340 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:05,152 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:05,153 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:06,917 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:06,917 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:08,609 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:08,610 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:10,328 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:10,329 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:12,346 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:12,346 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:14,036 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:14,036 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:16,007 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:16,007 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:17,876 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:17,876 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:19,556 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:19,557 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:21,246 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:21,247 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:22,875 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:22,876 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:24,646 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:24,646 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:26,318 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:26,318 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:28,173 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:28,174 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:29,929 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:29,929 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:31,766 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:31,766 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:33,501 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:33,501 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:35,152 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:35,152 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:36,994 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:36,994 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:39,050 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:26:39,053 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: unknown
+2026-03-01 10:26:39,755 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
