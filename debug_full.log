@@ -2538,3 +2538,85 @@
 2026-03-01 13:17:59,134 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
 2026-03-01 13:17:59,134 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
 2026-03-01 13:17:59,135 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
+2026-03-01 13:20:41,598 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 13:20:41,707 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 13:20:41,865 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 13:20:42,615 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 13:20:42,616 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 13:20:43,074 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 13:20:43,075 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 13:20:43,876 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 13:20:43,876 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 13:20:56,808 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 13:20:56,809 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:20:57,797 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:20:57,798 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:21:12,933 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @tom. - discord) - Bot pausiert.
+2026-03-01 13:21:16,444 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:21:17,243 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:21:17,260 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:21:33,030 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:21:33,041 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:21:48,170 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @19sven83 - discord) - Bot pausiert.
+2026-03-01 13:22:41,723 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:22:42,362 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:22:42,363 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:22:57,492 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 3 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 13:22:58,995 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:22:59,622 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:22:59,627 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:23:15,377 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (15.1s).
+2026-03-01 13:23:15,378 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:23:30,511 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ha_updater – datei-explorer) - Bot pausiert.
+2026-03-01 13:23:33,516 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:23:34,290 [INFO] SyndicateTool: [Aktion] 'WEED SÄUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:23:34,290 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:23:34,653 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:23:35,255 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:23:35,580 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'WEED SÄUBERN'...
+2026-03-01 13:23:35,582 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ha_updater – datei-explorer) - Bot pausiert.
+2026-03-01 13:23:37,108 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:23:49,255 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ) - Bot pausiert.
+2026-03-01 13:23:49,758 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:23:50,614 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:23:50,626 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'weed säubern' -> 13.0s.
+2026-03-01 13:23:50,982 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'BBRECHEN' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:23:51,326 [INFO] SyndicateTool: [Aktion] 'BBRECHEN' aktiv! Drücke 'E'.
+2026-03-01 13:23:51,332 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:23:51,464 [INFO] SyndicateTool: [WEED VERPACKEN] wird beim nächsten Scan neu gemessen.
+2026-03-01 13:23:52,446 [INFO] SyndicateTool: [WEED SÄUBERN] wird beim nächsten Scan neu gemessen.
+2026-03-01 13:23:53,115 [INFO] SyndicateTool: [WEED TROCKNEN] wird beim nächsten Scan neu gemessen.
+2026-03-01 13:23:53,227 [INFO] SyndicateTool: [KI] Ungültiger Text – aus Favoriten entfernt. Suche weiter...
+2026-03-01 13:23:53,840 [INFO] SyndicateTool: [Aktion] 'WEED SÄUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:23:53,847 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:23:55,679 [INFO] SyndicateTool: [KI] Ungültiger Text – aus Favoriten entfernt. Suche weiter...
+2026-03-01 13:23:55,982 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'XWEEDSUBERN' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:23:56,328 [INFO] SyndicateTool: [Aktion] 'XWEEDSUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:23:56,330 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:23:57,465 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:23:57,745 [INFO] SyndicateTool: [Info] Erfolgreich verarbeitet. Ignorieren-Liste wurde geleert.
+2026-03-01 13:23:57,747 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'XWEEDSUBERN'...
+2026-03-01 13:24:12,687 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:24:12,701 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'xweedsubern' -> 14.9s.
+2026-03-01 13:24:12,988 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'BBRECHEN' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:24:13,301 [INFO] SyndicateTool: [Aktion] 'BBRECHEN' aktiv! Drücke 'E'.
+2026-03-01 13:24:13,302 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:24:14,330 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:24:14,600 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'BBRECHEN'...
+2026-03-01 13:24:22,647 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 13:24:23,153 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:24:25,674 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ha_updater – datei-explorer) - Bot pausiert.
+2026-03-01 13:24:32,186 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:24:32,241 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:24:32,277 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'bbrechen' -> 10.6s.
+2026-03-01 13:24:33,069 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (14.9s).
+2026-03-01 13:24:33,072 [WARNING] skills.input_skill: [InputSkill] Aktion unterdrückt: FiveM nicht im Vordergrund.
+2026-03-01 13:24:47,913 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:25:32,744 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-01 13:25:53,064 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-01 13:25:54,857 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-01 13:26:33,355 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 13:26:33,356 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:26:34,150 [INFO] SyndicateTool: [KI] Bekannter Prozess erkannt. Nutze gelernten Timer (14.9s).
+2026-03-01 13:26:34,151 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:26:49,098 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
