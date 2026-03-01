@@ -2820,3 +2820,204 @@
 2026-03-01 13:51:16,141 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
 2026-03-01 13:51:16,142 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
 2026-03-01 13:51:16,143 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
+2026-03-01 13:54:05,115 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 13:54:05,227 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 13:54:05,393 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 13:54:06,137 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 13:54:06,137 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 13:54:06,637 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 13:54:06,638 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 13:54:07,253 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 13:54:07,253 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 13:54:12,768 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 13:54:12,768 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:54:13,348 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:54:13,776 [INFO] SyndicateTool: [Aktion] 'JXWEEDSUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:54:13,776 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:54:14,135 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:54:15,948 [INFO] SyndicateTool: [Info-Box] © INFORMATION
+2026-03-01 13:54:15,950 [INFO] SyndicateTool: [KI] Aufgabe 'jxweedsubern' pausiert: Material fehlt laut Info-Box.
+2026-03-01 13:54:16,277 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:54:17,560 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedsubern'
+2026-03-01 13:54:18,822 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:54:20,068 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:54:21,311 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:54:22,565 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:54:23,805 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:54:25,048 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:54:26,294 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:54:27,554 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedsubern'
+2026-03-01 13:54:29,810 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'nIiIrnIla'
+2026-03-01 13:54:29,811 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'NIIIRNILA' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:54:30,264 [INFO] SyndicateTool: [Aktion] 'NIIIRNILA' aktiv! Drücke 'E'.
+2026-03-01 13:54:30,266 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:54:32,404 [INFO] SyndicateTool: [Info-Box] © INFORMATION
+2026-03-01 13:54:32,405 [INFO] SyndicateTool: [KI] Aufgabe 'niiirnila' pausiert: Material fehlt laut Info-Box.
+2026-03-01 13:54:32,716 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'XWeedverpacken\nA'
+2026-03-01 13:54:33,098 [INFO] SyndicateTool: [Aktion] 'WEED VERPACKEN' aktiv! Drücke 'E'.
+2026-03-01 13:54:33,099 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:54:35,237 [INFO] SyndicateTool: [Info-Box] © INFORMATION © INFORMATION j —
+2026-03-01 13:54:35,239 [INFO] SyndicateTool: [KI] Aufgabe 'weed verpacken' pausiert: Material fehlt laut Info-Box.
+2026-03-01 13:54:35,573 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: '544720\n6'
+2026-03-01 13:54:35,574 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: '544720 6'
+2026-03-01 13:54:40,418 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'Needtrocknen'
+2026-03-01 13:54:40,813 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:54:40,815 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:54:42,947 [INFO] SyndicateTool: [Info-Box] [4 © INFORMATION
+2026-03-01 13:54:42,947 [INFO] SyndicateTool: [KI] Aufgabe 'weed trocknen' pausiert: Material fehlt laut Info-Box.
+2026-03-01 13:54:43,936 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: '0\nI'
+2026-03-01 13:54:44,771 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'N s'
+2026-03-01 13:54:45,612 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'nnnam 3\nOLEPLAY\nm\nR'
+2026-03-01 13:54:45,612 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'nnnam 3 oleplay m r'
+2026-03-01 13:54:47,300 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'Bw'
+2026-03-01 13:54:48,902 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: '2 h'
+2026-03-01 13:54:49,712 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'n fi'
+2026-03-01 13:54:49,714 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'n fi'
+2026-03-01 13:54:56,751 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'n A\nBP'
+2026-03-01 13:54:56,752 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'n a bp'
+2026-03-01 13:54:57,567 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'PA\nu ni'
+2026-03-01 13:54:57,568 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'pa u ni'
+2026-03-01 13:54:58,344 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'ventory'
+2026-03-01 13:54:58,344 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'VENTORY' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:54:59,031 [INFO] SyndicateTool: [Aktion] 'VENTORY' aktiv! Drücke 'E'.
+2026-03-01 13:54:59,032 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:55:01,204 [INFO] SyndicateTool: [Info-Box] = Cash GPS Tracker - 310 1 m © | INFORMATION Saubores were VIP Angel vi © INFORMATION
+2026-03-01 13:55:01,204 [INFO] SyndicateTool: [KI] Aufgabe 'ventory' pausiert: Material fehlt laut Info-Box.
+2026-03-01 13:55:01,562 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'ventory'
+2026-03-01 13:55:02,838 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'ventory'
+2026-03-01 13:55:04,174 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'n\nN\nULCEPLHT'
+2026-03-01 13:55:04,175 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'n n ulceplht'
+2026-03-01 13:55:10,417 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'wN\nit\nFE'
+2026-03-01 13:55:10,418 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'wn it fe'
+2026-03-01 13:55:11,242 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'Bngr'
+2026-03-01 13:55:11,243 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'bngr'
+2026-03-01 13:55:12,077 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: '891\ne\npnIirn'
+2026-03-01 13:55:12,078 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: '891 e pniirn'
+2026-03-01 13:55:12,929 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'nn\n5447200\nOLEPLAY'
+2026-03-01 13:55:12,938 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'nn 5447200 oleplay'
+2026-03-01 13:55:18,595 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'GLEPLAY'
+2026-03-01 13:55:18,596 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'GLEPLAY' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:55:18,990 [INFO] SyndicateTool: [Aktion] 'GLEPLAY' aktiv! Drücke 'E'.
+2026-03-01 13:55:18,991 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:55:21,063 [INFO] SyndicateTool: [KI] Ungültiger Text – aus Favoriten entfernt. Suche weiter...
+2026-03-01 13:55:21,359 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:22,607 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 13:55:23,850 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 13:55:25,084 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 13:55:26,327 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:27,581 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:29,615 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'JxWeedtrocknen'
+2026-03-01 13:55:30,856 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 13:55:32,094 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:33,348 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:34,596 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'm\nxWeedtrocknen\nAd'
+2026-03-01 13:55:35,834 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:37,088 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:38,359 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:39,593 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:40,829 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:42,078 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:55:43,080 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:56:17,115 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:56:17,502 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:56:18,520 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:56:19,522 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:56:19,837 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:56:20,839 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:56:27,346 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:56:27,617 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:56:28,866 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:56:29,873 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:57:00,403 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:57:00,646 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:57:01,904 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:57:03,149 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:57:04,398 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:57:08,388 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:57:21,400 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:57:23,603 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:57:42,623 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:57:44,427 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:57:55,940 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:57:57,416 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:59:09,488 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:59:10,420 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:11,421 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:59:33,446 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:59:33,728 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:35,050 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:36,322 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:37,569 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:38,818 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:40,077 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:41,344 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:42,603 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:43,862 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:45,112 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:46,352 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:47,614 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:48,895 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:50,156 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:51,411 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:52,693 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:53,993 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:55,261 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:56,530 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:57,801 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 13:59:59,113 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 14:00:00,385 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 14:00:01,677 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 14:00:02,972 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 14:00:04,269 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 14:00:05,608 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedtrocknen'
+2026-03-01 14:00:06,896 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:07,898 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 14:00:08,424 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 14:00:08,716 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:10,000 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:11,004 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 14:00:23,521 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 14:00:23,789 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:25,058 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:26,309 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:27,610 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:28,916 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:30,299 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:31,616 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:32,898 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:33,899 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @vom_finanzamt_gesucht - discord) - Bot pausiert.
+2026-03-01 14:00:35,905 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 14:00:36,264 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:37,634 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:38,929 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:40,393 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:41,696 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:42,977 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:44,238 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:00:45,240 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @vom_finanzamt_gesucht - discord) - Bot pausiert.
+2026-03-01 14:01:13,769 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 14:01:14,051 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:01:15,052 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ) - Bot pausiert.
+2026-03-01 14:01:34,680 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 14:01:35,018 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'IxWeedtrocknen'
+2026-03-01 14:01:36,358 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:01:36,359 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'WEEDI' -> Zu Favoriten hinzugefügt!
+2026-03-01 14:01:36,729 [INFO] SyndicateTool: [Aktion] 'WEEDI' aktiv! Drücke 'E'.
+2026-03-01 14:01:36,733 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 14:01:38,834 [INFO] SyndicateTool: [Info-Box] —__
+2026-03-01 14:01:38,834 [INFO] SyndicateTool: [KI] Ungültiger Text – aus Favoriten entfernt. Suche weiter...
+2026-03-01 14:01:38,847 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 14:01:58,397 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 14:01:58,670 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:01:58,671 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'WEEDI' -> Zu Favoriten hinzugefügt!
+2026-03-01 14:01:59,963 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:02:01,244 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:02:02,531 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:02:03,787 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:02:05,129 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:02:06,442 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedt'
+2026-03-01 14:02:07,764 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:02:09,043 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '10xWeedi'
+2026-03-01 14:02:09,455 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
+2026-03-01 14:02:09,455 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
+2026-03-01 14:02:09,456 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
