@@ -1035,3 +1035,1506 @@
 2026-03-01 10:40:12,848 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
 2026-03-01 10:40:13,213 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
 2026-03-01 10:40:14,316 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
+2026-03-01 10:44:56,341 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 10:44:56,446 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 10:44:56,726 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 10:44:57,466 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 10:44:57,467 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 10:44:57,927 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 10:44:57,927 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 10:44:58,568 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 10:44:58,568 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 10:45:06,323 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 40
+2026-03-01 10:45:06,525 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:45:06,642 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 10:45:08,006 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:09,899 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=855, qty=1
+2026-03-01 10:45:11,547 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:13,503 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:15,208 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:17,017 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:18,904 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:20,860 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:22,777 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=185, qty=1
+2026-03-01 10:45:24,748 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:26,789 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:28,851 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:30,889 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:45:31,591 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:46:19,146 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:46:20,438 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:22,605 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=None, qty=1
+2026-03-01 10:46:22,607 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:46:22,626 [INFO] SyndicateTool: [OCR-Rohtext] - © _ Engenanues Angebot! Press pro Stuca: S’/OB - ff
+2026-03-01 10:46:22,632 [INFO] SyndicateTool: [OCR-Warning] Preis konnte nicht präzise gelesen werden, warte auf besseren Scan...
+2026-03-01 10:46:24,528 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1766, qty=23
+2026-03-01 10:46:24,529 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:46:24,538 [INFO] SyndicateTool: [-] REJECT: $1766 | Menge: 23
+2026-03-01 10:46:24,546 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:46:42,860 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:44,864 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:46,992 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:49,258 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:51,304 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:53,290 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:55,435 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:57,474 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:46:59,621 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:01,855 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:03,967 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:05,971 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:07,948 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:10,119 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:12,338 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:14,374 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:16,351 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:18,356 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:20,487 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:22,664 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:25,085 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:27,188 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:29,169 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:31,278 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:33,331 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:35,489 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:37,610 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:39,634 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:41,723 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:43,706 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:45,704 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:47,769 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:50,027 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:52,179 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:54,305 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:56,406 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:47:58,453 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:48:00,552 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:48:02,716 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:48:03,424 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 10:48:06,101 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
+2026-03-01 10:51:05,313 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 10:51:05,412 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 10:51:05,672 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 10:51:06,379 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 10:51:06,380 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 10:51:06,836 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 10:51:06,836 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 10:51:07,510 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 10:51:07,510 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 10:52:09,198 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 40
+2026-03-01 10:52:09,398 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:52:09,525 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 10:52:10,962 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=None, qty=1
+2026-03-01 10:52:10,963 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:52:10,964 [INFO] SyndicateTool: [OCR-Rohtext] _ .. %  ÖROKNDEL | Eiıngehendes Angebot ?x Weed: Beutel Preis pro Stuck: 51/56 s
+2026-03-01 10:52:10,964 [INFO] SyndicateTool: [OCR-Warning] Preis konnte nicht präzise gelesen werden, warte auf besseren Scan...
+2026-03-01 10:52:12,622 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1756, qty=7
+2026-03-01 10:52:12,622 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:52:12,623 [INFO] SyndicateTool: [-] REJECT: $1756 | Menge: 7
+2026-03-01 10:52:12,623 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:52:20,878 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 40
+2026-03-01 10:52:22,266 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:52:24,306 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 10:52:24,307 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 10:52:24,309 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 10:52:26,550 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:52:28,789 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1453, qty=34
+2026-03-01 10:52:28,790 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:52:28,793 [INFO] SyndicateTool: [-] REJECT: $1453 | Menge: 34
+2026-03-01 10:52:28,798 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:52:47,444 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1429, qty=21
+2026-03-01 10:52:47,444 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:52:47,449 [INFO] SyndicateTool: [-] REJECT: $1429 | Menge: 21
+2026-03-01 10:52:47,451 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:53:05,888 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=119, qty=1
+2026-03-01 10:53:05,889 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 10:53:05,890 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 10:53:08,515 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1623, qty=39
+2026-03-01 10:53:08,516 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:53:08,518 [INFO] SyndicateTool: [-] REJECT: $1623 | Menge: 39
+2026-03-01 10:53:08,521 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:53:27,080 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1695, qty=13
+2026-03-01 10:53:27,081 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:53:27,085 [INFO] SyndicateTool: [-] REJECT: $1695 | Menge: 13
+2026-03-01 10:53:27,087 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:53:33,516 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 10:53:34,018 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:53:34,823 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ha_updater – datei-explorer) - Bot pausiert.
+2026-03-01 10:53:44,836 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:53:46,825 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1517, qty=49
+2026-03-01 10:53:46,826 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:53:46,830 [INFO] SyndicateTool: [-] REJECT: $1517 | Menge: 49
+2026-03-01 10:53:46,841 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:54:04,926 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1754, qty=16
+2026-03-01 10:54:04,926 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:54:04,933 [INFO] SyndicateTool: [-] REJECT: $1754 | Menge: 16
+2026-03-01 10:54:04,960 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:54:23,551 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 10:54:23,552 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 10:54:23,558 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 10:54:25,985 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1615, qty=28
+2026-03-01 10:54:25,987 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:54:25,999 [INFO] SyndicateTool: [-] REJECT: $1615 | Menge: 28
+2026-03-01 10:54:26,010 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:54:44,512 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1541, qty=9
+2026-03-01 10:54:44,512 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:54:44,516 [INFO] SyndicateTool: [-] REJECT: $1541 | Menge: 9
+2026-03-01 10:54:44,538 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:55:03,052 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 10:55:03,053 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 10:55:03,059 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 10:55:05,720 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1727, qty=16
+2026-03-01 10:55:05,722 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:55:05,727 [INFO] SyndicateTool: [-] REJECT: $1727 | Menge: 16
+2026-03-01 10:55:05,733 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:55:24,082 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 10:55:24,083 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 10:55:24,088 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 10:55:26,613 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1503, qty=24
+2026-03-01 10:55:26,614 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:55:26,620 [INFO] SyndicateTool: [-] REJECT: $1503 | Menge: 24
+2026-03-01 10:55:26,641 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:55:44,884 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1415, qty=20
+2026-03-01 10:55:44,885 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:55:44,890 [INFO] SyndicateTool: [-] REJECT: $1415 | Menge: 20
+2026-03-01 10:55:44,909 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:56:03,328 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1456, qty=32
+2026-03-01 10:56:03,328 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:56:03,334 [INFO] SyndicateTool: [-] REJECT: $1456 | Menge: 32
+2026-03-01 10:56:03,341 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:56:21,720 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1694, qty=51
+2026-03-01 10:56:21,720 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:56:21,726 [INFO] SyndicateTool: [-] REJECT: $1694 | Menge: 51
+2026-03-01 10:56:21,750 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:56:39,730 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 10:56:39,730 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 10:56:39,750 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 10:56:42,082 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1587, qty=32
+2026-03-01 10:56:42,083 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:56:42,087 [INFO] SyndicateTool: [-] REJECT: $1587 | Menge: 32
+2026-03-01 10:56:42,100 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:56:51,688 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 10:56:53,322 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 10:56:54,432 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:56:56,561 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 10:56:56,562 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 10:56:56,567 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 10:56:59,105 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 10:56:59,106 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 10:57:01,545 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1779, qty=55
+2026-03-01 10:57:01,546 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:57:01,551 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1779 | Menge: 55 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 10:57:18,524 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1779, qty=55
+2026-03-01 10:57:18,525 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:57:18,530 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1779 | Menge: 55 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 10:57:35,485 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1779, qty=55
+2026-03-01 10:57:35,486 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 10:57:35,491 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1779 | Menge: 55 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 10:57:45,009 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 10:57:46,512 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:57:49,441 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 10:57:51,446 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:57:53,734 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=114, qty=1
+2026-03-01 10:57:53,735 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 10:57:55,958 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:58:14,979 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:58:16,830 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=114, qty=1
+2026-03-01 10:58:16,831 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 10:58:21,311 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 10:58:22,013 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 10:58:29,022 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:58:30,617 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 10:58:30,618 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 10:58:34,460 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=272, qty=1
+2026-03-01 10:58:34,462 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 10:58:36,664 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:59:55,757 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:59:57,506 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 10:59:57,507 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:00:01,354 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:00:03,713 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:00:05,975 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=555, qty=1
+2026-03-01 11:00:05,976 [INFO] SyndicateTool: [OCR-Diagnose] Sicht blockiert oder Text unleserlich. Versuche Winkel zu ändern.
+2026-03-01 11:00:08,114 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=555, qty=1
+2026-03-01 11:00:08,114 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:00:08,115 [INFO] SyndicateTool: [-] REJECT: $555 | Menge: 1
+2026-03-01 11:00:08,132 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:00:26,631 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:00:28,803 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:00:28,804 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:00:32,370 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:00:34,329 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:00:36,675 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:00:36,677 [INFO] SyndicateTool: [OCR-Diagnose] Sicht blockiert oder Text unleserlich. Versuche Winkel zu ändern.
+2026-03-01 11:00:37,395 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 11:02:30,512 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:02:32,293 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:02:32,295 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:02:36,114 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:02:36,116 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:02:40,574 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:02:40,575 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:02:44,418 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:02:44,419 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:02:46,789 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:02:46,790 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:02:53,385 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 11:02:54,365 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:02:54,366 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:02:57,625 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:02:57,626 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:03:00,323 [DEBUG] skills.ocr_skill: [OCR] Blockiert: Falsches Menü erkannt (Tablet/Inventar/Kofferraum)
+2026-03-01 11:03:02,485 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:03:02,486 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:03:04,688 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 11:03:36,219 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:03:37,781 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:03:37,782 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:03:41,334 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:03:41,334 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:03:44,944 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:03:44,945 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:03:48,482 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:03:48,483 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:03:52,132 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:03:52,132 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:03:55,818 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:03:55,818 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:03:59,662 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=114, qty=1
+2026-03-01 11:03:59,663 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:03,572 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:03,573 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:07,564 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:07,566 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:11,404 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:11,405 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:13,621 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 11:04:28,137 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:04:29,507 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:29,507 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:33,032 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:33,033 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:36,945 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=255, qty=1
+2026-03-01 11:04:36,947 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:40,519 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:40,520 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:44,165 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:44,165 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:47,655 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=117, qty=1
+2026-03-01 11:04:47,656 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:51,326 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:51,327 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:54,440 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=1101, qty=1
+2026-03-01 11:04:54,442 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:04:57,536 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:04:57,537 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:05:00,657 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:05:00,658 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:05:03,713 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:05:03,713 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:05:05,915 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 11:05:07,967 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
+2026-03-01 11:07:38,214 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 11:07:38,336 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 11:07:38,608 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 11:07:39,327 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 11:07:39,328 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 11:07:39,775 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 11:07:39,776 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 11:07:40,468 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 11:07:40,469 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 11:07:47,564 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 40
+2026-03-01 11:07:47,766 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:07:47,869 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 11:07:49,817 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=111, qty=1
+2026-03-01 11:07:49,817 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:07:53,824 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:07:53,825 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:07:57,650 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:07:57,651 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:01,601 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=111, qty=1
+2026-03-01 11:08:01,601 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:05,353 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=114, qty=1
+2026-03-01 11:08:05,354 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:09,254 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:09,255 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:12,516 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:12,517 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:15,761 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:15,762 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:18,879 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:18,880 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:22,344 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:22,345 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:25,564 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:25,564 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:28,941 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:28,943 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:32,398 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:32,399 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:35,893 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:35,894 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:39,636 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:08:41,764 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:08:43,872 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:08:43,873 [INFO] SyndicateTool: [OCR-Diagnose] Sicht blockiert oder Text unleserlich. Versuche Winkel zu ändern.
+2026-03-01 11:08:46,087 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:08:48,275 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:08:50,293 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:50,293 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:53,866 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:08:53,867 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:08:56,091 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @vom_finanzamt_gesucht - discord) - Bot pausiert.
+2026-03-01 11:08:59,095 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:09:00,456 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:00,457 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:03,407 [DEBUG] skills.ocr_skill: [OCR] Blockiert: Falsches Menü erkannt (Tablet/Inventar/Kofferraum)
+2026-03-01 11:09:05,292 [DEBUG] skills.ocr_skill: [OCR] Blockiert: Falsches Menü erkannt (Tablet/Inventar/Kofferraum)
+2026-03-01 11:09:07,734 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:09:07,734 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:11,490 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=114, qty=1
+2026-03-01 11:09:13,531 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:13,532 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:17,322 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:09:17,323 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:20,564 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:09:22,571 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:09:24,760 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:24,760 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:28,390 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:28,391 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:31,754 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:09:31,755 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:35,461 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=217, qty=1
+2026-03-01 11:09:35,461 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:39,079 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:39,079 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:42,330 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:42,331 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:45,948 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:45,949 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:48,170 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @vom_finanzamt_gesucht - discord) - Bot pausiert.
+2026-03-01 11:09:50,673 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:09:52,114 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:52,114 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:09:55,850 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:09:57,927 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:09:57,928 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:01,433 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:01,434 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:04,988 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:10:04,989 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:08,345 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:08,346 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:11,985 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:11,987 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:15,482 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:15,483 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:18,869 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:18,869 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:22,197 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:10:24,360 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:24,361 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:27,908 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:27,909 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:31,191 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:31,192 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:34,599 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:34,600 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:38,272 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:38,273 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:41,852 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:41,852 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:45,316 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:45,316 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:48,605 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:48,606 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:52,404 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:52,406 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:56,087 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:10:56,088 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:10:58,296 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @vom_finanzamt_gesucht - discord) - Bot pausiert.
+2026-03-01 11:11:04,301 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:11:05,781 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:05,781 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:09,133 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:09,134 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:12,473 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:12,473 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:15,713 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:15,716 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:18,977 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=255, qty=1
+2026-03-01 11:11:18,977 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:22,249 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=255, qty=1
+2026-03-01 11:11:22,249 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:25,604 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:25,605 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:28,870 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:28,871 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:31,086 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 1 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:11:32,591 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:11:34,232 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:34,234 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:37,705 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:37,705 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:41,298 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:41,299 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:44,739 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:44,739 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:48,028 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:11:50,048 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:11:52,265 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:52,265 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:55,613 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:55,614 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:11:59,178 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:11:59,179 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:02,888 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=855, qty=1
+2026-03-01 11:12:02,889 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:06,691 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:12:08,580 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:12:10,812 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:10,813 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:14,422 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:14,424 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:18,021 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:18,022 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:21,864 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:21,864 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:25,426 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:25,427 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:28,823 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:28,824 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:32,774 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:32,775 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:36,799 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:36,799 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:40,696 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:40,697 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:44,300 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:44,301 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:48,709 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=900, qty=1
+2026-03-01 11:12:48,711 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:12:50,920 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: malnow24/ha_updater: updater for ha products – opera) - Bot pausiert.
+2026-03-01 11:12:53,925 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:12:56,246 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:12:56,248 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:00,661 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:13:00,661 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:04,039 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=255, qty=1
+2026-03-01 11:13:04,039 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:07,544 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:07,545 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:11,366 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:11,368 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:14,966 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:14,967 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:18,664 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:18,665 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:22,371 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:22,373 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:25,980 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:25,981 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:30,147 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:30,148 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:33,676 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:33,677 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:37,620 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=855, qty=1
+2026-03-01 11:13:37,620 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:41,501 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=2077, qty=1
+2026-03-01 11:13:41,502 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:45,606 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=2
+2026-03-01 11:13:45,606 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:49,199 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=855, qty=1
+2026-03-01 11:13:49,199 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:51,406 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: malnow24/ha_updater: updater for ha products – opera) - Bot pausiert.
+2026-03-01 11:13:53,411 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:13:54,793 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:13:54,794 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:13:58,655 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:13:58,655 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:02,197 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:02,198 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:06,018 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:06,019 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:09,723 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:09,724 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:13,610 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:13,611 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:17,316 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:17,318 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:20,966 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:20,966 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:25,051 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:25,051 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:28,482 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:28,482 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:32,547 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:32,548 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:36,022 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:36,023 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:39,806 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:39,806 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:42,974 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:42,976 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:46,550 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=None, qty=2
+2026-03-01 11:14:46,552 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:14:46,558 [INFO] SyndicateTool: [OCR-Rohtext] GROSSHANDEL ahre zum markıerten Punkt auf geinem SPS . “ u “ Erz N ” NR « R 2 Au, x 2 Pe | ” er ® RN Pe : . BARS N: X En N > RB „:xd$ . " ;„ * are \N..I9, —_ ir \ N -- Auhe an
+2026-03-01 11:14:46,566 [INFO] SyndicateTool: [OCR-Warning] Preis konnte nicht präzise gelesen werden, warte auf besseren Scan...
+2026-03-01 11:14:48,215 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:48,216 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:51,406 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:14:51,407 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:14:54,578 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:14:56,899 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=107, qty=7
+2026-03-01 11:14:56,900 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:00,285 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:00,286 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:04,241 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=735, qty=1
+2026-03-01 11:15:04,241 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:08,122 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:08,123 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:11,977 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=855, qty=1
+2026-03-01 11:15:11,978 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:15,724 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:15,724 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:19,802 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:19,802 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:23,245 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:23,246 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:26,870 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:26,871 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:30,441 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:30,442 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:34,310 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:34,311 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:37,792 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:37,792 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:42,171 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=607, qty=1
+2026-03-01 11:15:42,172 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:45,365 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:45,366 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:48,780 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:48,780 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:51,867 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:15:51,867 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:15:55,253 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:15:57,175 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:15:59,472 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:15:59,473 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:15:59,479 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:16:01,876 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:16:04,009 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1698, qty=54
+2026-03-01 11:16:04,009 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:16:04,014 [INFO] SyndicateTool: [-] REJECT: $1698 | Menge: 54
+2026-03-01 11:16:04,023 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:16:22,232 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1406, qty=15
+2026-03-01 11:16:22,233 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:16:22,239 [INFO] SyndicateTool: [-] REJECT: $1406 | Menge: 15
+2026-03-01 11:16:22,274 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:16:40,371 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:16:42,651 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1699, qty=12
+2026-03-01 11:16:42,651 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:16:42,656 [INFO] SyndicateTool: [-] REJECT: $1699 | Menge: 12
+2026-03-01 11:16:42,687 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:17:01,115 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=555, qty=1
+2026-03-01 11:17:03,180 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1598, qty=44
+2026-03-01 11:17:03,181 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:17:03,186 [INFO] SyndicateTool: [-] REJECT: $1598 | Menge: 44
+2026-03-01 11:17:03,193 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:17:21,763 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1763, qty=35
+2026-03-01 11:17:21,764 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:17:21,770 [INFO] SyndicateTool: [-] REJECT: $1763 | Menge: 35
+2026-03-01 11:17:21,796 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:17:25,163 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 1 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:17:26,666 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:17:40,386 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1765, qty=40
+2026-03-01 11:17:40,387 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:17:40,408 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1765 | Menge: 40 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 11:17:50,473 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 11:17:50,974 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:17:57,196 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:17:57,198 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:00,823 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:00,825 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:04,525 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:04,526 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:08,285 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:08,286 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:11,750 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=255, qty=1
+2026-03-01 11:18:11,750 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:15,062 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:18:17,029 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:17,030 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:20,795 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=637, qty=1
+2026-03-01 11:18:20,796 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:24,438 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:24,439 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:28,050 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:28,051 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:31,524 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:18:31,526 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:35,602 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:35,602 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:38,994 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:18:41,121 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:41,122 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:44,740 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=255, qty=1
+2026-03-01 11:18:44,741 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:48,352 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:48,352 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:52,175 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:18:52,175 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:56,018 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:56,019 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:18:59,492 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:18:59,493 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:19:03,011 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:19:04,636 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:19:04,637 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:19:07,979 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=255, qty=1
+2026-03-01 11:19:07,980 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:19:11,105 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:19:11,106 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:19:14,377 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:19:16,389 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=855, qty=1
+2026-03-01 11:19:18,084 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:19:18,084 [INFO] SyndicateTool: [OCR-Diagnose] Sicht blockiert oder Text unleserlich. Versuche Winkel zu ändern.
+2026-03-01 11:19:19,943 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:19:22,257 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1790, qty=14
+2026-03-01 11:19:22,257 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:19:22,263 [INFO] SyndicateTool: [-] REJECT: $1790 | Menge: 14
+2026-03-01 11:19:22,270 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:19:40,545 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:19:42,469 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1722, qty=15
+2026-03-01 11:19:42,470 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:19:42,474 [INFO] SyndicateTool: [-] REJECT: $1722 | Menge: 15
+2026-03-01 11:19:42,487 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:20:01,562 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:20:01,563 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:20:01,569 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:20:05,101 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1491, qty=9
+2026-03-01 11:20:05,102 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:20:05,109 [INFO] SyndicateTool: [-] REJECT: $1491 | Menge: 9
+2026-03-01 11:20:05,117 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:20:23,717 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:20:23,718 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:20:23,723 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:20:26,727 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1574, qty=11
+2026-03-01 11:20:26,728 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:20:26,750 [INFO] SyndicateTool: [-] REJECT: $1574 | Menge: 11
+2026-03-01 11:20:26,762 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:20:44,950 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1424, qty=20
+2026-03-01 11:20:44,950 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:20:44,955 [INFO] SyndicateTool: [-] REJECT: $1424 | Menge: 20
+2026-03-01 11:20:44,963 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:21:03,200 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3
+2026-03-01 11:21:04,840 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:21:04,840 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:21:04,859 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:21:07,124 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1694, qty=6
+2026-03-01 11:21:07,125 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:21:07,131 [INFO] SyndicateTool: [-] REJECT: $1694 | Menge: 6
+2026-03-01 11:21:07,138 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:21:25,791 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:21:25,792 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:21:25,798 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:21:28,092 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:21:29,964 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1740, qty=42
+2026-03-01 11:21:29,964 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:21:29,969 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1740 | Menge: 42 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 11:21:46,623 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=749, qty=42
+2026-03-01 11:21:46,624 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:21:46,629 [INFO] SyndicateTool: [-] REJECT: $749 | Menge: 42
+2026-03-01 11:21:46,649 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:22:04,811 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:22:04,811 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:22:04,817 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:22:07,265 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1679, qty=6
+2026-03-01 11:22:07,266 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:22:07,272 [INFO] SyndicateTool: [-] REJECT: $1679 | Menge: 6
+2026-03-01 11:22:07,282 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:22:25,338 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:22:25,338 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:22:25,344 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:22:27,819 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1505, qty=8
+2026-03-01 11:22:27,819 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:22:27,826 [INFO] SyndicateTool: [-] REJECT: $1505 | Menge: 8
+2026-03-01 11:22:27,838 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:22:36,356 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:22:37,859 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:22:46,140 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1505, qty=8
+2026-03-01 11:22:46,141 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:22:46,147 [INFO] SyndicateTool: [-] REJECT: $1505 | Menge: 8
+2026-03-01 11:22:46,177 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:22:54,558 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 11:22:55,062 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:22:55,491 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:23:00,497 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:23:04,447 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:23:06,425 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1774, qty=9
+2026-03-01 11:23:06,425 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:23:06,442 [INFO] SyndicateTool: [-] REJECT: $1774 | Menge: 9
+2026-03-01 11:23:06,447 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:23:25,200 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1590, qty=6
+2026-03-01 11:23:25,201 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:23:25,208 [INFO] SyndicateTool: [-] REJECT: $1590 | Menge: 6
+2026-03-01 11:23:25,226 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:23:43,647 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1719, qty=7
+2026-03-01 11:23:43,648 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:23:43,653 [INFO] SyndicateTool: [-] REJECT: $1719 | Menge: 7
+2026-03-01 11:23:43,666 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:24:02,214 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1627, qty=8
+2026-03-01 11:24:02,216 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:24:02,225 [INFO] SyndicateTool: [-] REJECT: $1627 | Menge: 8
+2026-03-01 11:24:02,244 [WARNING] skills.input_skill: [InputSkill] Aktion unterdrückt: FiveM nicht im Vordergrund.
+2026-03-01 11:24:03,774 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:24:05,777 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:24:20,745 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1627, qty=8
+2026-03-01 11:24:20,746 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:24:20,751 [INFO] SyndicateTool: [-] REJECT: $1627 | Menge: 8
+2026-03-01 11:24:20,773 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:24:39,286 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:24:41,222 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1620, qty=5
+2026-03-01 11:24:41,224 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:24:41,246 [INFO] SyndicateTool: [-] REJECT: $1620 | Menge: 5
+2026-03-01 11:24:41,259 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:24:59,540 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:24:59,540 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:24:59,548 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:25:01,989 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:25:01,990 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:25:04,968 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1571, qty=8
+2026-03-01 11:25:04,968 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:25:04,975 [INFO] SyndicateTool: [-] REJECT: $1571 | Menge: 8
+2026-03-01 11:25:04,988 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:25:23,681 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1735, qty=5
+2026-03-01 11:25:23,683 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:25:23,688 [INFO] SyndicateTool: [-] REJECT: $1735 | Menge: 5
+2026-03-01 11:25:23,695 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:25:42,172 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1507, qty=8
+2026-03-01 11:25:42,173 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:25:42,177 [INFO] SyndicateTool: [-] REJECT: $1507 | Menge: 8
+2026-03-01 11:25:42,204 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:26:00,931 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1509, qty=6
+2026-03-01 11:26:00,932 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:26:00,953 [INFO] SyndicateTool: [-] REJECT: $1509 | Menge: 6
+2026-03-01 11:26:00,965 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:26:19,377 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1598, qty=9
+2026-03-01 11:26:19,378 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:26:19,383 [INFO] SyndicateTool: [-] REJECT: $1598 | Menge: 9
+2026-03-01 11:26:19,397 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:26:37,808 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1494, qty=8
+2026-03-01 11:26:37,809 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:26:37,821 [INFO] SyndicateTool: [-] REJECT: $1494 | Menge: 8
+2026-03-01 11:26:37,838 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:26:56,149 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1465, qty=7
+2026-03-01 11:26:56,149 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:26:56,163 [INFO] SyndicateTool: [-] REJECT: $1465 | Menge: 7
+2026-03-01 11:26:56,173 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:27:14,824 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1697, qty=7
+2026-03-01 11:27:14,824 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:27:14,830 [INFO] SyndicateTool: [-] REJECT: $1697 | Menge: 7
+2026-03-01 11:27:14,842 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:27:33,172 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1539, qty=57
+2026-03-01 11:27:33,174 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:27:33,179 [INFO] SyndicateTool: [-] REJECT: $1539 | Menge: 57
+2026-03-01 11:27:33,185 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:27:52,087 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1574, qty=43
+2026-03-01 11:27:52,088 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:27:52,094 [INFO] SyndicateTool: [-] REJECT: $1574 | Menge: 43
+2026-03-01 11:27:52,101 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:28:09,691 [DEBUG] skills.ocr_skill: [OCR] Blockiert: Falsches Menü erkannt (Tablet/Inventar/Kofferraum)
+2026-03-01 11:28:12,422 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1605, qty=49
+2026-03-01 11:28:12,423 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:28:12,430 [INFO] SyndicateTool: [-] REJECT: $1605 | Menge: 49
+2026-03-01 11:28:12,437 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:28:30,299 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1534, qty=56
+2026-03-01 11:28:30,300 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:28:30,307 [INFO] SyndicateTool: [-] REJECT: $1534 | Menge: 56
+2026-03-01 11:28:30,330 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:28:49,024 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=None, qty=31
+2026-03-01 11:28:49,025 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:28:49,038 [INFO] SyndicateTool: [OCR-Rohtext] GROSSHANDE P/ Zu ar Eingehendes/Angebot: DO az 31x1Weed:Beutel | De  — — - N ee 1,7 ee Ne: Te Le Dr en : EP Bi BE ETEERRREL: HE ET TERLFTL RER ELSE N N Be RER RE
+2026-03-01 11:28:49,053 [INFO] SyndicateTool: [OCR-Warning] Preis konnte nicht präzise gelesen werden, warte auf besseren Scan...
+2026-03-01 11:28:50,743 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1542, qty=31
+2026-03-01 11:28:50,744 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:28:50,763 [INFO] SyndicateTool: [-] REJECT: $1542 | Menge: 31
+2026-03-01 11:28:50,769 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:29:09,601 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=2195, qty=5
+2026-03-01 11:29:09,603 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:29:09,608 [INFO] SyndicateTool: [-] REJECT: $2195 | Menge: 5
+2026-03-01 11:29:09,620 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:29:27,508 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:29:27,509 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:29:27,515 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:29:29,656 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1563, qty=28
+2026-03-01 11:29:29,656 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:29:29,663 [INFO] SyndicateTool: [-] REJECT: $1563 | Menge: 28
+2026-03-01 11:29:29,679 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:29:47,394 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:29:47,395 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:29:47,414 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:29:49,425 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:29:49,426 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:29:51,514 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1457, qty=58
+2026-03-01 11:29:51,516 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:29:51,521 [INFO] SyndicateTool: [-] REJECT: $1457 | Menge: 58
+2026-03-01 11:29:51,546 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:30:09,565 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1415, qty=50
+2026-03-01 11:30:09,566 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:30:09,585 [INFO] SyndicateTool: [-] REJECT: $1415 | Menge: 50
+2026-03-01 11:30:09,607 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:30:28,150 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=501, qty=1
+2026-03-01 11:30:28,150 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:30:28,170 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:30:30,702 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1615, qty=60
+2026-03-01 11:30:30,704 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:30:30,708 [INFO] SyndicateTool: [-] REJECT: $1615 | Menge: 60
+2026-03-01 11:30:30,719 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:30:48,820 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1550, qty=43
+2026-03-01 11:30:48,822 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:30:48,828 [INFO] SyndicateTool: [-] REJECT: $1550 | Menge: 43
+2026-03-01 11:30:48,860 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:31:06,891 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:31:06,892 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:31:06,898 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:31:09,205 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1773, qty=18
+2026-03-01 11:31:09,205 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:31:09,209 [INFO] SyndicateTool: [-] REJECT: $1773 | Menge: 18
+2026-03-01 11:31:09,235 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:31:28,003 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1573, qty=59
+2026-03-01 11:31:28,003 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:31:28,008 [INFO] SyndicateTool: [-] REJECT: $1573 | Menge: 59
+2026-03-01 11:31:28,015 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:31:47,058 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1774, qty=40
+2026-03-01 11:31:47,058 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:31:47,063 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1774 | Menge: 40 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 11:32:03,772 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:03,773 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:08,271 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=585, qty=1
+2026-03-01 11:32:08,272 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:11,701 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:32:14,233 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:14,235 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:17,868 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:17,869 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:21,507 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:21,508 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:24,854 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:24,855 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:28,431 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:28,431 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:32,023 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:32,023 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:35,612 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:35,613 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:39,012 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:32:40,945 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:32:42,999 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=0
+2026-03-01 11:32:42,999 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:46,416 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:46,418 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:49,698 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:32:51,668 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:32:53,847 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:32:53,848 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:32:57,455 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=137, qty=1
+2026-03-01 11:32:57,456 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:33:00,957 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:33:00,959 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:33:04,638 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:33:04,638 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:33:08,051 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:33:08,051 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:33:11,132 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:33:11,133 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:33:14,847 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:33:14,848 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:33:14,854 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:33:17,372 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:33:19,585 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:33:19,585 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:33:19,591 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:33:21,930 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:33:23,935 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:33:25,803 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1775, qty=9
+2026-03-01 11:33:25,804 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:33:25,817 [INFO] SyndicateTool: [-] REJECT: $1775 | Menge: 9
+2026-03-01 11:33:25,829 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:33:32,543 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:33:34,045 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:33:41,023 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 35
+2026-03-01 11:33:42,517 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1745, qty=21
+2026-03-01 11:33:42,518 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:33:42,527 [INFO] SyndicateTool: [-] REJECT: $1745 | Menge: 21
+2026-03-01 11:33:42,534 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:34:01,237 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1417, qty=16
+2026-03-01 11:34:01,237 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:34:01,243 [INFO] SyndicateTool: [-] REJECT: $1417 | Menge: 16
+2026-03-01 11:34:01,252 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:34:19,339 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:34:19,341 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:34:19,348 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:34:21,745 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1550, qty=27
+2026-03-01 11:34:21,746 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:34:21,754 [INFO] SyndicateTool: [-] REJECT: $1550 | Menge: 27
+2026-03-01 11:34:21,767 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:34:40,222 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:34:40,223 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:34:40,231 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:34:42,880 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1577, qty=14
+2026-03-01 11:34:42,880 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:34:42,887 [INFO] SyndicateTool: [-] REJECT: $1577 | Menge: 14
+2026-03-01 11:34:42,899 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:35:01,273 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1746, qty=19
+2026-03-01 11:35:01,273 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:35:01,280 [INFO] SyndicateTool: [-] REJECT: $1746 | Menge: 19
+2026-03-01 11:35:01,286 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:35:19,425 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:35:21,433 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:35:21,434 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:35:21,439 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:35:24,126 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1442, qty=37
+2026-03-01 11:35:24,127 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:35:24,133 [INFO] SyndicateTool: [-] REJECT: $1442 | Menge: 37
+2026-03-01 11:35:24,142 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:35:42,660 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1560, qty=32
+2026-03-01 11:35:42,661 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:35:42,668 [INFO] SyndicateTool: [-] REJECT: $1560 | Menge: 32
+2026-03-01 11:35:42,682 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:36:01,804 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:36:01,805 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:36:01,814 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:36:04,731 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1704, qty=22
+2026-03-01 11:36:04,731 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:36:04,737 [INFO] SyndicateTool: [-] REJECT: $1704 | Menge: 22
+2026-03-01 11:36:04,743 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:36:23,080 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1468, qty=35
+2026-03-01 11:36:23,082 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:36:23,088 [INFO] SyndicateTool: [-] REJECT: $1468 | Menge: 35
+2026-03-01 11:36:23,095 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:36:41,778 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:36:41,778 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:36:41,785 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:36:44,518 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1759, qty=30
+2026-03-01 11:36:44,518 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:36:44,527 [INFO] SyndicateTool: [-] REJECT: $1759 | Menge: 30
+2026-03-01 11:36:44,538 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:37:03,357 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1686, qty=12
+2026-03-01 11:37:03,358 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:37:03,365 [INFO] SyndicateTool: [-] REJECT: $1686 | Menge: 12
+2026-03-01 11:37:03,375 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:37:22,313 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1688, qty=36
+2026-03-01 11:37:22,313 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:37:22,319 [INFO] SyndicateTool: [-] REJECT: $1688 | Menge: 36
+2026-03-01 11:37:22,332 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:37:41,333 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:37:41,334 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:37:41,341 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:37:45,062 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1613, qty=9
+2026-03-01 11:37:45,063 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:37:45,070 [INFO] SyndicateTool: [-] REJECT: $1613 | Menge: 9
+2026-03-01 11:37:45,081 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:38:03,574 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1669, qty=9
+2026-03-01 11:38:03,574 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:38:03,582 [INFO] SyndicateTool: [-] REJECT: $1669 | Menge: 9
+2026-03-01 11:38:03,592 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:38:21,847 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1680, qty=23
+2026-03-01 11:38:21,847 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:38:21,853 [INFO] SyndicateTool: [-] REJECT: $1680 | Menge: 23
+2026-03-01 11:38:21,867 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:38:40,605 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1787, qty=13
+2026-03-01 11:38:40,606 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:38:40,613 [INFO] SyndicateTool: [-] REJECT: $1787 | Menge: 13
+2026-03-01 11:38:40,625 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:38:58,953 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:38:58,954 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:38:58,961 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:39:01,752 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:39:01,753 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:39:04,346 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1437, qty=19
+2026-03-01 11:39:04,346 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:39:04,355 [INFO] SyndicateTool: [-] REJECT: $1437 | Menge: 19
+2026-03-01 11:39:04,364 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:39:22,717 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1409, qty=26
+2026-03-01 11:39:22,718 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:39:22,725 [INFO] SyndicateTool: [-] REJECT: $1409 | Menge: 26
+2026-03-01 11:39:22,737 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:39:41,021 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:39:41,022 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:39:41,029 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:39:43,421 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:39:43,422 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:39:46,162 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1571, qty=16
+2026-03-01 11:39:46,163 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:39:46,170 [INFO] SyndicateTool: [-] REJECT: $1571 | Menge: 16
+2026-03-01 11:39:46,177 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:40:04,360 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1672, qty=11
+2026-03-01 11:40:04,360 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:40:04,366 [INFO] SyndicateTool: [-] REJECT: $1672 | Menge: 11
+2026-03-01 11:40:04,377 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:40:22,721 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:40:22,722 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:40:22,730 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:40:25,627 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1681, qty=39
+2026-03-01 11:40:25,627 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:40:25,635 [INFO] SyndicateTool: [-] REJECT: $1681 | Menge: 39
+2026-03-01 11:40:25,648 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:40:27,302 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:40:28,805 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:40:43,919 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1681, qty=39
+2026-03-01 11:40:43,920 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:40:43,930 [INFO] SyndicateTool: [-] REJECT: $1681 | Menge: 39
+2026-03-01 11:40:43,937 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:41:02,555 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1564, qty=12
+2026-03-01 11:41:02,557 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:41:02,563 [INFO] SyndicateTool: [-] REJECT: $1564 | Menge: 12
+2026-03-01 11:41:02,576 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:41:20,965 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1620, qty=18
+2026-03-01 11:41:20,966 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:41:20,977 [INFO] SyndicateTool: [-] REJECT: $1620 | Menge: 18
+2026-03-01 11:41:20,994 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:41:39,233 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1620, qty=18
+2026-03-01 11:41:39,233 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:41:39,240 [INFO] SyndicateTool: [-] REJECT: $1620 | Menge: 18
+2026-03-01 11:41:39,250 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:41:57,611 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1460, qty=26
+2026-03-01 11:41:57,611 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:41:57,621 [INFO] SyndicateTool: [-] REJECT: $1460 | Menge: 26
+2026-03-01 11:41:57,636 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 11:42:15,915 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1
+2026-03-01 11:42:15,915 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-01 11:42:15,923 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-01 11:42:18,845 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1796, qty=40
+2026-03-01 11:42:18,846 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-01 11:42:18,852 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1796 | Menge: 40 - Alarm ausgelöst, warte auf Spieler...
+2026-03-01 11:42:35,289 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:42:35,289 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:42:38,625 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:42:38,626 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:42:42,385 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:42:42,385 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:42:46,288 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:42:46,289 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:42:49,618 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:42:49,619 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:42:53,332 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:42:53,332 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:42:56,575 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:42:56,575 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:00,300 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:00,301 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:03,658 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:03,659 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:07,178 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:43:07,180 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:11,038 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:11,040 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:14,638 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:43:16,675 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:16,676 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:20,300 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:20,301 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:23,534 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:23,535 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:27,032 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:27,033 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:30,685 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:30,686 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:34,019 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:34,019 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:37,603 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:37,605 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:41,157 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=255, qty=1
+2026-03-01 11:43:43,500 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=621, qty=1
+2026-03-01 11:43:43,500 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:46,811 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:46,812 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:50,327 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:50,328 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:53,680 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=555, qty=1
+2026-03-01 11:43:53,681 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:43:57,500 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:43:57,501 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:01,372 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:44:03,508 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:03,508 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:07,004 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:07,004 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:09,214 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:44:10,716 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:44:11,728 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:11,728 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:15,116 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:15,117 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:17,477 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:44:17,480 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:44:26,762 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 11:44:27,846 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:44:29,688 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:29,688 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:32,917 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:32,917 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:36,271 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:36,271 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:39,496 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:39,497 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:42,623 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:42,624 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:44,835 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:44:47,339 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:44:48,272 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:48,272 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:52,295 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:52,296 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:56,064 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:56,064 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:44:59,961 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:44:59,962 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:03,518 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:03,519 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:06,753 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:06,754 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:10,500 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:45:12,925 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=578, qty=1
+2026-03-01 11:45:12,925 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:16,876 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:16,877 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:20,535 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=777, qty=1
+2026-03-01 11:45:20,536 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:24,541 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:24,543 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:26,884 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:45:26,884 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:45:32,177 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 11:45:33,427 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:33,427 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:36,613 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:36,614 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:40,370 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:40,371 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:43,712 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:45:45,585 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:45,585 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:48,607 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1
+2026-03-01 11:45:48,609 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-01 11:45:50,932 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:45:50,934 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:50:01,450 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(192,86,69) bei X:81 Y:694 gefunden!
+2026-03-01 11:50:03,158 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=549, qty=1
+2026-03-01 11:50:03,987 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:50:03,987 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:52:47,435 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 11:52:48,437 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 11:56:24,953 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(194,39,45) bei X:81 Y:694 gefunden!
+2026-03-01 11:56:26,201 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:56:27,017 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:56:27,017 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:56:34,916 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(205,30,30) bei X:81 Y:694 gefunden!
+2026-03-01 11:56:36,420 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:56:38,449 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:56:39,262 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:56:39,262 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:56:51,058 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(191,26,28) bei X:81 Y:694 gefunden!
+2026-03-01 11:56:52,291 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:56:53,108 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:56:53,108 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:56:54,430 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(195,27,28) bei X:81 Y:694 gefunden!
+2026-03-01 11:56:55,619 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:56:57,556 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:56:59,770 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:56:59,771 [INFO] SyndicateTool: [OCR-Diagnose] Sicht blockiert oder Text unleserlich. Versuche Winkel zu ändern.
+2026-03-01 11:57:00,599 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:57:00,601 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:57:01,922 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(186,51,46) bei X:81 Y:694 gefunden!
+2026-03-01 11:57:03,427 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:57:04,243 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:57:04,243 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:57:08,170 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(187,53,50) bei X:81 Y:694 gefunden!
+2026-03-01 11:57:09,490 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:57:10,302 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:57:10,303 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:57:11,611 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(187,53,50) bei X:81 Y:694 gefunden!
+2026-03-01 11:57:13,041 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:57:13,848 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:57:13,849 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:57:16,462 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(187,53,50) bei X:81 Y:694 gefunden!
+2026-03-01 11:57:17,723 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:57:19,690 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:57:20,500 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:57:20,501 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:57:25,817 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(201,49,43) bei X:81 Y:694 gefunden!
+2026-03-01 11:57:27,202 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:57:28,019 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:57:28,020 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:57:37,212 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(189,43,39) bei X:81 Y:694 gefunden!
+2026-03-01 11:57:38,516 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:57:39,331 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:57:39,332 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:58:09,367 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(202,32,31) bei X:81 Y:694 gefunden!
+2026-03-01 11:58:10,521 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:12,634 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:14,712 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:14,713 [INFO] SyndicateTool: [OCR-Diagnose] Sicht blockiert oder Text unleserlich. Versuche Winkel zu ändern.
+2026-03-01 11:58:16,780 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:18,838 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:21,159 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:23,534 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=855, qty=1
+2026-03-01 11:58:25,525 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:27,683 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:29,747 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:31,661 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:33,560 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:35,651 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:36,477 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:58:36,479 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:58:41,716 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(201,31,30) bei X:81 Y:694 gefunden!
+2026-03-01 11:58:43,092 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:43,908 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:58:43,908 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:58:47,825 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(206,52,42) bei X:81 Y:694 gefunden!
+2026-03-01 11:58:49,206 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=507, qty=1
+2026-03-01 11:58:50,011 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:58:50,011 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:58:53,928 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(255,67,54) bei X:81 Y:694 gefunden!
+2026-03-01 11:58:54,795 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:56,428 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:58:57,227 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:58:57,228 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:59:48,078 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(190,63,53) bei X:81 Y:694 gefunden!
+2026-03-01 11:59:49,363 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 11:59:50,179 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 11:59:50,179 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 11:59:59,361 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(194,29,27) bei X:81 Y:694 gefunden!
+2026-03-01 12:00:00,580 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 12:00:01,392 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 12:00:01,392 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 12:00:07,982 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(201,31,30) bei X:81 Y:694 gefunden!
+2026-03-01 12:00:09,503 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=2
+2026-03-01 12:00:11,634 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=5
+2026-03-01 12:00:12,447 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 12:00:12,447 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 12:00:19,071 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(199,37,35) bei X:81 Y:694 gefunden!
+2026-03-01 12:00:20,474 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 12:00:21,288 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 12:00:21,289 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 12:01:30,928 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:01:31,429 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:08:53,951 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:08:55,454 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:09:20,332 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:09:21,335 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:10:26,886 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:10:28,389 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:11:16,956 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:11:23,967 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:12:03,966 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: (1586) ayatollah khamenei bei israelischem luftschlag getötet! - youtube – opera) - Bot pausiert.
+2026-03-01 12:12:06,477 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:13:15,736 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 12:13:46,274 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:14:41,318 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ) - Bot pausiert.
+2026-03-01 12:14:44,325 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:31:41,263 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(180,88,84) bei X:81 Y:694 gefunden!
+2026-03-01 12:31:42,625 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1
+2026-03-01 12:31:43,459 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 12:31:43,461 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-01 12:50:10,105 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: teamspeak 3) - Bot pausiert.
+2026-03-01 12:50:14,614 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:50:15,925 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:50:16,928 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:50:26,103 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 1 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:50:27,605 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:51:06,955 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:51:08,460 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:51:27,989 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:51:28,490 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:54:48,455 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: 🔰〢support 2 | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 12:54:51,459 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:56:01,415 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: teamspeak 3) - Bot pausiert.
+2026-03-01 12:56:02,417 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:56:11,261 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 12:56:23,398 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ) - Bot pausiert.
+2026-03-01 12:56:27,404 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:56:28,049 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: snipping tool überlagerung) - Bot pausiert.
+2026-03-01 12:56:29,051 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:56:29,660 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: snipping tool) - Bot pausiert.
+2026-03-01 12:57:10,204 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:57:10,537 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'ROLEPLAY' -> Zu Favoriten hinzugefügt!
+2026-03-01 12:57:11,011 [INFO] SyndicateTool: [Aktion] 'ROLEPLAY' aktiv! Drücke 'E'.
+2026-03-01 12:57:11,017 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 12:57:11,970 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'ROLEPLAY'...
+2026-03-01 12:57:12,027 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 12:57:13,971 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: snipping tool) - Bot pausiert.
+2026-03-01 12:57:14,477 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 12:57:17,544 [INFO] SyndicateTool: [KI-Lernen] Kein roter Balken aufgetaucht. Messung abgebrochen.
+2026-03-01 12:57:18,820 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'ROCKNEN' -> Zu Favoriten hinzugefügt!
+2026-03-01 12:57:19,191 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 12:57:19,192 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 12:57:20,150 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'ROCKNEN'...
+2026-03-01 12:57:20,197 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 12:57:20,214 [INFO] SyndicateTool: [KI-Lernen] Roter Verarbeitungs-Balken erkannt. Messe...
+2026-03-01 12:57:34,608 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 12:57:34,609 [INFO] SyndicateTool: [KI-Lernen] Balken verschwunden! Dauer gespeichert: 14.5s
+2026-03-01 12:57:36,139 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 12:57:36,140 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 12:57:37,101 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 12:57:52,374 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 12:57:52,392 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 12:57:53,350 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 12:58:07,976 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:00:35,063 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-01 13:00:53,859 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 13:00:53,861 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:00:54,614 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:00:54,615 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:00:55,584 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:00:55,693 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-01 13:01:05,420 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:01:20,940 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:01:21,645 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:01:21,645 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:01:22,600 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:01:37,028 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 13:06:51,878 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:06:52,779 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:06:52,779 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:06:53,815 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:07:08,615 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'live dr edtrocknen'
+2026-03-01 13:07:09,471 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'live dr edtrocknen'
+2026-03-01 13:07:10,754 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:07:10,755 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:07:11,784 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'WEED TROCKNEN'...
+2026-03-01 13:07:11,877 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:07:11,891 [INFO] SyndicateTool: [KI-Lernen] Roter Verarbeitungs-Balken erkannt. Messe...
+2026-03-01 13:07:26,149 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:07:26,150 [INFO] SyndicateTool: [KI-Lernen] Balken verschwunden! Dauer gespeichert: 14.4s
+2026-03-01 13:07:27,032 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:07:27,032 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:07:28,081 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 13:07:43,604 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:07:43,604 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:07:44,659 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:07:59,424 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'live lo trocknen'
+2026-03-01 13:08:00,769 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:08:00,769 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:08:01,827 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:08:16,626 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'play'
+2026-03-01 13:08:17,493 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'B PLAY' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:08:17,868 [INFO] SyndicateTool: [Aktion] 'B PLAY' aktiv! Drücke 'E'.
+2026-03-01 13:08:17,869 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:08:18,896 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'B PLAY'...
+2026-03-01 13:08:18,987 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:08:18,998 [INFO] SyndicateTool: [KI-Lernen] Roter Verarbeitungs-Balken erkannt. Messe...
+2026-03-01 13:08:33,190 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:08:33,191 [INFO] SyndicateTool: [KI-Lernen] Balken verschwunden! Dauer gespeichert: 14.3s
+2026-03-01 13:08:37,971 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'TROCKNEN ROLEPLAY' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:08:38,452 [INFO] SyndicateTool: [Aktion] 'TROCKNEN ROLEPLAY' aktiv! Drücke 'E'.
+2026-03-01 13:08:38,454 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:08:39,472 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'TROCKNEN ROLEPLAY'...
+2026-03-01 13:08:39,574 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:08:39,586 [INFO] SyndicateTool: [KI-Lernen] Roter Verarbeitungs-Balken erkannt. Messe...
+2026-03-01 13:08:53,847 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:08:53,847 [INFO] SyndicateTool: [KI-Lernen] Balken verschwunden! Dauer gespeichert: 14.4s
+2026-03-01 13:08:54,711 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:08:54,712 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:08:55,706 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 13:09:11,105 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:09:11,106 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:09:12,146 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 13:09:27,603 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:09:27,603 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:09:28,623 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 13:09:44,081 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:09:44,082 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:09:45,122 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 13:10:00,572 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:10:00,572 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:10:01,620 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 13:10:17,047 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:10:17,047 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:10:18,080 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.5 Sekunden (Gelernt).
+2026-03-01 13:10:33,467 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:10:33,468 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:10:34,497 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'ROCKNEN'...
+2026-03-01 13:10:34,584 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:10:34,595 [INFO] SyndicateTool: [KI-Lernen] Roter Verarbeitungs-Balken erkannt. Messe...
+2026-03-01 13:10:48,860 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-01 13:10:48,862 [INFO] SyndicateTool: [KI-Lernen] Balken verschwunden! Dauer gespeichert: 14.4s
+2026-03-01 13:10:49,698 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:10:49,700 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:10:50,691 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:11:06,654 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:11:06,655 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:11:07,618 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:11:23,534 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:11:23,534 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:11:24,518 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:11:39,657 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:11:39,658 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:11:40,642 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:11:56,624 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:11:56,625 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:11:57,603 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:12:12,749 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:12:12,749 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:12:13,733 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:12:28,953 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:12:28,953 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:12:29,921 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:12:45,052 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:12:45,052 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:12:46,038 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:13:00,464 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @'tobias - discord) - Bot pausiert.
+2026-03-01 13:13:14,980 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:13:15,898 [INFO] SyndicateTool: [Aktion] 'ROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:13:15,900 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:13:16,906 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:13:32,088 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:13:32,089 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:13:33,067 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:13:48,259 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:13:48,259 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:13:49,244 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:14:03,990 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'nz n'
+2026-03-01 13:14:05,254 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:14:05,255 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:14:06,241 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 14.4 Sekunden (Gelernt).
+2026-03-01 13:14:22,262 [INFO] SyndicateTool: [Aktion] 'WEED TROCKNEN' aktiv! Drücke 'E'.
+2026-03-01 13:14:22,263 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:14:23,278 [INFO] SyndicateTool: [Material fehlt] 'WEED TROCKNEN' ist leer! Setze auf Ignorieren-Liste.
+2026-03-01 13:14:41,318 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'PISTOLE' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:14:41,764 [INFO] SyndicateTool: [Aktion] 'PISTOLE' aktiv! Drücke 'E'.
+2026-03-01 13:14:41,765 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:14:42,761 [INFO] SyndicateTool: [Material fehlt] 'PISTOLE' ist leer! Setze auf Ignorieren-Liste.
+2026-03-01 13:14:45,447 [INFO] SyndicateTool: [Aktion] 'WEED SÄUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:14:45,449 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:14:46,465 [INFO] SyndicateTool: [Material fehlt] 'WEED SÄUBERN' ist leer! Setze auf Ignorieren-Liste.
+2026-03-01 13:14:48,791 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'BBRECHEN' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:14:49,137 [INFO] SyndicateTool: [Aktion] 'BBRECHEN' aktiv! Drücke 'E'.
+2026-03-01 13:14:49,137 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:14:50,124 [INFO] SyndicateTool: [Info] Erfolgreich verarbeitet. Ignorieren-Liste wurde geleert.
+2026-03-01 13:14:50,125 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'BBRECHEN'...
+2026-03-01 13:14:51,299 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 13:14:51,807 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:14:53,471 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ) - Bot pausiert.
+2026-03-01 13:16:46,088 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:16:48,369 [INFO] SyndicateTool: [KI-Lernen] Kein roter Balken aufgetaucht. Messung abgebrochen.
+2026-03-01 13:16:49,370 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @19sven83 - discord) - Bot pausiert.
+2026-03-01 13:16:56,378 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:17:10,719 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: @tom. - discord) - Bot pausiert.
+2026-03-01 13:17:26,735 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 13:17:27,409 [INFO] SyndicateTool: [Aktion] 'WEED SÄUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:17:27,409 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:17:28,421 [INFO] SyndicateTool: [KI-Sleep] Pausiere OCR für 15.1 Sekunden (Gelernt).
+2026-03-01 13:17:44,752 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'AUBERN' -> Zu Favoriten hinzugefügt!
+2026-03-01 13:17:45,137 [INFO] SyndicateTool: [Aktion] 'AUBERN' aktiv! Drücke 'E'.
+2026-03-01 13:17:45,137 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-01 13:17:46,145 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'AUBERN'...
+2026-03-01 13:17:46,228 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-01 13:17:46,228 [INFO] SyndicateTool: [KI-Lernen] Roter Verarbeitungs-Balken erkannt. Messe...
+2026-03-01 13:17:48,551 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 13:17:59,133 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
+2026-03-01 13:17:59,134 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
+2026-03-01 13:17:59,134 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
+2026-03-01 13:17:59,135 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
