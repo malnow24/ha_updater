@@ -82,3 +82,345 @@
 2026-03-01 09:56:10,312 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
 2026-03-01 09:56:10,313 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
 2026-03-01 09:56:10,313 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
+2026-03-01 09:58:46,962 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-01 09:58:47,094 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-01 09:58:47,263 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-01 09:58:48,068 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 09:58:48,069 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-01 09:58:48,556 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-01 09:58:48,556 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-01 09:58:49,317 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-01 09:58:49,317 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-01 09:58:56,139 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 40
+2026-03-01 09:58:56,341 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 09:58:56,490 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 09:58:57,843 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 46x weed-beutel i preis pro stück: $1625 a ——— = —_— _—_ rn
+2026-03-01 09:58:57,844 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:58:58,224 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'Eingehendes Angebot: ü ER\n46x Weed-Beutel\nPreis pro Stück: $1625 u\nBE vn\nAR zurnmenns\n'
+2026-03-01 09:58:58,225 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=46, Preis=1625
+2026-03-01 09:58:58,226 [INFO] SyndicateTool: [-] REJECT: $1625 | Menge: 46
+2026-03-01 09:58:58,226 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 09:59:00,263 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: r a warte auf einen kunden... ss - i ”
+2026-03-01 09:59:00,466 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-01 09:59:00,969 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 09:59:02,150 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: % a warte auf einen kunden... ss - —is:
+2026-03-01 09:59:02,150 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:04,626 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: warte auf einen kunden... & -
+2026-03-01 09:59:04,627 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:06,927 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: warte auf einen kunden. = -
+2026-03-01 09:59:06,929 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:09,401 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: nn de warte auf einen kunden. &; n
+2026-03-01 09:59:09,401 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:11,609 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: r ı ps 1 = 2 49x weed-beutel i i. preis pro stück: 81443 a
+2026-03-01 09:59:11,609 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:59:11,958 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): '= _ 7 ı\nL- |\nIL = -\nEingehendes Angebot: a. =\n49x Weed-Beutel = .\nPreis pro Stück: $1443 0 — i\nanne,\nj ILL\n1. Bun\nhi\na\n'
+2026-03-01 09:59:11,959 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=49, Preis=1443
+2026-03-01 09:59:11,968 [INFO] SyndicateTool: [-] REJECT: $1443 | Menge: 49
+2026-03-01 09:59:12,004 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 09:59:14,082 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: r 388 warte auf einen kunden. sn =. ’ b “ ‚k
+2026-03-01 09:59:15,303 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: grosshan ai a i warte auf einen kunden. n =. 0x | = le
+2026-03-01 09:59:15,304 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:17,618 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: fu warte u —
+2026-03-01 09:59:17,618 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:20,028 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: gu m a rnn ıtınn . l s
+2026-03-01 09:59:20,029 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:59:22,468 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: = _ am
+2026-03-01 09:59:22,469 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:59:24,773 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: tr d3:-
+2026-03-01 09:59:24,773 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:59:27,094 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: —— — 1  grosshan u |  warte auf einen kunden. a a u
+2026-03-01 09:59:27,094 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:29,434 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 1 m re 13: - en u inden. as a binnaarmna
+2026-03-01 09:59:29,436 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:59:31,824 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 41x weed-beutel =; preis pro stück: $1404 a — — . zz —— — zn
+2026-03-01 09:59:31,825 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:59:32,152 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'Eingehendes Angebot: ü Ser\n41x Weed-Beutel\nPreis pro Stück: $1404 u —\nTr\nm\n> m.\nZA wre\n'
+2026-03-01 09:59:32,153 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=41, Preis=1404
+2026-03-01 09:59:32,160 [INFO] SyndicateTool: [-] REJECT: $1404 | Menge: 41
+2026-03-01 09:59:32,175 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 09:59:34,178 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: di — = ——o n a
+2026-03-01 09:59:34,833 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: au ı grosshan a | wu es
+2026-03-01 09:59:35,506 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: —e m 1  grosshan ne |  warte auf einen kunden. se == |
+2026-03-01 09:59:36,646 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 3: —— 48 —
+2026-03-01 09:59:36,646 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:59:38,797 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: warte — kunden == — |
+2026-03-01 09:59:38,797 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:41,322 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: te | i ne 5 te auf einen kunden. & ee —y a binnaarna
+2026-03-01 09:59:41,322 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:43,727 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ——— = 4 43x weed-beutel i preis pro stück: $1477 a — — — rbennmaatimi
+2026-03-01 09:59:43,728 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 09:59:44,060 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'Eingehendes Angebot: ü ER\n43x Weed-Beutel\nPreis pro Stück: 51477 u —\n. Bann\n» Dat\n> =.\nZA sun eEenns\n'
+2026-03-01 09:59:44,060 [DEBUG] skills.ocr_skill: [OCR-GH] Smart-Filter: 51477 -> 1477
+2026-03-01 09:59:44,069 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=43, Preis=1477
+2026-03-01 09:59:44,096 [INFO] SyndicateTool: [-] REJECT: $1477 | Menge: 43
+2026-03-01 09:59:44,112 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 09:59:46,131 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: grosshan m. e\\ = z % mm,
+2026-03-01 09:59:46,779 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: a 1 ——= u - an
+2026-03-01 09:59:47,410 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: bere — im ln
+2026-03-01 09:59:48,052 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: m u — — nt
+2026-03-01 09:59:48,662 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ne h n 77 fl
+2026-03-01 09:59:49,317 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: | b > =
+2026-03-01 09:59:49,984 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: — == : nt
+2026-03-01 09:59:50,620 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: nl ft
+2026-03-01 09:59:51,303 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: — fu nn —'
+2026-03-01 09:59:51,995 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: warte auf einen kunden. —— — pe fr  | u —
+2026-03-01 09:59:53,511 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: warte auf einen kunden. gen, ä sn | —
+2026-03-01 09:59:53,511 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 09:59:55,832 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: =. > pe —— 5 | —
+2026-03-01 09:59:55,833 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 09:59:58,086 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: dw aenenkinen — — — pe ms  | —
+2026-03-01 09:59:58,087 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:00:00,296 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: } — =
+2026-03-01 10:00:00,296 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:00:02,582 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: i
+2026-03-01 10:00:02,585 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:00:05,082 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: — m = ss eingehendes angebot: il 32x weed-beutel .— preis pro stück: $1742 —_. = be birnnaaatına [
+2026-03-01 10:00:05,083 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:05,418 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): '0. =\nE ngehences Angebot: ug\n32x Weed-Beute es\nPreis pro Stck: $°742 —._ \\\nN u\n" E\nAl kn a\n'
+2026-03-01 10:00:07,003 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: mi u d—n eingehendes angebot: = 32x weed-beutel ü > preis pro stück: $1742 rz u ——
+2026-03-01 10:00:07,003 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:07,367 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): '3 m\n. GRO I\nEıngehendes Angebot: _ Zu\n\n32x Weed-Beutel - u\nx ed eute Ay\n\nPreis pro Stück: $1742 \\\n\n—_\nm: a\nEn ä 4\n'
+2026-03-01 10:00:07,369 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=32, Preis=1742
+2026-03-01 10:00:07,377 [INFO] SyndicateTool: [-] REJECT: $1742 | Menge: 32
+2026-03-01 10:00:07,389 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:00:09,473 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u. m eee warte auf einen kunden. i gel p an e 4 bd’ u}
+2026-03-01 10:00:10,909 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: gro: ir —sı a be —
+2026-03-01 10:00:10,909 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:00:13,248 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u, gro; = ee eee = \  ————
+2026-03-01 10:00:13,249 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:00:15,728 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: gro; \ ri
+2026-03-01 10:00:15,729 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:00:18,200 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: eee r warte auf einen kunden. i \ a 4 r — a | pt g
+2026-03-01 10:00:18,201 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:00:20,347 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: moss ndel z . warte auf einen kunden. 3 u ip. f \
+2026-03-01 10:00:20,348 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:00:22,556 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ve t re ms. ; >
+2026-03-01 10:00:22,556 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:00:24,939 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: + vs > a ne ä x e@ . eingehendes angebot: 30x weed-beutel preis pro stück: 81752 rr zu \ rn
+2026-03-01 10:00:24,940 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:25,328 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): '’ Er } ef -\nN DEL\nE 1generses Angeböt:\n3ux Weed Beute\nPreis pro Srucan: $°?52\nau 4 ’Tıııı\n'
+2026-03-01 10:00:26,686 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: eingehendes angebot: 30x weed-beutel preis pro stück: $1752 u ze |
+2026-03-01 10:00:26,687 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:26,969 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): '+\nEingehendes Angebot:\n30x Weed-Beutel\nPreis pro Stück: $1752\n'
+2026-03-01 10:00:26,970 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=30, Preis=1752
+2026-03-01 10:00:26,980 [INFO] SyndicateTool: [-] REJECT: $1752 | Menge: 30
+2026-03-01 10:00:26,992 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:00:29,067 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: sps grosshandel a ——< u
+2026-03-01 10:00:29,711 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u. _\ grosshandel warte auf einen kunden. me
+2026-03-01 10:00:30,976 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: le — ___ _ | grosshandel warte auf einen kunden. me
+2026-03-01 10:00:30,977 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:00:33,229 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ee —— ___ _ | grosshandel warte auf einen kunden. me
+2026-03-01 10:00:33,229 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:00:35,540 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ul _ _ grosshandel warte auf einen kunden we 2 nnndaaatın
+2026-03-01 10:00:35,541 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:00:37,960 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ul ee —— — srosshandel warte auf einen kunden ee u " _ z re nnaaatın
+2026-03-01 10:00:37,961 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:00:40,272 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u grosshandel ee u
+2026-03-01 10:00:40,273 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:00:42,554 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: mae _ grosshandel rt 16x weed-beutel preis pro stück: $1671 « nn u
+2026-03-01 10:00:42,554 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:42,850 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'GROSSHÄNDEL\nE ngenerses Angelat:\nlöx Wieser Seunel\nPreis arz Stuca: S°B57° a\n'
+2026-03-01 10:00:44,330 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u ae — _ _ grosshandel preis pro stück: $1671 z nn u
+2026-03-01 10:00:44,330 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:44,651 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'GROSSHÄNDEL\nE ngenerses Angelat:\nlöx Wieser Seunel\nPreis arz Stuca: S°B57° aa\nnn j\n'
+2026-03-01 10:00:46,382 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: rn grosshandel eingehendes angebot  16x weed-beutel preis pro stück: $1671 en 2 nnasstın
+2026-03-01 10:00:46,383 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:46,746 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'ne... i;\nGROSSHÄNDEL\nE 1generses Angeböt:\n18x Wweez Seutel\nPreis pro Sruen: 587” RC\nau Ya EKTUW\n'
+2026-03-01 10:00:48,162 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: le _ grosshandel eingehendes angebot 16x weed-beutel preis pro stück: $1671 an, 2 nnasstın
+2026-03-01 10:00:48,162 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:48,523 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'er... i;\nGROSSHÄNDEL\nE 1generses Angeböt:\n18x Wweez Seutel\nPreis pro Sruen: 587” RC\nau Ya EKTUW\n'
+2026-03-01 10:00:49,890 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: le _  _ grosshandel eingehendes angebot 16x weed-beutel preis pro stück: $1671 en basatın
+2026-03-01 10:00:49,891 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:50,231 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): "FE nn is\nGROSSHANDEL\nE ngenerses Angeböt:\n18x Yyeec 5eutel\nPreis prs Sruca: S'577 RC\nnn\n1} ır'y\n"
+2026-03-01 10:00:51,627 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: eee _ grosshandel preis pro stück: $1671 <
+2026-03-01 10:00:51,627 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:51,926 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'GROSSHÄNDEL\nE ngenerses Angelat:\nlöx Wieser Seunel\nPreis arz Stuca: S°B57° aa\n'
+2026-03-01 10:00:53,407 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: el lin _ grosshandel preis pro stück: $1671 z un u
+2026-03-01 10:00:53,408 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:53,722 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'GROSSHÄNDEL\nE ngenerses Angelat:\nlöx Wieser Seunel\nPreis arz Stuca: S°B57° aa\nnn — |\n'
+2026-03-01 10:00:55,106 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ul be _ grosshandel rt 16x weed-beutel preis pro stück: $1671 « nn u
+2026-03-01 10:00:55,107 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:55,455 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'GROSSHÄNDEL\nE ngenerses Angelat:\nlöx Wieser Seunel\nPreis arz Stuca: S°B57° aa\nnn\n'
+2026-03-01 10:00:56,926 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ba _ grosshandel eingehendes angebot  16x weed-beutel preis pro stück: $1671 en 2 nnasstın
+2026-03-01 10:00:56,926 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:57,312 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'en... i\nGROSSHÄNDEL\nE 1generses Angeböt:\n18x Wweez Seutel\nPreis pro Sruen: 587” RC\nnn\nau Ya EKTUW\n'
+2026-03-01 10:00:58,860 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: al ne. _ grosshandel eingehendes angebot 16x weed-beutel preis pro stück: $1671 nn 2 nnasstın
+2026-03-01 10:00:58,862 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:00:59,243 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'en... i\nGROSSHÄNDEL\nE 1generses Angeböt:\n18x Wweez Seutel\nPreis pro Sruen: 587” RC\nnn\nau Ya EKTUW\n'
+2026-03-01 10:01:00,672 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ln ne _ grosshandel eingehendes angebot 16x weed-beutel preis pro stück: $1671 en 2 nnasstın
+2026-03-01 10:01:00,673 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:01:01,012 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'er... ;i\nGROSSHÄNDEL\nE 1generses Angeböt:\n18x Wweez Seutel\nPreis pro Sruen: 587” RC\nau Ya EKTUW\n'
+2026-03-01 10:01:02,337 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ul ne u _ grosshandel rt 16x weed-beutel preis pro stück: $1671 «  — u
+2026-03-01 10:01:02,337 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:01:02,652 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'GROSSHÄNDEL\nE ngenerses Angelat:\nlöx Wieser Seunel\nPreis arz Stuca: S°B57° al\nnn\n'
+2026-03-01 10:01:04,139 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ne _ srosshandel eingehendes angebot: 16x weed-beutel preis pro stück: $1671 z en u —
+2026-03-01 10:01:04,140 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:01:04,467 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'GROSSHÄNDEL\nE ngenerses Angelat:\nlöx Wieser Seunel\nPreis arz Stuca: S°B57° al\nmn\n'
+2026-03-01 10:01:05,838 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ul lan _ grosshandel preis pro stück: $1671 z in er
+2026-03-01 10:01:05,839 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:01:06,187 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'GROSSHÄNDEL\nE ngenerses Angelat:\nlöx Wieser Seunel\nPreis arz Stuca: S°B57° al\n'
+2026-03-01 10:01:07,564 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ln _ grosshandel a
+2026-03-01 10:01:07,564 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:01:09,891 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ln _ srosshandel warte auf einen kunden it — ” — 2 re nnaaatın
+2026-03-01 10:01:09,892 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:01:12,157 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u _ _. grosshandel a u —
+2026-03-01 10:01:12,158 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:01:14,541 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u _ grosshandel ee u
+2026-03-01 10:01:14,542 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:01:16,767 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u _ grosshandel ee u —
+2026-03-01 10:01:16,768 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:01:19,139 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ul nen _ grosshandel warte auf einen kunden. tr — ’ _ e n nnaaarın
+2026-03-01 10:01:19,144 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:01:21,438 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ul nen _ grosshandel warte auf einen kunden. ed ya .. _ e n nnaaarın
+2026-03-01 10:01:21,438 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:01:23,792 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u ___. grosshandel is fe u —
+2026-03-01 10:01:23,794 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:01:26,142 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: un _ grosshandel aan 58x weed-beutel preis pro stück: $1402 « en u
+2026-03-01 10:01:26,142 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:01:26,491 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'EU a\nGROSSHÄNDEL\nE ngenerses Angelat:\nSex WNsen Beuisl\nPre s gro Stuck: F’42 Ba\nnn\n'
+2026-03-01 10:01:26,491 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=1, Preis=42
+2026-03-01 10:01:26,497 [INFO] SyndicateTool: [-] REJECT: $42 | Menge: 1
+2026-03-01 10:01:26,514 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:01:28,528 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ln _ grosshandel a
+2026-03-01 10:01:29,196 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ln _ grosshandel a
+2026-03-01 10:01:29,856 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: un _ grosshandel a
+2026-03-01 10:01:30,565 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ban _ grosshandel warte auf einen kunden. = . - e n nnaaarın
+2026-03-01 10:01:31,839 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ban _ grosshandel warte auf einen kunden. u . . e n nnaaarın
+2026-03-01 10:01:31,840 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: waiting
+2026-03-01 10:01:34,152 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u ___. grosshandel ne —< u
+2026-03-01 10:01:34,153 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:01:36,423 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u ___. grosshandel nr t—< u
+2026-03-01 10:01:36,423 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:01:38,847 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u ___. grosshandel u < u
+2026-03-01 10:01:38,849 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:01:40,052 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:02:51,129 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:02:52,090 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: wegen grosshandel preis pro stück: $1611 x en u —
+2026-03-01 10:02:52,090 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:02:52,402 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): "EEREERREE ZA\nGROSSHANDEL\nE ngenerses Angelat:\n37x 'Neen Seutel\nPre s ars Stun: FEN ’ el\nnn\n"
+2026-03-01 10:02:53,732 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: wu _ grosshandel preis pro stück: $1611 = en a
+2026-03-01 10:02:53,732 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:02:54,026 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): "EERNEE SA\nGROSSHANDEL\nE ngenerses Angelat:\n37x 'Neen Seutel\nPre s ars Stun: FEN ’ el\nnn\n"
+2026-03-01 10:02:55,294 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: eeg grosshandel preis pro stück: $1611 = a, a
+2026-03-01 10:02:55,294 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:02:55,613 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): "RRNEE A\nGROSSHANDEL\nE ngenerses Angelat:\n37x 'Neen Seutel\nPre s ars Stun: FEN ’ el\n"
+2026-03-01 10:02:55,965 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:05:13,626 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:05:14,807 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ul ae _ _ _\ grosshandel preis pro stück: $1611 = en u
+2026-03-01 10:05:14,808 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:05:15,255 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'LU U 1\nGROSSHÄNDEL\nE ngenerses Angelat: .\n3x Nee Seel\nPre s ars Szucn: FEN ’ BEE\npt\n'
+2026-03-01 10:05:16,748 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: grosshandel preis pro stück: $1611 = en u
+2026-03-01 10:05:16,748 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:05:17,133 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): "nn 1\nGROSSHÄNDEL\nE ngenerses Angelat:\n37x 'Neen Seutel\nPre s ars Stun: FEN ’ el\nft |\n"
+2026-03-01 10:05:18,664 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: grosshandel rt 37% weed-beutel preis pro stück: $1611 z en en
+2026-03-01 10:05:18,666 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:05:19,088 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'U U 7\nGROSSHÄNDEL\nE ngenerses Angelat: .\n3x Nee Seel\nPre s ars Szucn: FEN ’ BEE\nhatt\n'
+2026-03-01 10:05:20,914 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: el ne _ grosshandel eingehendes angebot:  37x weed-beutel preis pro stück: $161 u] = sırnnsamn
+2026-03-01 10:05:20,915 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:05:21,353 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): "LU U 1\nGROSSHÄNDEL\nE ngenerses Angelat:\n37x 'Neen Seutel\nPre s ars Stun: FEN ’ el\n|\nu vıı 11\n"
+2026-03-01 10:05:21,704 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:06:33,781 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:06:34,778 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: zz ____, grosshandel preis pro stück: $1611 z en) u —
+2026-03-01 10:06:34,778 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:06:35,092 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'UT GT\nGROSSHÄNDEL\nE ngenerses Angelat:\n3x Nee Seel\nPre s ars Szucn: FEN ’ BEE\nnn 1\n'
+2026-03-01 10:06:36,465 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ei 'hendes angebot: 5 = ia = ingehendes angebot 1 = 37x weed-beutel u: preis pro stück: $1611 es ut —h —— _ 1 ————
+2026-03-01 10:06:36,465 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:06:36,800 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'Eingehendes Angebot: — & 2\n37x Weed-Beutel Rn F\nPreis pro Stück: $1611 II\nBen u\nu >\n\nMi nl\n'
+2026-03-01 10:06:36,800 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=37, Preis=1611
+2026-03-01 10:06:36,805 [INFO] SyndicateTool: [-] REJECT: $1611 | Menge: 37
+2026-03-01 10:06:36,808 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-01 10:06:38,465 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:07:08,004 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:07:08,382 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: eingehendes angebot: st 17% weed-beutel we preis pro stück: $1562 . d- — 17 \
+2026-03-01 10:07:10,044 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ensssuann << 1 eingehendes angebot e et 17x weed-beutel a = preis pro stück: $1562 _ r u
+2026-03-01 10:07:10,044 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:07:10,474 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'F u Rem...\n\n\\ = ad\n\nI\nEingehendes Angebot: u r ZI “\n\n17x Weed-Beutel . Do .\nPreis pro Stück: $1562 Du\n‘ R \\\n\\\n\\\n'
+2026-03-01 10:07:10,476 [DEBUG] skills.ocr_skill: [OCR-GH] Menge=17, Preis=1562
+2026-03-01 10:07:10,483 [INFO] SyndicateTool: [-] REJECT: $1562 | Menge: 17
+2026-03-01 10:07:10,484 [WARNING] skills.input_skill: [InputSkill] Aktion unterdrückt: FiveM nicht im Vordergrund.
+2026-03-01 10:07:11,994 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: #⭐〢highteam-chat | bella-city | roleplay - discord) - Bot pausiert.
+2026-03-01 10:07:13,498 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:07:13,952 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: —— a — -grosshande, —| = 17x weed-beutel preis pro stück: $1562 2 11 a binnaarna
+2026-03-01 10:07:14,668 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: eingehendes angebot: 17x weed-beutel preis pro stück: $1562 un‘ a |
+2026-03-01 10:07:15,317 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: — — — |
+2026-03-01 10:07:15,929 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 
+2026-03-01 10:07:16,527 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 
+2026-03-01 10:07:17,305 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: eingehendes angebot: u 17% weed-beutel e preis pro stück: $1562 7 —m—— el __— r onnınunumm peu
+2026-03-01 10:07:18,009 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: f preis pro stück: $1562 m —— u | — me — nr — zz=. oondaninlat >
+2026-03-01 10:07:18,708 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: be se preis pro stück: 81562 1 —— — zu onnınunurr >
+2026-03-01 10:07:19,380 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: be se preis pro stück: 81562 1 —— — zu onnınununr >
+2026-03-01 10:07:20,034 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: be se preis pro stück: 81562 1 —— — zu onnınununr >
+2026-03-01 10:07:20,668 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: 4 % - % ber — oe u preis pro stück: $1562 m
+2026-03-01 10:07:21,342 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: be m - reis pro stück: $1562 be —— ze "a biınnaarna 17
+2026-03-01 10:07:22,040 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: be ce reis pro stück: $1562 re —— ze "a binnaarna di
+2026-03-01 10:07:22,701 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: bi ı -% — be erosshandel > m eingehendes angebot: — 17% weed-beutel preis pro stück: 81562 ä n nn ıtıy —
+2026-03-01 10:07:23,544 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: grosshandel 4 \  simone  17x weed-beute  preis pro stück: $1562  _— 1 er  - #9 tiienmaatenmi be
+2026-03-01 10:07:24,240 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: grosshandel 4 \  simone  17x weed-beute  preis pro stück: $1562  _—, ä 1 art  — w #9 tienmraatemi bo
+2026-03-01 10:07:24,946 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: a u: 1 smandel £ _ u _ wo eingehendes angebot: 17x weed-beutel => preis pro stück: $1562 kenn] 2 nnasstın >
+2026-03-01 10:07:25,657 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u u | = = — re wu r x e— eingehendes angebot: 17x weed-beutel — preis pro stück: $1562 ed, be = ne £
+2026-03-01 10:07:25,960 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: update_exe.bat – notepad) - Bot pausiert.
+2026-03-01 10:08:19,036 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:08:19,532 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: a ir r eee 3 = 5 17x weed-beutel u preis pro stück: 81562 yo _ —
+2026-03-01 10:08:21,128 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ee a —e "a biınnaarna
+2026-03-01 10:08:21,129 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:08:23,549 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ee — a
+2026-03-01 10:08:23,549 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:08:26,103 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: beer“ suaer a en —
+2026-03-01 10:08:26,104 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:08:27,310 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-01 10:08:57,352 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:08:58,503 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ee — ti en em u
+2026-03-01 10:08:58,503 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:00,925 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: | —  a — m an —] —— rnnmaatınnaı
+2026-03-01 10:09:00,925 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:03,235 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: n ne u"  be n u — "a biınnaarmna
+2026-03-01 10:09:03,236 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:05,657 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: m u — "a biınnaarna
+2026-03-01 10:09:05,658 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:07,951 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: u erna nnn de
+2026-03-01 10:09:07,951 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:10,191 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: uf  ee — a de
+2026-03-01 10:09:10,191 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:12,515 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: br - 1 grosshandeef * ©. information > du kannst dieses item nicht tragen zz =  mırnmnmns
+2026-03-01 10:09:12,515 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:14,874 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: y — - 1 =grosshandeef er ©. information > du kannst dieses item nicht tragen zz = rr mırnnaamna
+2026-03-01 10:09:14,875 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:17,211 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ne it a be | 2. riendaaatinmi —
+2026-03-01 10:09:17,211 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:19,545 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: el  ee  nn u
+2026-03-01 10:09:19,546 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:20,757 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: calibration_skill.py - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-01 10:09:29,271 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:09:30,424 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: — er a de
+2026-03-01 10:09:30,424 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:32,802 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ——  = -  — u
+2026-03-01 10:09:32,803 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:35,162 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: en — — in > za be
+2026-03-01 10:09:35,163 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:37,547 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: ie bi 1 = "a biınnaarna en
+2026-03-01 10:09:37,548 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:39,929 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: me en — u u 1562 i  ==  pam, — aa  le
+2026-03-01 10:09:39,931 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:09:41,246 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 10:09:55,562 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ) - Bot pausiert.
+2026-03-01 10:10:26,101 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-01 10:10:27,527 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 10:10:28,770 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: bu 662 —— en b_ fun >  mu
+2026-03-01 10:10:28,771 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:10:30,899 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: kr nr za “
+2026-03-01 10:10:30,899 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:10:32,212 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 10:10:36,154 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 10:10:37,231 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: une eu — ck: 81562 i  t— ==  m.
+2026-03-01 10:10:37,232 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: unknown
+2026-03-01 10:10:38,558 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 10:10:45,125 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 10:10:46,156 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: == — ck: $1562 i a __ —d  _
+2026-03-01 10:10:46,157 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:10:46,519 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'a 5\n.\nE ngenerses Angelat:\nx wWesc DsLte 1 0\nes oc Etuck: S15B2 ER Nuss\nTr —\n'
+2026-03-01 10:10:46,988 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-01 10:10:49,610 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-01 10:10:50,660 [DEBUG] skills.ocr_skill: [OCR-Left] Rohtext: == —  ck: $1562 i n — us  i
+2026-03-01 10:10:50,671 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status erkannt: offer
+2026-03-01 10:10:51,084 [DEBUG] skills.ocr_skill: [OCR-GH] Volltext (Anker-Crop): 'un 5\ns\nE ngenerses Angelat:\nEyesc DeLte 1 0\nes oc Etuck: S15B2 u\nnn ee\n'
+2026-03-01 10:10:51,438 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: #💬〢bugs | bella-city | roleplay - discord) - Bot pausiert.
