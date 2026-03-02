@@ -10104,3 +10104,11 @@
 2026-03-03 00:08:53,982 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: compiler.bat - wizardly-mendel - cursor) - Bot pausiert.
 2026-03-03 00:09:39,358 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
 2026-03-03 00:09:39,359 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
+2026-03-03 00:12:27,455 [DEBUG] SyndicateTool: Programmstart v2.5.6
+2026-03-03 00:12:27,560 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.6 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 00:12:27,693 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 00:12:28,443 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:12:28,444 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 00:12:28,888 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:12:28,888 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 00:12:29,367 [WARNING] skills.auth_skill: [Auth] Gespeicherter Key ungültig – zeige Login.
