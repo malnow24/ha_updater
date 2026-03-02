@@ -10112,3 +10112,371 @@
 2026-03-03 00:12:28,888 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
 2026-03-03 00:12:28,888 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
 2026-03-03 00:12:29,367 [WARNING] skills.auth_skill: [Auth] Gespeicherter Key ungültig – zeige Login.
+2026-03-03 00:19:40,395 [DEBUG] SyndicateTool: Programmstart v2.5.6
+2026-03-03 00:19:40,496 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.6 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 00:19:40,635 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 00:19:41,234 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:19:41,234 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 00:19:58,574 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:19:58,575 [INFO] skills.auth_skill: Speichere Settings in: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 00:19:58,575 [INFO] skills.auth_skill: [Auth] Login erfolgreich.
+2026-03-03 00:24:01,573 [DEBUG] SyndicateTool: Programmstart v2.5.3
+2026-03-03 00:24:01,682 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.3 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 00:24:12,632 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 00:24:13,361 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:24:13,362 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 00:24:13,813 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:24:13,813 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 00:24:14,652 [INFO] SyndicateTool: Syndicate Tool v2.5.3 geladen.
+2026-03-03 00:24:14,652 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-03 00:24:19,049 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-03 00:24:19,049 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 00:24:19,606 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:24:19,606 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:24:20,114 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.4 s).
+2026-03-03 00:24:20,114 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:24:24,911 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '3brechen'
+2026-03-03 00:24:25,433 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.6 s).
+2026-03-03 00:24:25,433 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:24:30,424 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '3brechen'
+2026-03-03 00:24:30,932 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.6 s).
+2026-03-03 00:24:30,933 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:24:35,928 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '3brechen'
+2026-03-03 00:24:36,432 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.6 s).
+2026-03-03 00:24:36,432 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:24:41,401 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:24:41,889 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.6 s).
+2026-03-03 00:24:41,890 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:24:46,913 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:24:47,474 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:24:47,475 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:24:47,779 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:24:47,830 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-03 00:24:47,929 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-03 00:24:48,230 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'RECHEN'...
+2026-03-03 00:24:52,737 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-03 00:24:52,742 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'rechen' -> 4.5s.
+2026-03-03 00:24:53,058 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:24:53,543 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:24:53,545 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:24:58,336 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:24:58,832 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:24:58,834 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:03,619 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:25:04,143 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:25:04,144 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:08,913 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'tWeedverpacken'
+2026-03-03 00:25:08,913 [INFO] SyndicateTool: [KI] Erkannt: 'tweedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:25:09,383 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.4 s).
+2026-03-03 00:25:09,383 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:14,181 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:25:14,568 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:25:14,568 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:19,352 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:25:19,353 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:25:19,751 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.4 s).
+2026-03-03 00:25:19,751 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:24,553 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '3brechen'
+2026-03-03 00:25:25,051 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:25:25,053 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:29,842 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:25:29,843 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:25:30,278 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.4 s).
+2026-03-03 00:25:30,280 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:35,090 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '3brechen'
+2026-03-03 00:25:35,555 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:25:35,555 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:40,346 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:25:40,347 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:25:40,807 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.4 s).
+2026-03-03 00:25:40,808 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:45,615 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: '3brechen'
+2026-03-03 00:25:46,067 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:25:46,068 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:50,859 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:25:50,859 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:25:51,323 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.4 s).
+2026-03-03 00:25:51,323 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:25:56,194 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'LIVE\n1 4\nDLEPL'
+2026-03-03 00:25:56,195 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'live 1 4 dlepl'
+2026-03-03 00:25:57,101 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'LIVE B\nj\nD\n0D Lo\nnarsar\nr\ner'
+2026-03-03 00:25:57,102 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'live b j d 0d lo narsar r er'
+2026-03-03 00:25:57,947 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'kim'
+2026-03-03 00:25:58,815 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'LIVE'
+2026-03-03 00:25:58,816 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'live'
+2026-03-03 00:25:59,692 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'eTds\nLIVE n'
+2026-03-03 00:25:59,694 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'etds live n' -> Zu Favoriten hinzugefügt!
+2026-03-03 00:26:00,054 [INFO] SyndicateTool: [Aktion] 'etds live n' aktiv! Drücke 'E'.
+2026-03-03 00:26:00,055 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:26:00,358 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:26:02,622 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:26:49,551 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-03 00:26:49,837 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:26:49,838 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:26:50,228 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.4 s).
+2026-03-03 00:26:50,229 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:26:55,025 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:26:55,419 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:26:55,420 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:27:00,207 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:27:00,208 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:27:00,557 [INFO] SyndicateTool: [Aktion] 'weed verpacken' aktiv! Drücke 'E'.
+2026-03-03 00:27:00,558 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:27:00,860 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:27:01,109 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-03 00:27:01,360 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'WEED VERPACKEN'...
+2026-03-03 00:27:05,890 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-03 00:27:05,896 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'weed verpacken' -> 4.5s.
+2026-03-03 00:27:06,205 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:27:06,573 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:27:06,575 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:27:11,375 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:27:11,740 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:27:11,740 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:27:12,043 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:27:14,322 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:27:14,612 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:27:14,613 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:27:14,952 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:27:14,953 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:27:19,733 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:27:20,125 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:27:20,125 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:27:20,428 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:27:22,740 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:27:23,016 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:27:23,017 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:27:23,388 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:27:23,389 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:27:28,247 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:27:28,665 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:27:28,665 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:27:28,969 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:27:29,345 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-03 00:27:29,646 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'RECHEN'...
+2026-03-03 00:30:13,811 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-03 00:30:14,158 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:30:14,159 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:30:14,558 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:30:14,558 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:19,358 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:30:19,764 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:30:19,765 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:20,068 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:30:20,118 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-03 00:30:22,310 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:30:22,575 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:30:22,576 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:30:22,959 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:30:22,960 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:27,756 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:30:28,154 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:30:28,154 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:28,458 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:30:30,759 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:30:31,027 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:30:31,028 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:30:31,382 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:30:31,383 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:36,178 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:30:36,571 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:30:36,573 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:36,875 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:30:39,193 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:30:39,470 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:30:39,471 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:30:39,852 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:30:39,852 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:44,654 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:30:45,068 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:30:45,069 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:45,373 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:30:47,688 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:30:48,094 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:30:48,097 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:30:48,543 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:30:48,543 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:53,341 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:30:53,716 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:30:53,716 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:30:54,019 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:30:56,366 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:30:56,703 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:30:56,704 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:30:57,247 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:30:57,250 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:02,103 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:31:02,591 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:31:02,591 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:02,894 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:31:05,188 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:31:05,571 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:31:05,573 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:31:06,022 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:31:06,023 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:10,833 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:31:11,251 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:31:11,251 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:11,555 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:31:13,887 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:31:14,187 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:31:14,188 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:31:14,617 [INFO] SyndicateTool: [Aktion] 'weed verpacken' aktiv! Drücke 'E'.
+2026-03-03 00:31:14,618 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:14,921 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:31:15,177 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-03 00:31:15,420 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'WEED VERPACKEN'...
+2026-03-03 00:31:19,962 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-03 00:31:19,967 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'weed verpacken' -> 4.5s.
+2026-03-03 00:31:20,305 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:31:20,307 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:31:20,715 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:31:20,715 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:25,522 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'Ybrechen'
+2026-03-03 00:31:25,911 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:31:25,912 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:26,215 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:31:28,571 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:31:28,840 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:31:28,843 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:31:29,227 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:31:29,228 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:34,021 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:31:34,425 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:31:34,425 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:34,728 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:31:37,306 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:31:37,307 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:31:37,672 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:31:37,674 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:42,480 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:31:42,896 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:31:42,896 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:43,200 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:31:45,806 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:31:45,807 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:31:46,184 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:31:46,184 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:50,972 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:31:51,376 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:31:51,376 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:51,679 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:31:54,280 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:31:54,284 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:31:54,665 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:31:54,666 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:31:59,450 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:31:59,843 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:31:59,843 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:00,146 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:32:02,739 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:32:02,739 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:32:03,123 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:32:03,125 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:07,920 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:32:08,327 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:32:08,327 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:08,631 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:32:11,258 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:32:11,258 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:32:11,627 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:32:11,628 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:16,454 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:32:16,873 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 00:32:16,874 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:17,177 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:32:17,327 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-03 00:32:17,631 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'RECHEN'...
+2026-03-03 00:32:22,173 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-03 00:32:22,180 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'rechen' -> 4.5s.
+2026-03-03 00:32:22,483 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:32:22,859 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:32:22,860 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:27,647 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:32:28,051 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:32:28,053 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:32,840 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:32:32,842 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:32:33,244 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:32:33,245 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:38,114 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'Boots'
+2026-03-03 00:32:38,115 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'oots'
+2026-03-03 00:32:39,277 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'u cn\nCasino\n139\nQ 118\n162\nBootsShop\n9otsGarageFishing\nBootsGarac\n213214\nj oe ze Faret\nDotsGarage\nBoots\n71\n218\n225\nRallarri\nlaCityTaxi\n210\nBaumarkt\nBank\n216\nAutohaus\nEee\nAufseherY\n3 ATE Angelzone5099\n298 c'
+2026-03-03 00:32:39,279 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'u cn casino 139 q 118 162 bootsshop 9otsgaragefishing bootsgarac 213214 j oe ze faret dotsgarage boots 71 218 225 rallarri lacitytaxi 210 baumarkt bank 216 autohaus eee aufsehery 3 ate angelzone5099 298 c'
+2026-03-03 00:32:40,116 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'Boots'
+2026-03-03 00:32:40,117 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'oots'
+2026-03-03 00:32:41,182 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'FinsteinerAuitonatis\nDepartmentforEnercy\nClotkehrr Ce\nLIVE z PR\nCasino\n152\nCarWash\n23214\nBootsShop\n4 212\n223 Lin\nSE\nEu J\nbilie\n155 AU\nFE\nl\nBank\nAutoha\nAufseher\nan\nAngelzone5099'
+2026-03-03 00:32:41,183 [INFO] SyndicateTool: [Filter] OCR-Müll verworfen: 'finsteinerauitonatis departmentforenercy clotkehrr ce live z pr casino 152 carwash 23214 bootsshop 4 212 223 lin se eu j bilie 155 au fe l bank autoha aufseher an angelzone5099'
+2026-03-03 00:32:42,060 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'Boots\nBau markt\nBank'
+2026-03-03 00:32:42,063 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'oots bau markt bank' -> Zu Favoriten hinzugefügt!
+2026-03-03 00:32:43,203 [INFO] SyndicateTool: [Aktion] 'oots bau markt bank' aktiv! Drücke 'E'.
+2026-03-03 00:32:43,203 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:32:43,506 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:32:45,477 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:34:23,633 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-03 00:34:23,921 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:34:23,922 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:34:24,353 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:34:24,353 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:34:29,143 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:34:29,604 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:34:29,606 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:34:33,743 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-03 00:34:34,036 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:34:34,037 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:34:34,541 [INFO] SyndicateTool: [Aktion] 'weed verpacken' aktiv! Drücke 'E'.
+2026-03-03 00:34:34,542 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:34:34,846 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:34:35,132 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-03 00:34:35,401 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'WEED VERPACKEN'...
+2026-03-03 00:34:39,874 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-03 00:34:39,879 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'weed verpacken' -> 4.5s.
+2026-03-03 00:34:40,165 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:34:40,581 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:34:40,581 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:34:45,368 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:34:45,829 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:34:45,830 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:34:50,619 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:34:50,620 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:34:51,038 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:34:51,039 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:34:55,838 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:34:56,255 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:34:56,256 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:01,033 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:35:01,036 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:35:01,446 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:35:01,447 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:06,241 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:35:06,662 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:35:06,663 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:11,447 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:35:11,447 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:35:11,847 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:35:11,848 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:16,650 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:35:17,063 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:35:17,064 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:21,842 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:35:21,843 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:35:22,251 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:35:22,252 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:27,158 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 00:35:27,595 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'rechen' (4.5 s).
+2026-03-03 00:35:27,596 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:34,091 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'xWeedverpacken'
+2026-03-03 00:35:34,091 [INFO] SyndicateTool: [KI] Erkannt: 'weedverpacken' -> Gemappt auf: 'Weed verpacken'
+2026-03-03 00:35:34,518 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'weed verpacken' (4.5 s).
+2026-03-03 00:35:34,518 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:39,436 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: 'LIVE\nRKULEP'
+2026-03-03 00:35:39,443 [INFO] SyndicateTool: [Auto-Add] Neu erkannt: 'live rkulep' -> Zu Favoriten hinzugefügt!
+2026-03-03 00:35:40,004 [INFO] SyndicateTool: [Aktion] 'live rkulep' aktiv! Drücke 'E'.
+2026-03-03 00:35:40,005 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 00:35:40,307 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 00:35:42,627 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 00:35:42,951 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: '247200'
+2026-03-03 00:35:43,795 [DEBUG] skills.ocr_skill: [OCR] Smart-Text (Fallback) raw_text: '424720'
+2026-03-03 00:36:47,207 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
+2026-03-03 00:36:47,209 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
+2026-03-03 00:36:47,210 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
