@@ -10480,3 +10480,50 @@
 2026-03-03 00:36:47,207 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
 2026-03-03 00:36:47,209 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
 2026-03-03 00:36:47,210 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_3_tesseract.png
+2026-03-03 00:39:43,293 [DEBUG] SyndicateTool: Programmstart v2.5.6
+2026-03-03 00:39:43,397 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.5.6 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 00:39:43,571 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 00:39:44,289 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:39:44,290 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 00:39:44,742 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:39:44,743 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 00:39:45,192 [DEBUG] SyndicateTool: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-03 00:39:45,198 [ERROR] SyndicateTool: CRITICAL ERROR beim Aufbau von Tab 1 (Lieferschein): AdvancedAutoPresser.create_check() missing 1 required positional argument: 'command'
+Traceback (most recent call last):
+  File "main.py", line 254, in setup_gui
+TypeError: AdvancedAutoPresser.create_check() missing 1 required positional argument: 'command'
+2026-03-03 00:39:45,200 [DEBUG] SyndicateTool: Starte Aufbau Tab 2 (Transaktionen)...
+2026-03-03 00:39:45,207 [DEBUG] skills.delivery_skill: Lade 0 Transaktionen in den Treeview (Datei fehlt).
+2026-03-03 00:39:45,208 [DEBUG] SyndicateTool: Tab 2 (Transaktionen): Aufbau erfolgreich.
+2026-03-03 00:39:45,208 [DEBUG] SyndicateTool: Starte Aufbau Tab 3 (Artikelverwaltung)...
+2026-03-03 00:39:45,213 [DEBUG] SyndicateTool: Tab 3 (Artikelverwaltung): Aufbau erfolgreich.
+2026-03-03 00:39:45,214 [DEBUG] SyndicateTool: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-03 00:39:45,215 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-03 00:39:45,620 [INFO] SyndicateTool: Syndicate Tool v2.5.6 geladen.
+2026-03-03 00:39:45,620 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-03 00:40:15,315 [INFO] SyndicateTool: Profil gespeichert.
+2026-03-03 00:40:19,807 [INFO] SyndicateTool: Profil gespeichert.
+2026-03-03 00:43:11,893 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 30
+2026-03-03 00:43:12,098 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 00:43:12,262 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-03 00:43:13,766 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:43:15,928 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:43:18,048 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:43:18,050 [INFO] SyndicateTool: [OCR-Diagnose] Sicht blockiert oder Text unleserlich. Versuche Winkel zu ändern.
+2026-03-03 00:43:20,396 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1535, qty=57, qty_uncertain=False
+2026-03-03 00:43:20,397 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 00:43:20,398 [INFO] SyndicateTool: [-] REJECT: $1535 | Menge: 57
+2026-03-03 00:43:20,400 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-03 00:43:38,566 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:43:38,567 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:43:38,568 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-03 00:43:40,859 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1495, qty=32, qty_uncertain=False
+2026-03-03 00:43:40,864 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 00:43:40,867 [INFO] SyndicateTool: [-] REJECT: $1495 | Menge: 32
+2026-03-03 00:43:40,873 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-03 00:43:58,853 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1513, qty=5, qty_uncertain=False
+2026-03-03 00:43:58,854 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 00:43:58,856 [INFO] SyndicateTool: [-] REJECT: $1513 | Menge: 5
+2026-03-03 00:43:58,863 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-03 00:44:00,517 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: compiler.bat - wizardly-mendel - cursor) - Bot pausiert.
+2026-03-03 00:44:05,590 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
