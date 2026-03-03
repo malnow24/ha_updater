@@ -11674,3 +11674,293 @@ UnboundLocalError: cannot access local variable 'Bv' where it is not associated 
 2026-03-03 03:31:04,602 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
 2026-03-03 03:31:04,604 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
 2026-03-03 03:31:05,035 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:35:23,367 [DEBUG] SyndicateTool: Programmstart v2.9.4
+2026-03-03 03:35:23,491 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.9.4 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 03:35:23,661 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 03:35:24,425 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 03:35:24,425 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 03:35:24,902 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 03:35:24,902 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 03:35:25,043 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:25,497 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:35:25,499 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:25,952 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:35:26,274 [DEBUG] SyndicateTool: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-03 03:35:26,281 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-03 03:35:26,303 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-03 03:35:26,318 [DEBUG] SyndicateTool: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-03 03:35:26,318 [DEBUG] SyndicateTool: Starte Aufbau Tab 2 (Transaktionen)...
+2026-03-03 03:35:26,323 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:26,775 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/transactions.json HTTP/1.1" 200 223
+2026-03-03 03:35:26,778 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:27,221 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-03 03:35:27,224 [DEBUG] SyndicateTool: Tab 2 (Transaktionen): Aufbau erfolgreich.
+2026-03-03 03:35:27,224 [DEBUG] SyndicateTool: Starte Aufbau Tab 3 (Artikelverwaltung)...
+2026-03-03 03:35:27,233 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:27,779 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:35:27,785 [ERROR] SyndicateTool: CRITICAL ERROR beim Aufbau von Tab 3 (Artikelverwaltung): cannot access local variable 'Bv' where it is not associated with a value
+Traceback (most recent call last):
+  File "main.py", line 495, in setup_gui
+UnboundLocalError: cannot access local variable 'Bv' where it is not associated with a value
+2026-03-03 03:35:27,790 [DEBUG] SyndicateTool: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-03 03:35:27,793 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:28,254 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/join_requests.json HTTP/1.1" 200 77
+2026-03-03 03:35:28,257 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:28,691 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/members.json HTTP/1.1" 200 148
+2026-03-03 03:35:28,693 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:29,143 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/vault.json HTTP/1.1" 200 4
+2026-03-03 03:35:29,147 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:29,591 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/storage.json HTTP/1.1" 200 4
+2026-03-03 03:35:29,609 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-03 03:35:29,896 [INFO] SyndicateTool: Syndicate Tool v2.9.4 geladen.
+2026-03-03 03:35:29,896 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-03 03:35:33,952 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:34,386 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:35:34,388 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:34,809 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:35:50,394 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:35:50,832 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:36:02,121 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:02,574 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:36:02,577 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:02,998 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:36:31,154 [DEBUG] SyndicateTool: Programmstart v2.9.4
+2026-03-03 03:36:31,265 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.9.4 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 03:36:31,405 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 03:36:32,158 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 03:36:32,159 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 03:36:32,623 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 03:36:32,623 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 03:36:32,799 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:33,249 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:36:33,251 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:33,692 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:36:34,031 [DEBUG] SyndicateTool: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-03 03:36:34,040 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-03 03:36:34,059 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-03 03:36:34,073 [DEBUG] SyndicateTool: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-03 03:36:34,074 [DEBUG] SyndicateTool: Starte Aufbau Tab 2 (Transaktionen)...
+2026-03-03 03:36:34,079 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:34,522 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/transactions.json HTTP/1.1" 200 223
+2026-03-03 03:36:34,524 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:34,983 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-03 03:36:34,986 [DEBUG] SyndicateTool: Tab 2 (Transaktionen): Aufbau erfolgreich.
+2026-03-03 03:36:34,986 [DEBUG] SyndicateTool: Starte Aufbau Tab 3 (Artikelverwaltung)...
+2026-03-03 03:36:34,993 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:35,438 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:36:35,441 [ERROR] SyndicateTool: CRITICAL ERROR beim Aufbau von Tab 3 (Artikelverwaltung): cannot access local variable 'Bv' where it is not associated with a value
+Traceback (most recent call last):
+  File "main.py", line 495, in setup_gui
+UnboundLocalError: cannot access local variable 'Bv' where it is not associated with a value
+2026-03-03 03:36:35,444 [DEBUG] SyndicateTool: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-03 03:36:35,446 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:35,905 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/join_requests.json HTTP/1.1" 200 77
+2026-03-03 03:36:35,909 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:36,418 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/members.json HTTP/1.1" 200 148
+2026-03-03 03:36:36,423 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:36,861 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/vault.json HTTP/1.1" 200 4
+2026-03-03 03:36:36,865 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:36:37,288 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/storage.json HTTP/1.1" 200 4
+2026-03-03 03:36:37,303 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-03 03:36:37,564 [INFO] SyndicateTool: Syndicate Tool v2.9.4 geladen.
+2026-03-03 03:36:37,564 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-03 03:39:15,866 [DEBUG] SyndicateTool: Programmstart v2.9.4
+2026-03-03 03:39:15,995 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.9.4 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 03:39:16,158 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 03:39:16,855 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 03:39:16,856 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 03:39:17,277 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 03:39:17,277 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 03:39:17,447 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:18,043 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:39:18,046 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:18,704 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:39:19,169 [DEBUG] SyndicateTool: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-03 03:39:19,177 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-03 03:39:19,201 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-03 03:39:19,219 [DEBUG] SyndicateTool: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-03 03:39:19,219 [DEBUG] SyndicateTool: Starte Aufbau Tab 2 (Transaktionen)...
+2026-03-03 03:39:19,226 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:19,826 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/transactions.json HTTP/1.1" 200 223
+2026-03-03 03:39:19,830 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:20,346 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-03 03:39:20,349 [DEBUG] SyndicateTool: Tab 2 (Transaktionen): Aufbau erfolgreich.
+2026-03-03 03:39:20,350 [DEBUG] SyndicateTool: Starte Aufbau Tab 3 (Artikelverwaltung)...
+2026-03-03 03:39:20,360 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:20,882 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:39:20,886 [ERROR] SyndicateTool: CRITICAL ERROR beim Aufbau von Tab 3 (Artikelverwaltung): cannot access local variable 'Bv' where it is not associated with a value
+Traceback (most recent call last):
+  File "main.py", line 495, in setup_gui
+UnboundLocalError: cannot access local variable 'Bv' where it is not associated with a value
+2026-03-03 03:39:20,889 [DEBUG] SyndicateTool: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-03 03:39:20,892 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:21,458 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/join_requests.json HTTP/1.1" 200 77
+2026-03-03 03:39:21,459 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:22,068 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/members.json HTTP/1.1" 200 148
+2026-03-03 03:39:22,075 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:22,627 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/vault.json HTTP/1.1" 200 4
+2026-03-03 03:39:22,630 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:23,152 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/storage.json HTTP/1.1" 200 4
+2026-03-03 03:39:23,177 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-03 03:39:23,513 [INFO] SyndicateTool: Syndicate Tool v2.9.4 geladen.
+2026-03-03 03:39:23,514 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-03 03:39:31,821 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:32,284 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:39:40,738 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:39:41,252 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:39:41,257 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-03 03:39:41,258 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 03:40:23,229 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:40:23,660 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:40:23,664 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:40:24,087 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:40:27,097 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:40:27,583 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:40:27,591 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-03 03:40:28,067 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'tainbeutelabpacken'
+2026-03-03 03:40:28,068 [INFO] SyndicateTool: [KI] Erkannt: 'tainbeutelabpacken' -> Gemappt auf: 'Kokainbeutel abpacken'
+2026-03-03 03:40:28,421 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'kokainbeutel abpacken' (9.3 s).
+2026-03-03 03:40:28,421 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 03:40:37,763 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:40:38,212 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:40:38,515 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'jrechen'
+2026-03-03 03:40:38,889 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 03:40:38,895 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 03:40:39,213 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 03:40:39,271 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1121 Y:1297 verschwunden. Warte auf nächsten Tap.
+2026-03-03 03:40:41,606 [INFO] SyndicateTool: [Info-Box] Allgemeine Info ignoriert, fahre fort....
+2026-03-03 03:40:42,021 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'kainbeutelabpacken'
+2026-03-03 03:40:42,022 [INFO] SyndicateTool: [KI] Erkannt: 'kainbeutelabpacken' -> Gemappt auf: 'Kokainbeutel abpacken'
+2026-03-03 03:40:42,460 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'kokainbeutel abpacken' (9.3 s).
+2026-03-03 03:40:42,461 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 03:40:51,800 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:40:52,482 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:40:52,888 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'brechen'
+2026-03-03 03:40:53,342 [INFO] SyndicateTool: [Aktion] 'rechen' aktiv! Drücke 'E'.
+2026-03-03 03:40:53,342 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 03:40:53,650 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-03 03:40:54,141 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1121 Y:1297 gefunden!
+2026-03-03 03:40:54,480 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'RECHEN'...
+2026-03-03 03:41:24,090 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:41:24,672 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:41:24,675 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:41:25,190 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:41:35,091 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:41:35,589 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:41:35,631 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-03 03:41:36,094 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'N\nokalnextrahleren\na'
+2026-03-03 03:41:36,096 [INFO] SyndicateTool: [KI] Erkannt: 'n okalnextrahleren a' -> Gemappt auf: 'Kokain extrahieren'
+2026-03-03 03:41:36,573 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'kokain extrahieren' (28.3 s).
+2026-03-03 03:41:36,576 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-03 03:42:04,941 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:42:05,383 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:42:25,194 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:42:25,645 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:42:25,649 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:42:26,082 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:42:31,934 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:42:32,372 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:42:33,553 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:42:34,077 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:42:34,969 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:42:35,555 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:43:08,825 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:43:09,326 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:43:09,337 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $15000 | Mindestmenge: 1
+2026-03-03 03:43:09,645 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-03 03:43:10,919 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=555, qty=1, qty_uncertain=False
+2026-03-03 03:43:10,920 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 03:43:10,925 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-03 03:43:13,243 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1, qty_uncertain=False
+2026-03-03 03:43:13,244 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 03:43:13,322 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:43:13,762 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:43:14,922 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:43:15,366 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:43:15,999 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:17,737 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:19,461 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:19,462 [INFO] SyndicateTool: [OCR-Diagnose] Sicht blockiert oder Text unleserlich. Versuche Winkel zu ändern.
+2026-03-03 03:43:21,316 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:23,300 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:25,475 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:26,086 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:43:26,637 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:43:26,640 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:43:27,253 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:43:27,256 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: ) - Bot pausiert.
+2026-03-03 03:43:27,787 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 03:43:29,170 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:31,232 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:33,316 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:35,377 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:37,462 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:39,261 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:41,081 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:42,933 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:43:45,152 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=3, qty_uncertain=False
+2026-03-03 03:44:27,257 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:44:27,757 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:44:27,761 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:44:28,257 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:45:28,261 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:45:28,750 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:45:28,752 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:45:29,215 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:45:49,109 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:45:49,639 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:45:49,642 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:45:50,154 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:46:29,217 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:46:29,844 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:46:29,848 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:46:30,384 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:46:56,963 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:46:57,472 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:47:12,197 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:12,689 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:47:30,391 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:30,900 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:47:30,904 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:31,362 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:47:44,792 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:45,264 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:47:45,268 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:45,765 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:47:46,861 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:47,385 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:47:47,388 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:47,896 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:47:58,427 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:58,858 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:47:58,860 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:47:59,286 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:48:02,986 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:48:03,423 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:48:03,427 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:48:03,927 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:48:31,365 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:48:31,787 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:48:31,790 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:48:32,226 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:48:51,687 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:48:52,143 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:48:52,145 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:48:52,621 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:49:32,229 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:49:32,683 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:49:32,685 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:49:33,119 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:49:33,772 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:49:34,239 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:49:42,495 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:49:43,009 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:49:43,013 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:49:43,514 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-03 03:49:58,618 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:49:59,054 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:50:04,254 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 03:50:04,796 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-03 03:50:05,039 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_1_crop.png
+2026-03-03 03:50:05,040 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_2_mask.png
+2026-03-03 03:50:05,041 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
