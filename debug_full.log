@@ -10667,3 +10667,48 @@ TypeError: AdvancedAutoPresser.create_check() missing 1 required positional argu
 2026-03-03 01:07:26,297 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
 2026-03-03 01:07:26,646 [INFO] SyndicateTool: Syndicate Tool v2.7.0 geladen.
 2026-03-03 01:07:26,646 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-03 01:26:37,292 [DEBUG] SyndicateTool: Programmstart v2.8.0
+2026-03-03 01:26:37,393 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.8.0 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 01:26:37,536 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 01:26:38,258 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 01:26:38,259 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 01:26:38,708 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 01:26:38,709 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 01:26:39,295 [DEBUG] SyndicateTool: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-03 01:26:39,302 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:26:39,323 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:26:39,327 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:26:39,332 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:26:39,337 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:26:39,343 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:26:39,359 [DEBUG] SyndicateTool: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-03 01:26:39,360 [DEBUG] SyndicateTool: Starte Aufbau Tab 2 (Transaktionen)...
+2026-03-03 01:26:39,374 [DEBUG] skills.delivery_skill: Lade 0 Transaktionen in den Treeview (Datei fehlt).
+2026-03-03 01:26:39,375 [DEBUG] SyndicateTool: Tab 2 (Transaktionen): Aufbau erfolgreich.
+2026-03-03 01:26:39,376 [DEBUG] SyndicateTool: Starte Aufbau Tab 3 (Artikelverwaltung)...
+2026-03-03 01:26:39,402 [DEBUG] SyndicateTool: Tab 3 (Artikelverwaltung): Aufbau erfolgreich.
+2026-03-03 01:26:39,403 [DEBUG] SyndicateTool: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-03 01:26:39,407 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-03 01:26:39,909 [INFO] SyndicateTool: Syndicate Tool v2.8.0 geladen.
+2026-03-03 01:26:39,909 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-03 01:27:06,809 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:07,261 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/d2c83e627ed44991b610b8214409ad45/members/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 39
+2026-03-03 01:27:07,264 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:07,684 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/d2c83e627ed44991b610b8214409ad45/inventory.json HTTP/1.1" 200 4
+2026-03-03 01:27:07,686 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:08,113 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/d2c83e627ed44991b610b8214409ad45/transactions.json HTTP/1.1" 200 4
+2026-03-03 01:27:08,116 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:08,543 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/d2c83e627ed44991b610b8214409ad45/join_requests.json HTTP/1.1" 200 4
+2026-03-03 01:27:08,546 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:08,973 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/d2c83e627ed44991b610b8214409ad45/inventory.json HTTP/1.1" 200 756
+2026-03-03 01:27:08,975 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:09,400 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/d2c83e627ed44991b610b8214409ad45/members/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 39
+2026-03-03 01:27:09,403 [INFO] SyndicateTool: Familie gegründet. Code: d2c83e627ed44991b610b8214409ad45
+2026-03-03 01:27:09,412 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:09,833 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/d2c83e627ed44991b610b8214409ad45/join_requests.json HTTP/1.1" 200 4
+2026-03-03 01:27:09,835 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:10,260 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/d2c83e627ed44991b610b8214409ad45/members.json HTTP/1.1" 200 76
+2026-03-03 01:27:24,695 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:25,103 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/d2c83e627ed44991b610b8214409ad45/inventory.json HTTP/1.1" 200 756
+2026-03-03 01:27:31,426 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-03 01:27:32,023 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/d2c83e627ed44991b610b8214409ad45/inventory.json HTTP/1.1" 200 756
