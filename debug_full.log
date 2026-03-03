@@ -10527,3 +10527,119 @@ TypeError: AdvancedAutoPresser.create_check() missing 1 required positional argu
 2026-03-03 00:43:58,863 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
 2026-03-03 00:44:00,517 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: compiler.bat - wizardly-mendel - cursor) - Bot pausiert.
 2026-03-03 00:44:05,590 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
+2026-03-03 00:48:54,627 [DEBUG] SyndicateTool: Programmstart v2.6.0
+2026-03-03 00:48:54,781 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.6.0 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 00:48:54,987 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 00:48:55,769 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:48:55,770 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 00:48:56,229 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 00:48:56,229 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 00:48:56,884 [DEBUG] SyndicateTool: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-03 00:48:56,894 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 00:48:56,915 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 00:48:56,919 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 00:48:56,926 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 00:48:56,930 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 00:48:56,935 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 00:48:56,952 [DEBUG] SyndicateTool: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-03 00:48:56,953 [DEBUG] SyndicateTool: Starte Aufbau Tab 2 (Transaktionen)...
+2026-03-03 00:48:56,960 [DEBUG] skills.delivery_skill: Lade 0 Transaktionen in den Treeview (Datei fehlt).
+2026-03-03 00:48:56,961 [DEBUG] SyndicateTool: Tab 2 (Transaktionen): Aufbau erfolgreich.
+2026-03-03 00:48:56,961 [DEBUG] SyndicateTool: Starte Aufbau Tab 3 (Artikelverwaltung)...
+2026-03-03 00:48:56,968 [DEBUG] SyndicateTool: Tab 3 (Artikelverwaltung): Aufbau erfolgreich.
+2026-03-03 00:48:56,968 [DEBUG] SyndicateTool: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-03 00:48:56,968 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-03 00:48:57,456 [INFO] SyndicateTool: Syndicate Tool v2.6.0 geladen.
+2026-03-03 00:48:57,457 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-03 00:49:40,113 [DEBUG] skills.delivery_skill: Lade 0 Transaktionen in den Treeview (Datei fehlt).
+2026-03-03 00:50:30,820 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-03 00:50:35,691 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-03 00:50:37,867 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-03 00:51:15,333 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-03 00:51:24,717 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-03 00:53:43,359 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 30
+2026-03-03 00:53:43,561 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 00:53:43,793 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-03 00:53:45,475 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=855, qty=1, qty_uncertain=False
+2026-03-03 00:53:45,476 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:53:45,478 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-03 00:53:48,063 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=855, qty=1, qty_uncertain=False
+2026-03-03 00:53:50,205 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=655, qty=1, qty_uncertain=False
+2026-03-03 00:53:50,207 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:53:50,208 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-03 00:53:53,003 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:53:53,004 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:53:55,416 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:53:55,416 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:53:58,194 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1780, qty=26, qty_uncertain=False
+2026-03-03 00:53:58,196 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 00:53:58,201 [DEBUG] skills.bot_loops: [Debug] Qty-Match-Source: '26x'
+2026-03-03 00:53:58,202 [INFO] SyndicateTool: [-] REJECT: $1780 | Menge: 26
+2026-03-03 00:53:58,205 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-03 00:54:05,194 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-03 00:58:58,216 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 00:59:02,741 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1055, qty=1, qty_uncertain=True
+2026-03-03 00:59:02,743 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 00:59:05,081 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1514, qty=1, qty_uncertain=True
+2026-03-03 00:59:05,082 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 30
+2026-03-03 00:59:05,082 [INFO] SyndicateTool: [-] REJECT: $1514 | Menge: 1
+2026-03-03 00:59:05,089 [INFO] skills.input_skill: [InputSkill] Aktion: 'pagedown' Taste getappt.
+2026-03-03 00:59:06,962 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=555, qty=1, qty_uncertain=False
+2026-03-03 00:59:06,962 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:59:06,965 [INFO] SyndicateTool: Warte auf Kunden...
+2026-03-03 00:59:09,749 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:59:09,750 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:59:12,426 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=200, qty=1, qty_uncertain=False
+2026-03-03 00:59:12,429 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:59:15,010 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:59:15,011 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:59:17,552 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:59:17,552 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:59:19,155 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-03 00:59:20,009 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:59:20,010 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:59:21,159 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 00:59:22,863 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=waiting, price=550, qty=1, qty_uncertain=False
+2026-03-03 00:59:22,864 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: waiting
+2026-03-03 00:59:23,603 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=unknown, price=None, qty=1, qty_uncertain=False
+2026-03-03 00:59:25,553 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1712, qty=36, qty_uncertain=False
+2026-03-03 00:59:25,554 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 00:59:25,558 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1712 | Menge: 36 - Alarm ausgelöst, warte auf Spieler...
+2026-03-03 00:59:26,283 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=None, qty=36, qty_uncertain=False
+2026-03-03 00:59:26,283 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 00:59:26,287 [INFO] SyndicateTool: [OCR-Rohtext] SPRECHE INS ETTI DSB = ET Da ne  Eingehendes’Angebot: mic t36x\Weed-Beutel Ge nn . u . - Br ” m en u „-. em _ er” Be EP I m TFT Su ınezeie TE in a
+2026-03-03 00:59:26,291 [INFO] SyndicateTool: [OCR-Warning] Preis konnte nicht präzise gelesen werden, warte auf besseren Scan...
+2026-03-03 00:59:26,803 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-03 00:59:32,024 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 00:59:32,172 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:81 Y:694 verschwunden. Warte auf nächsten Tap.
+2026-03-03 00:59:32,173 [INFO] SyndicateTool: [Manual] Menü wurde vom Spieler geschlossen oder Deal manuell angenommen.
+2026-03-03 00:59:33,389 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-03 01:00:54,253 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 01:01:09,697 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-03 01:02:13,512 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-03 01:02:44,211 [INFO] SyndicateTool: [Hotkey] Start verweigert: FiveM nicht im Vordergrund!
+2026-03-03 01:05:19,546 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 30
+2026-03-03 01:05:19,751 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 01:05:19,920 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(220,40,40) bei X:81 Y:694 gefunden!
+2026-03-03 01:05:21,341 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1712, qty=36, qty_uncertain=False
+2026-03-03 01:05:21,344 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 01:05:21,350 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1712 | Menge: 36 - Alarm ausgelöst, warte auf Spieler...
+2026-03-03 01:05:23,893 [INFO] SyndicateTool: Scanner aktiv (Semi-Auto). Target: $1700 | Mindestmenge: 30
+2026-03-03 01:05:25,531 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1712, qty=36, qty_uncertain=False
+2026-03-03 01:05:25,532 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 01:05:25,539 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1712 | Menge: 36 - Alarm ausgelöst, warte auf Spieler...
+2026-03-03 01:05:26,878 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-03 01:05:28,884 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 01:05:39,419 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-03 01:05:44,927 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-03 01:05:47,017 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=offer, price=1712, qty=36, qty_uncertain=False
+2026-03-03 01:05:47,018 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: offer
+2026-03-03 01:05:47,021 [INFO] SyndicateTool: [+] DEAL GEFUNDEN: $1712 | Menge: 36 - Alarm ausgelöst, warte auf Spieler...
+2026-03-03 01:06:03,602 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=828, qty=1, qty_uncertain=False
+2026-03-03 01:06:03,604 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-03 01:06:07,067 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1, qty_uncertain=False
+2026-03-03 01:06:07,070 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-03 01:06:10,178 [DEBUG] skills.ocr_skill: [OCR] Ein-Scan: status=deal_active, price=None, qty=1, qty_uncertain=False
+2026-03-03 01:06:10,179 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
+2026-03-03 01:06:12,394 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
+2026-03-03 01:06:24,806 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
