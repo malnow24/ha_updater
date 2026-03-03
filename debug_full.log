@@ -10643,3 +10643,27 @@ TypeError: AdvancedAutoPresser.create_check() missing 1 required positional argu
 2026-03-03 01:06:10,179 [DEBUG] skills.bot_loops: [Auto-Detect] Menü aktiv. Status: deal_active
 2026-03-03 01:06:12,394 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: google gemini – opera) - Bot pausiert.
 2026-03-03 01:06:24,806 [DEBUG] SyndicateTool: [Cleanup] Gelöscht: debug_ocr.png
+2026-03-03 01:07:24,206 [DEBUG] SyndicateTool: Programmstart v2.7.0
+2026-03-03 01:07:24,324 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.7.0 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-03 01:07:24,487 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-03 01:07:25,202 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 01:07:25,203 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-03 01:07:25,616 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-03 01:07:25,616 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-03 01:07:26,202 [DEBUG] SyndicateTool: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-03 01:07:26,212 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:07:26,242 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:07:26,251 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:07:26,258 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:07:26,264 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:07:26,268 [DEBUG] skills.delivery_skill: Lade 8 Artikel in das Dropdown.
+2026-03-03 01:07:26,279 [DEBUG] SyndicateTool: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-03 01:07:26,279 [DEBUG] SyndicateTool: Starte Aufbau Tab 2 (Transaktionen)...
+2026-03-03 01:07:26,285 [DEBUG] skills.delivery_skill: Lade 0 Transaktionen in den Treeview (Datei fehlt).
+2026-03-03 01:07:26,286 [DEBUG] SyndicateTool: Tab 2 (Transaktionen): Aufbau erfolgreich.
+2026-03-03 01:07:26,286 [DEBUG] SyndicateTool: Starte Aufbau Tab 3 (Artikelverwaltung)...
+2026-03-03 01:07:26,295 [DEBUG] SyndicateTool: Tab 3 (Artikelverwaltung): Aufbau erfolgreich.
+2026-03-03 01:07:26,295 [DEBUG] SyndicateTool: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-03 01:07:26,297 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-03 01:07:26,646 [INFO] SyndicateTool: Syndicate Tool v2.7.0 geladen.
+2026-03-03 01:07:26,646 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
