@@ -17434,3 +17434,354 @@ UnboundLocalError: cannot access local variable 'Bv' where it is not associated 
 2026-03-05 20:26:05,946 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /tool_presence/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 62
 2026-03-05 20:26:06,196 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
 2026-03-05 20:26:07,357 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /tool_presence/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 63
+2026-03-05 22:11:58,259 [DEBUG] SyndicateTool: Programmstart v5.3.0
+2026-03-05 22:11:58,865 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v5.3.0 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-05 22:11:59,145 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-05 22:12:00,095 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-05 22:12:00,100 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-05 22:12:00,715 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-05 22:12:00,715 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-05 22:12:00,863 [INFO] SyndicateTool: [Settings] Loaded from disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3)
+2026-03-05 22:12:00,864 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:12:01,292 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:12:01,319 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-05 22:12:01,475 [INFO] SyndicateTool: Syndicate Tool v5.3.3 geladen.
+2026-03-05 22:12:01,475 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-05 22:12:01,475 [INFO] SyndicateTool: [Stability] Ghost-Mode fade duration optimized for thread safety.
+2026-03-05 22:12:01,475 [INFO] SyndicateTool: [System] UI-Blueprinting moved to manual/startup trigger to prevent overflows.
+2026-03-05 22:12:01,659 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:12:01,667 [INFO] SyndicateTool: [Interaction] Mode Changed >> Processing sub-mode -> text_ocr
+2026-03-05 22:12:01,667 [INFO] SyndicateTool: [UI-Main] Processing sub-mode changed to: text_ocr
+2026-03-05 22:12:01,668 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:12:01,694 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:12:01,699 [INFO] SyndicateTool: [UI] Table rebuilt with 3 items
+2026-03-05 22:12:01,713 [DEBUG] ui.tab_lieferschein: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-05 22:12:01,902 [DEBUG] ui.tab_lieferschein: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-05 22:12:01,933 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/transactions.json HTTP/1.1" 200 223
+2026-03-05 22:12:01,967 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-05 22:12:02,002 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:12:02,004 [DEBUG] ui.tab_family: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-05 22:12:02,034 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/join_requests.json HTTP/1.1" 200 154
+2026-03-05 22:12:02,064 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/members.json HTTP/1.1" 200 221
+2026-03-05 22:12:02,094 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/vault.json HTTP/1.1" 200 36
+2026-03-05 22:12:02,121 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/storage.json HTTP/1.1" 200 4
+2026-03-05 22:12:02,136 [DEBUG] ui.tab_family: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-05 22:12:02,179 [INFO] SyndicateTool: [Interaction] Tab Change >> View -> Dashboard
+2026-03-05 22:12:02,520 [INFO] SyndicateTool: [UI] Magnet-Reset: Snapped to 987x640
+2026-03-05 22:12:02,549 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /tool_presence/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 62
+2026-03-05 22:12:02,622 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-05 22:12:06,476 [INFO] SyndicateTool: [UI-Mapper] Generated new blueprint for analysis.
+2026-03-05 22:12:06,629 [INFO] skills.ui_mapper_skill: [UIMapperSkill] Blueprint saved: ui_blueprint.json
+2026-03-05 22:12:16,688 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:12:25,072 [INFO] SyndicateTool: [Focus] New Foreground: ghost=False (title contains 'syndicate'=True)
+2026-03-05 22:12:25,097 [INFO] SyndicateTool: [UI-Mini] Switching tab to: text_ocr
+2026-03-05 22:12:25,099 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:12:25,126 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:12:25,186 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 1.0 (enable=False)
+2026-03-05 22:12:25,446 [INFO] SyndicateTool: [Ghost] Alpha transition end: 1.0
+2026-03-05 22:12:31,712 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:12:32,587 [INFO] SyndicateTool: [Focus] New Foreground: ghost=True (title contains 'syndicate'=False)
+2026-03-05 22:12:32,687 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 0.85 (enable=True)
+2026-03-05 22:12:32,889 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:12:46,740 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:13:01,764 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:13:01,816 [INFO] SyndicateTool: [Interaction] Button Clicked >> Start/Stop -> Start
+2026-03-05 22:13:01,817 [INFO] SyndicateTool: [Bot] Toggle: starting (Mini-Mode).
+2026-03-05 22:13:01,820 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:13:01,846 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:13:01,848 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 0.85 (enable=True)
+2026-03-05 22:13:02,055 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:13:02,169 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-05 22:13:02,170 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-05 22:13:02,170 [INFO] SyndicateTool: [State 0] Scanning screen for Smart-Text...
+2026-03-05 22:13:02,256 [INFO] skills.ocr_skill: [Vision] OCR Scan ROI: x=1228, y=704, w=161, h=41
+2026-03-05 22:13:02,257 [INFO] skills.ocr_skill: [Vision] OCR: 50%% resolution downscale applied for Tesseract.
+2026-03-05 22:13:02,552 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'akalnertranieren'
+2026-03-05 22:13:02,553 [INFO] SyndicateTool: [Logic] OCR raw -> mapped: 'akalnertranieren' -> 'Kokain extrahieren'
+2026-03-05 22:13:02,553 [INFO] SyndicateTool: [Logic] OCR Similarity: 94% match for 'kokain extrahieren'
+2026-03-05 22:13:02,869 [INFO] SyndicateTool: [Logic] Material check: OK for 'kokain extrahieren'
+2026-03-05 22:13:02,870 [INFO] SyndicateTool: [Aktion] 'kokain extrahieren' aktiv! Drücke 'E'.
+2026-03-05 22:13:02,871 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:13:03,174 [INFO] SyndicateTool: [KI] Prüfe auf Erfolg...
+2026-03-05 22:13:03,227 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1120 Y:1296 verschwunden. Warte auf nächsten Tap.
+2026-03-05 22:13:04,509 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1120 Y:1296 gefunden!
+2026-03-05 22:13:04,770 [INFO] SyndicateTool: [KI-Lernen] Messe Dauer für 'KOKAIN EXTRAHIEREN'...
+2026-03-05 22:13:04,771 [INFO] SyndicateTool: [UI] Table rebuilt with 3 items
+2026-03-05 22:13:16,815 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:13:31,882 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:13:33,256 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1120 Y:1296 verschwunden. Warte auf nächsten Tap.
+2026-03-05 22:13:33,257 [INFO] SyndicateTool: [Measurement] Cycle duration for 'kokain extrahieren': 28.5s
+2026-03-05 22:13:33,261 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:13:33,287 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:13:33,288 [INFO] SyndicateTool: [UI] Table rebuilt with 3 items
+2026-03-05 22:13:33,298 [INFO] SyndicateTool: [KI] Neuer Prozess gelernt: 'kokain extrahieren' -> 28.5s.
+2026-03-05 22:13:33,299 [INFO] SyndicateTool: [State 0] Scanning screen for Smart-Text...
+2026-03-05 22:13:33,366 [INFO] skills.ocr_skill: [Vision] OCR Scan ROI: x=1228, y=704, w=161, h=41
+2026-03-05 22:13:33,367 [INFO] skills.ocr_skill: [Vision] OCR: 50%% resolution downscale applied for Tesseract.
+2026-03-05 22:13:33,563 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'akalnertrahleren'
+2026-03-05 22:13:33,565 [INFO] SyndicateTool: [Logic] OCR raw -> mapped: 'akalnertrahleren' -> 'Kokain extrahieren'
+2026-03-05 22:13:33,566 [INFO] SyndicateTool: [Logic] OCR Similarity: 94% match for 'kokain extrahieren'
+2026-03-05 22:13:33,891 [INFO] SyndicateTool: [Logic] Material check: OK for 'kokain extrahieren'
+2026-03-05 22:13:33,893 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'kokain extrahieren' (28.5 s). Blind-Loop aktiv.
+2026-03-05 22:13:33,894 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:13:33,996 [INFO] SyndicateTool: [State 1] Found 'kokain extrahieren'. Entering hybrid wait...
+2026-03-05 22:13:46,907 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:14:01,347 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1120 Y:1296 gefunden!
+2026-03-05 22:14:01,348 [INFO] SyndicateTool: [State 2] Waiting for pixel at 1120,1296 to vanish...
+2026-03-05 22:14:01,933 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:14:04,198 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1120 Y:1296 verschwunden. Warte auf nächsten Tap.
+2026-03-05 22:14:04,299 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:14:05,202 [INFO] SyndicateTool: [State 4] Checking Info-Box for errors...
+2026-03-05 22:14:05,457 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:14:05,485 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:14:17,001 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:14:32,027 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:14:32,836 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1120 Y:1296 gefunden!
+2026-03-05 22:14:32,836 [INFO] SyndicateTool: [State 2] Waiting for pixel at 1120,1296 to vanish...
+2026-03-05 22:14:34,640 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1120 Y:1296 verschwunden. Warte auf nächsten Tap.
+2026-03-05 22:14:34,742 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:14:35,645 [INFO] SyndicateTool: [State 4] Checking Info-Box for errors...
+2026-03-05 22:14:35,899 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:14:35,925 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:14:47,054 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:15:02,081 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:15:03,278 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1120 Y:1296 gefunden!
+2026-03-05 22:15:03,278 [INFO] SyndicateTool: [State 2] Waiting for pixel at 1120,1296 to vanish...
+2026-03-05 22:15:04,979 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1120 Y:1296 verschwunden. Warte auf nächsten Tap.
+2026-03-05 22:15:05,081 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:15:05,983 [INFO] SyndicateTool: [State 4] Checking Info-Box for errors...
+2026-03-05 22:15:06,179 [INFO] SyndicateTool: [Interaction] Button Clicked >> Start/Stop -> Stop
+2026-03-05 22:15:06,179 [INFO] SyndicateTool: [Bot] Toggle: stopping (Hotkey/UI).
+2026-03-05 22:15:06,254 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:15:06,279 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:15:06,280 [INFO] SyndicateTool: [System] Bot-Thread erfolgreich beendet.
+2026-03-05 22:15:17,107 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:15:25,704 [INFO] SyndicateTool: [Focus] New Foreground: ghost=False (title contains 'syndicate'=True)
+2026-03-05 22:15:25,804 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 1.0 (enable=False)
+2026-03-05 22:15:26,015 [INFO] SyndicateTool: [Ghost] Alpha transition end: 1.0
+2026-03-05 22:15:31,917 [INFO] SyndicateTool: [UI-Mini] Switching tab to: interval
+2026-03-05 22:15:31,919 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:15:31,945 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:15:32,134 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:15:35,047 [INFO] SyndicateTool: [UI-Mini] Switching tab to: pixel
+2026-03-05 22:15:35,048 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=pixel)
+2026-03-05 22:15:35,075 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:15:35,854 [INFO] SyndicateTool: [UI-Mini] Switching tab to: interval
+2026-03-05 22:15:35,855 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:15:35,880 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:15:36,532 [INFO] SyndicateTool: [UI-Mini] Switching tab to: pixel
+2026-03-05 22:15:36,533 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=pixel)
+2026-03-05 22:15:36,558 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:15:47,161 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:16:02,188 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:16:03,822 [INFO] SyndicateTool: [UI-Mini] Drag started.
+2026-03-05 22:16:05,174 [INFO] SyndicateTool: [UI-Mini] Drag ended.
+2026-03-05 22:16:06,181 [INFO] SyndicateTool: [UI-Mini] Drag started.
+2026-03-05 22:16:06,301 [INFO] SyndicateTool: [UI-Mini] Drag ended.
+2026-03-05 22:16:06,652 [INFO] SyndicateTool: [UI-Mini] Switching tab to: interval
+2026-03-05 22:16:06,654 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:16:06,679 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:08,652 [INFO] SyndicateTool: [UI-Mini] Switching tab to: text_ocr
+2026-03-05 22:16:08,653 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:16:08,679 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:10,388 [INFO] SyndicateTool: [UI-Mini] Switching tab to: interval
+2026-03-05 22:16:10,389 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:16:10,416 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:15,695 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:16:15,722 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:16,366 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:16:16,393 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:16,550 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:16:16,574 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:16,708 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:16:16,734 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:16,853 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:16:16,879 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:17,213 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:16:20,981 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=interval)
+2026-03-05 22:16:21,007 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:22,354 [INFO] SyndicateTool: [UI-Mini] Switching tab to: pixel
+2026-03-05 22:16:22,355 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=pixel)
+2026-03-05 22:16:22,381 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:23,740 [INFO] SyndicateTool: [Focus] New Foreground: ghost=True (title contains 'syndicate'=False)
+2026-03-05 22:16:23,841 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 0.85 (enable=True)
+2026-03-05 22:16:24,044 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:16:27,243 [INFO] SyndicateTool: [Focus] New Foreground: ghost=False (title contains 'syndicate'=True)
+2026-03-05 22:16:27,343 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 1.0 (enable=False)
+2026-03-05 22:16:27,551 [INFO] SyndicateTool: [Ghost] Alpha transition end: 1.0
+2026-03-05 22:16:28,673 [INFO] SyndicateTool: [UI-Mini] Switching tab to: text_ocr
+2026-03-05 22:16:28,675 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:16:28,702 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:29,264 [INFO] SyndicateTool: [UI-Mini] Switching tab to: pixel
+2026-03-05 22:16:29,265 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=pixel)
+2026-03-05 22:16:29,292 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:32,241 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:16:34,746 [INFO] SyndicateTool: [Focus] New Foreground: ghost=True (title contains 'syndicate'=False)
+2026-03-05 22:16:34,847 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 0.85 (enable=True)
+2026-03-05 22:16:35,049 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:16:36,061 [INFO] SyndicateTool: [Interaction] Button Clicked >> Start/Stop -> Start
+2026-03-05 22:16:36,062 [INFO] SyndicateTool: [Bot] Toggle: starting (Mini-Mode).
+2026-03-05 22:16:36,065 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=pixel)
+2026-03-05 22:16:36,089 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:16:36,094 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 0.85 (enable=True)
+2026-03-05 22:16:36,246 [INFO] SyndicateTool: [Focus] New Foreground: ghost=False (title contains 'syndicate'=True)
+2026-03-05 22:16:36,311 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:16:36,348 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 1.0 (enable=False)
+2026-03-05 22:16:36,471 [INFO] SyndicateTool: [Logic] Pixel: At (1120,1296) current RGB(96,93,90), expected (223, 49, 49), tolerance 15
+2026-03-05 22:16:36,472 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:16:36,626 [INFO] SyndicateTool: [Ghost] Alpha transition end: 1.0
+2026-03-05 22:16:36,761 [INFO] SyndicateTool: [Focus] New Foreground: ghost=True (title contains 'syndicate'=False)
+2026-03-05 22:16:36,862 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 0.85 (enable=True)
+2026-03-05 22:16:37,129 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:16:38,103 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1120 Y:1296 gefunden!
+2026-03-05 22:16:38,105 [INFO] SyndicateTool: [Logic] Pixel: Color match -> Decision: Wait for color change (Press E when done)
+2026-03-05 22:16:41,086 [INFO] skills.window_skill: [WindowSkill] Fokus verloren (Aktuell: programmumschaltung) - Bot pausiert.
+2026-03-05 22:16:42,296 [INFO] SyndicateTool: [Focus] New Foreground: ghost=False (title contains 'syndicate'=True)
+2026-03-05 22:16:42,397 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 1.0 (enable=False)
+2026-03-05 22:16:42,588 [INFO] skills.window_skill: [WindowSkill] Spielfenster erkannt - Bot aktiv.
+2026-03-05 22:16:42,627 [INFO] SyndicateTool: [Ghost] Alpha transition end: 1.0
+2026-03-05 22:16:47,268 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:16:49,833 [INFO] SyndicateTool: [Focus] New Foreground: ghost=True (title contains 'syndicate'=False)
+2026-03-05 22:16:49,933 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 0.85 (enable=True)
+2026-03-05 22:16:50,181 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:16:51,777 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1120 Y:1296 verschwunden. Warte auf nächsten Tap.
+2026-03-05 22:16:51,778 [INFO] SyndicateTool: [Logic] Pixel: Color changed -> success, next cycle
+2026-03-05 22:16:52,323 [INFO] SyndicateTool: [Logic] Pixel: At (1120,1296) current RGB(107,101,98), expected (223, 49, 49), tolerance 15
+2026-03-05 22:16:52,324 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:16:53,928 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1120 Y:1296 gefunden!
+2026-03-05 22:16:53,929 [INFO] SyndicateTool: [Logic] Pixel: Color match -> Decision: Wait for color change (Press E when done)
+2026-03-05 22:16:56,678 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1120 Y:1296 verschwunden. Warte auf nächsten Tap.
+2026-03-05 22:16:56,679 [INFO] SyndicateTool: [Logic] Pixel: Color changed -> success, next cycle
+2026-03-05 22:16:57,224 [INFO] SyndicateTool: [Logic] Pixel: At (1120,1296) current RGB(100,96,93), expected (223, 49, 49), tolerance 15
+2026-03-05 22:16:57,224 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:16:58,843 [INFO] skills.vision_skill: [VisionSkill] Ziel-Pixel RGB(223,49,49) bei X:1120 Y:1296 gefunden!
+2026-03-05 22:16:58,844 [INFO] SyndicateTool: [Logic] Pixel: Color match -> Decision: Wait for color change (Press E when done)
+2026-03-05 22:17:00,388 [INFO] SyndicateTool: [Interaction] Button Clicked >> Start/Stop -> Stop
+2026-03-05 22:17:00,389 [INFO] SyndicateTool: [Bot] Toggle: stopping (Hotkey/UI).
+2026-03-05 22:17:00,892 [INFO] SyndicateTool: [System] Bot-Thread erfolgreich beendet.
+2026-03-05 22:17:02,295 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:17:02,388 [INFO] SyndicateTool: [Focus] New Foreground: ghost=False (title contains 'syndicate'=True)
+2026-03-05 22:17:02,489 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 1.0 (enable=False)
+2026-03-05 22:17:02,700 [INFO] SyndicateTool: [Ghost] Alpha transition end: 1.0
+2026-03-05 22:17:02,890 [INFO] SyndicateTool: [Focus] New Foreground: ghost=True (title contains 'syndicate'=False)
+2026-03-05 22:17:02,991 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 0.85 (enable=True)
+2026-03-05 22:17:03,194 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:17:04,391 [INFO] SyndicateTool: [Focus] New Foreground: ghost=False (title contains 'syndicate'=True)
+2026-03-05 22:17:04,491 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 1.0 (enable=False)
+2026-03-05 22:17:04,695 [INFO] SyndicateTool: [Ghost] Alpha transition end: 1.0
+2026-03-05 22:17:10,841 [INFO] SyndicateTool: [UI-Mini] Switching tab to: text_ocr
+2026-03-05 22:17:10,843 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:17:10,869 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:17:12,407 [INFO] SyndicateTool: [Focus] New Foreground: ghost=True (title contains 'syndicate'=False)
+2026-03-05 22:17:12,506 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 0.85 (enable=True)
+2026-03-05 22:17:12,709 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:17:17,323 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:17:19,645 [INFO] SyndicateTool: [Interaction] Button Clicked >> Start/Stop -> Start
+2026-03-05 22:17:19,646 [INFO] SyndicateTool: [Bot] Toggle: starting (Mini-Mode).
+2026-03-05 22:17:19,649 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:17:19,676 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:17:19,678 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 0.85 (enable=True)
+2026-03-05 22:17:19,887 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:17:20,000 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-05 22:17:20,001 [INFO] SyndicateTool: [State 0] Scanning screen for Smart-Text...
+2026-03-05 22:17:20,075 [INFO] skills.ocr_skill: [Vision] OCR Scan ROI: x=1245, y=723, w=162, h=36
+2026-03-05 22:17:20,085 [INFO] skills.ocr_skill: [Vision] OCR: 50%% resolution downscale applied for Tesseract.
+2026-03-05 22:17:20,300 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'okalnertrahleren'
+2026-03-05 22:17:20,300 [INFO] SyndicateTool: [Logic] OCR raw -> mapped: 'okalnertrahleren' -> 'Kokain extrahieren'
+2026-03-05 22:17:20,301 [INFO] SyndicateTool: [Logic] OCR Similarity: 94% match for 'kokain extrahieren'
+2026-03-05 22:17:20,629 [INFO] SyndicateTool: [Logic] Material check: OK for 'kokain extrahieren'
+2026-03-05 22:17:20,630 [INFO] SyndicateTool: [KI] Bekannter Prozess: 'kokain extrahieren' (28.5 s). Blind-Loop aktiv.
+2026-03-05 22:17:20,630 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:17:20,733 [INFO] SyndicateTool: [State 1] Found 'kokain extrahieren'. Entering hybrid wait...
+2026-03-05 22:17:32,350 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:17:47,376 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:17:48,087 [INFO] SyndicateTool: [State 2] Waiting for pixel at 1120,1296 to vanish...
+2026-03-05 22:17:50,956 [DEBUG] skills.vision_skill: [VisionSkill] Pixel X:1120 Y:1296 verschwunden. Warte auf nächsten Tap.
+2026-03-05 22:17:51,059 [INFO] skills.input_skill: [InputSkill] Aktion: 'E' Taste getappt.
+2026-03-05 22:17:51,962 [INFO] SyndicateTool: [State 4] Checking Info-Box for errors...
+2026-03-05 22:17:52,283 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:17:52,310 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:18:02,403 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:18:11,918 [INFO] SyndicateTool: [Interaction] Button Clicked >> Start/Stop -> Stop
+2026-03-05 22:18:11,919 [INFO] SyndicateTool: [Bot] Toggle: stopping (Hotkey/UI).
+2026-03-05 22:18:12,422 [INFO] SyndicateTool: [System] Bot-Thread erfolgreich beendet.
+2026-03-05 22:18:16,470 [INFO] SyndicateTool: [Interaction] Button Clicked >> Start/Stop -> Start
+2026-03-05 22:18:16,471 [INFO] SyndicateTool: [Bot] Toggle: starting (Mini-Mode).
+2026-03-05 22:18:16,475 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=3, bot_mode=text_ocr)
+2026-03-05 22:18:16,501 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:18:16,503 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 0.85 (enable=True)
+2026-03-05 22:18:16,528 [INFO] SyndicateTool: [Focus] New Foreground: ghost=False (title contains 'syndicate'=True)
+2026-03-05 22:18:16,628 [INFO] SyndicateTool: [Ghost] Alpha transition 0.85 -> 1.0 (enable=False)
+2026-03-05 22:18:16,819 [INFO] SyndicateTool: [Smart Text KI] Sucht nach UI-Boxen...
+2026-03-05 22:18:16,821 [INFO] SyndicateTool: [State 0] Scanning screen for Smart-Text...
+2026-03-05 22:18:16,864 [INFO] SyndicateTool: [Ghost] Alpha transition end: 1.0
+2026-03-05 22:18:16,894 [INFO] skills.ocr_skill: [Vision] OCR Scan ROI: x=1345, y=737, w=144, h=42
+2026-03-05 22:18:16,896 [INFO] skills.ocr_skill: [Vision] OCR: 50%% resolution downscale applied for Tesseract.
+2026-03-05 22:18:17,028 [INFO] SyndicateTool: [Focus] New Foreground: ghost=True (title contains 'syndicate'=False)
+2026-03-05 22:18:17,099 [DEBUG] skills.ocr_skill: [OCR] Smart-Text raw_text: 'oaineinigen'
+2026-03-05 22:18:17,100 [INFO] SyndicateTool: [Logic] OCR raw -> mapped: 'oaineinigen' -> 'Kokain reinigen'
+2026-03-05 22:18:17,142 [INFO] SyndicateTool: [Ghost] Alpha transition 1.0 -> 0.85 (enable=True)
+2026-03-05 22:18:17,346 [INFO] SyndicateTool: [Ghost] Alpha transition end: 0.85
+2026-03-05 22:18:17,428 [INFO] SyndicateTool: [Logic] Material check: OK for 'kokain reinigen'
+2026-03-05 22:18:17,430 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 198
+2026-03-05 22:18:21,462 [INFO] SyndicateTool: [Interaction] Button Clicked >> Start/Stop -> Stop
+2026-03-05 22:21:24,196 [DEBUG] SyndicateTool: Programmstart v2.9.6
+2026-03-05 22:21:24,309 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v2.9.6 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-05 22:21:28,716 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-05 22:21:29,467 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-05 22:21:29,469 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-05 22:21:29,950 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-05 22:21:29,951 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-05 22:21:30,155 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:30,645 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:21:30,649 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:31,093 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-05 22:21:31,421 [DEBUG] SyndicateTool: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-05 22:21:31,428 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-05 22:21:31,449 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-05 22:21:31,452 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-05 22:21:31,457 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-05 22:21:31,461 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-05 22:21:31,465 [DEBUG] skills.delivery_skill: Lade 5 Artikel in das Dropdown.
+2026-03-05 22:21:31,477 [DEBUG] SyndicateTool: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-05 22:21:31,477 [DEBUG] SyndicateTool: Starte Aufbau Tab 2 (Transaktionen)...
+2026-03-05 22:21:31,485 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:31,927 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/transactions.json HTTP/1.1" 200 223
+2026-03-05 22:21:31,930 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:32,363 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-05 22:21:32,365 [DEBUG] SyndicateTool: Tab 2 (Transaktionen): Aufbau erfolgreich.
+2026-03-05 22:21:32,366 [DEBUG] SyndicateTool: Starte Aufbau Tab 3 (Artikelverwaltung)...
+2026-03-05 22:21:32,373 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:32,824 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:21:32,826 [ERROR] SyndicateTool: CRITICAL ERROR beim Aufbau von Tab 3 (Artikelverwaltung): cannot access local variable 'Bv' where it is not associated with a value
+Traceback (most recent call last):
+  File "main.py", line 495, in setup_gui
+UnboundLocalError: cannot access local variable 'Bv' where it is not associated with a value
+2026-03-05 22:21:32,829 [DEBUG] SyndicateTool: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-05 22:21:32,832 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:33,274 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/join_requests.json HTTP/1.1" 200 154
+2026-03-05 22:21:33,278 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:33,717 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/members.json HTTP/1.1" 200 221
+2026-03-05 22:21:33,721 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:34,152 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/vault.json HTTP/1.1" 200 36
+2026-03-05 22:21:34,158 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:34,588 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/storage.json HTTP/1.1" 200 4
+2026-03-05 22:21:34,604 [DEBUG] SyndicateTool: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-05 22:21:34,786 [INFO] SyndicateTool: Syndicate Tool v2.9.6 geladen.
+2026-03-05 22:21:34,786 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-05 22:21:37,769 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:38,204 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:21:38,207 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:38,655 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-05 22:21:38,762 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:39,244 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:21:39,247 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:39,706 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-05 22:21:46,950 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:47,417 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:21:47,419 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:47,867 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-05 22:21:48,894 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:49,316 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 22:21:49,318 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 22:21:49,788 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
