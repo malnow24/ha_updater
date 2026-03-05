@@ -17397,3 +17397,40 @@ UnboundLocalError: cannot access local variable 'Bv' where it is not associated 
 2026-03-03 22:18:54,182 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/vault.json HTTP/1.1" 200 36
 2026-03-03 22:18:54,184 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
 2026-03-03 22:18:54,618 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-05 20:25:54,387 [DEBUG] SyndicateTool: Programmstart v5.3.0
+2026-03-05 20:25:54,469 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v5.3.0 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-05 20:26:03,440 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-05 20:26:04,096 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-05 20:26:04,099 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-05 20:26:04,581 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-05 20:26:04,582 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-05 20:26:04,697 [INFO] SyndicateTool: [Settings] Loaded from disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=2)
+2026-03-05 20:26:04,698 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-05 20:26:05,076 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 20:26:05,104 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-05 20:26:05,213 [INFO] SyndicateTool: Syndicate Tool v5.3.0 geladen.
+2026-03-05 20:26:05,213 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-05 20:26:05,213 [INFO] SyndicateTool: [Stability] Ghost-Mode fade duration optimized for thread safety.
+2026-03-05 20:26:05,213 [INFO] SyndicateTool: [System] UI-Blueprinting moved to manual/startup trigger to prevent overflows.
+2026-03-05 20:26:05,373 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 199
+2026-03-05 20:26:05,378 [INFO] SyndicateTool: [Interaction] Mode Changed >> Processing sub-mode -> text_ocr
+2026-03-05 20:26:05,378 [INFO] SyndicateTool: [UI-Main] Processing sub-mode changed to: text_ocr
+2026-03-05 20:26:05,379 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=2, bot_mode=text_ocr)
+2026-03-05 20:26:05,405 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 20:26:05,409 [INFO] SyndicateTool: [UI] Table rebuilt with 2 items
+2026-03-05 20:26:05,414 [DEBUG] ui.tab_lieferschein: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-05 20:26:05,530 [DEBUG] ui.tab_lieferschein: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-05 20:26:05,557 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/transactions.json HTTP/1.1" 200 223
+2026-03-05 20:26:05,583 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-05 20:26:05,614 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-05 20:26:05,615 [DEBUG] ui.tab_family: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-05 20:26:05,642 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/join_requests.json HTTP/1.1" 200 154
+2026-03-05 20:26:05,669 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/members.json HTTP/1.1" 200 221
+2026-03-05 20:26:05,697 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/vault.json HTTP/1.1" 200 36
+2026-03-05 20:26:05,724 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/storage.json HTTP/1.1" 200 4
+2026-03-05 20:26:05,733 [DEBUG] ui.tab_family: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-05 20:26:05,766 [INFO] SyndicateTool: [Interaction] Tab Change >> View -> Dashboard
+2026-03-05 20:26:05,921 [INFO] SyndicateTool: [UI] Magnet-Reset: Snapped to 987x640
+2026-03-05 20:26:05,946 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /tool_presence/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 62
+2026-03-05 20:26:06,196 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-05 20:26:07,357 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /tool_presence/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 63
