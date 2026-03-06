@@ -17785,3 +17785,13 @@ UnboundLocalError: cannot access local variable 'Bv' where it is not associated 
 2026-03-05 22:21:49,316 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
 2026-03-05 22:21:49,318 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
 2026-03-05 22:21:49,788 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-06 07:08:18,457 [DEBUG] SyndicateTool: Programmstart v5.4.12
+2026-03-06 07:08:18,470 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v5.4.12 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-06 07:08:18,525 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-06 07:08:19,260 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-06 07:08:19,266 [CRITICAL] SyndicateTool: [CRASH] Uncaught exception:
+Traceback (most recent call last):
+  File "main.py", line 938, in <module>
+  File "main.py", line 910, in _startup
+ModuleNotFoundError: No module named 'ui'
+
