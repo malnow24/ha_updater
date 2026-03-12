@@ -1,7 +1,7 @@
 {
   "class": "Tk",
   "id": ".",
-  "width": 987,
+  "width": 980,
   "height": 640,
   "x": 0,
   "y": 0,
@@ -9,7 +9,7 @@
     {
       "class": "Frame",
       "id": ".!frame",
-      "width": 987,
+      "width": 980,
       "height": 44,
       "x": 0,
       "y": 0,
@@ -54,9 +54,9 @@
         {
           "class": "Frame",
           "id": ".!frame.!frame",
-          "width": 480,
+          "width": 437,
           "height": 28,
-          "x": 491,
+          "x": 527,
           "y": 8,
           "layout": {
             "manager": "pack",
@@ -76,10 +76,10 @@
             {
               "class": "Button",
               "id": ".!frame.!frame.!themedbutton",
-              "text": "Farm-Modus",
-              "width": 93,
+              "text": "HUD",
+              "width": 50,
               "height": 28,
-              "x": 878,
+              "x": 914,
               "y": 8,
               "layout": {
                 "manager": "pack",
@@ -101,7 +101,7 @@
               "id": ".!frame.!frame.!canvas",
               "width": 8,
               "height": 8,
-              "x": 852,
+              "x": 888,
               "y": 18,
               "layout": {
                 "manager": "pack",
@@ -124,7 +124,7 @@
               "text": "Offline",
               "width": 42,
               "height": 19,
-              "x": 778,
+              "x": 814,
               "y": 12,
               "layout": {
                 "manager": "pack",
@@ -144,10 +144,10 @@
             {
               "class": "Label",
               "id": ".!frame.!frame.!label2",
-              "text": "V5.3.3",
+              "text": "V5.6.4",
               "width": 41,
               "height": 21,
-              "x": 721,
+              "x": 757,
               "y": 11,
               "layout": {
                 "manager": "pack",
@@ -170,7 +170,7 @@
               "text": "✨ Auto-Größe",
               "width": 107,
               "height": 26,
-              "x": 598,
+              "x": 634,
               "y": 9,
               "layout": {
                 "manager": "pack",
@@ -193,7 +193,7 @@
               "text": "NOTSTOPP",
               "width": 91,
               "height": 28,
-              "x": 507,
+              "x": 543,
               "y": 8,
               "layout": {
                 "manager": "pack",
@@ -217,7 +217,7 @@
     {
       "class": "Frame",
       "id": ".!frame2",
-      "width": 987,
+      "width": 980,
       "height": 588,
       "x": 0,
       "y": 52,
@@ -564,7 +564,7 @@
               "class": "Frame",
               "id": ".!frame2.!frame.!frame4",
               "width": 112,
-              "height": 130,
+              "height": 166,
               "x": 8,
               "y": 434,
               "layout": {
@@ -631,7 +631,7 @@
                 {
                   "class": "Button",
                   "id": ".!frame2.!frame.!frame4.!button2",
-                  "text": "Log",
+                  "text": "Updates",
                   "width": 112,
                   "height": 34,
                   "x": 8,
@@ -654,11 +654,34 @@
                 {
                   "class": "Button",
                   "id": ".!frame2.!frame.!frame4.!button3",
-                  "text": "Hilfe",
+                  "text": "Log",
                   "width": 112,
                   "height": 34,
                   "x": 8,
                   "y": 529,
+                  "layout": {
+                    "manager": "pack",
+                    "pack": {
+                      "in": ".!frame2.!frame.!frame4",
+                      "anchor": "center",
+                      "expand": "0",
+                      "fill": "x",
+                      "ipadx": "8",
+                      "ipady": "6",
+                      "padx": "0",
+                      "pady": "1",
+                      "side": "top"
+                    }
+                  }
+                },
+                {
+                  "class": "Button",
+                  "id": ".!frame2.!frame.!frame4.!button4",
+                  "text": "Hilfe",
+                  "width": 112,
+                  "height": 34,
+                  "x": 8,
+                  "y": 565,
                   "layout": {
                     "manager": "pack",
                     "pack": {
@@ -681,7 +704,7 @@
         {
           "class": "Frame",
           "id": ".!frame2.!frame2",
-          "width": 859,
+          "width": 852,
           "height": 588,
           "x": 128,
           "y": 52,
@@ -703,7 +726,7 @@
             {
               "class": "Frame",
               "id": ".!frame2.!frame2.!frame",
-              "width": 859,
+              "width": 852,
               "height": 553,
               "x": 128,
               "y": 52,
@@ -725,7 +748,7 @@
                 {
                   "class": "Frame",
                   "id": ".!frame2.!frame2.!frame.!frame",
-                  "width": 827,
+                  "width": 820,
                   "height": 521,
                   "x": 144,
                   "y": 68,
@@ -747,7 +770,7 @@
                     {
                       "class": "Frame",
                       "id": ".!frame2.!frame2.!frame.!frame.!dashboardview",
-                      "width": 827,
+                      "width": 820,
                       "height": 521,
                       "x": 144,
                       "y": 68,
@@ -815,7 +838,7 @@
                         {
                           "class": "Frame",
                           "id": ".!frame2.!frame2.!frame.!frame.!dashboardview.!frame",
-                          "width": 795,
+                          "width": 788,
                           "height": 401,
                           "x": 160,
                           "y": 156,
@@ -837,7 +860,7 @@
                             {
                               "class": "Frame",
                               "id": ".!frame2.!frame2.!frame.!frame.!dashboardview.!frame.!cardframe",
-                              "width": 255,
+                              "width": 248,
                               "height": 401,
                               "x": 160,
                               "y": 156,
@@ -882,8 +905,8 @@
                                 {
                                   "class": "Label",
                                   "id": ".!frame2.!frame2.!frame.!frame.!dashboardview.!frame.!cardframe.!themedlabel2",
-                                  "text": "Keine anderen Instanzen online.",
-                                  "width": 173,
+                                  "text": "1 Instanz(en) online.",
+                                  "width": 112,
                                   "height": 21,
                                   "x": 176,
                                   "y": 206,
@@ -909,7 +932,7 @@
                               "id": ".!frame2.!frame2.!frame.!frame.!dashboardview.!frame.!cardframe2",
                               "width": 291,
                               "height": 401,
-                              "x": 431,
+                              "x": 424,
                               "y": 156,
                               "layout": {
                                 "manager": "pack",
@@ -932,7 +955,7 @@
                                   "text": "Verarbeitungsstatistik",
                                   "width": 161,
                                   "height": 26,
-                                  "x": 447,
+                                  "x": 440,
                                   "y": 172,
                                   "layout": {
                                     "manager": "pack",
@@ -955,7 +978,7 @@
                                   "text": "Verarbeitet (Cycles): 0",
                                   "width": 120,
                                   "height": 21,
-                                  "x": 447,
+                                  "x": 440,
                                   "y": 206,
                                   "layout": {
                                     "manager": "pack",
@@ -978,7 +1001,7 @@
                                   "text": "Total Sekunden: 0.0",
                                   "width": 109,
                                   "height": 21,
-                                  "x": 447,
+                                  "x": 440,
                                   "y": 227,
                                   "layout": {
                                     "manager": "pack",
@@ -1001,7 +1024,7 @@
                                   "text": "Modus-Verteilung: Roh: 0 | Verpackt: 0",
                                   "width": 208,
                                   "height": 21,
-                                  "x": 447,
+                                  "x": 440,
                                   "y": 248,
                                   "layout": {
                                     "manager": "pack",
@@ -1025,7 +1048,7 @@
                               "id": ".!frame2.!frame2.!frame.!frame.!dashboardview.!frame.!cardframe3",
                               "width": 217,
                               "height": 401,
-                              "x": 738,
+                              "x": 731,
                               "y": 156,
                               "layout": {
                                 "manager": "pack",
@@ -1048,7 +1071,7 @@
                                   "text": "Live-Systemstatus",
                                   "width": 134,
                                   "height": 26,
-                                  "x": 754,
+                                  "x": 747,
                                   "y": 172,
                                   "layout": {
                                     "manager": "pack",
@@ -1071,7 +1094,7 @@
                                   "text": "Bot: Inaktiv",
                                   "width": 65,
                                   "height": 21,
-                                  "x": 754,
+                                  "x": 747,
                                   "y": 206,
                                   "layout": {
                                     "manager": "pack",
@@ -1094,7 +1117,7 @@
                                   "text": "Scanner: Inaktiv",
                                   "width": 89,
                                   "height": 21,
-                                  "x": 754,
+                                  "x": 747,
                                   "y": 227,
                                   "layout": {
                                     "manager": "pack",
@@ -1114,10 +1137,10 @@
                                 {
                                   "class": "Label",
                                   "id": ".!frame2.!frame2.!frame.!frame.!dashboardview.!frame.!cardframe3.!themedlabel4",
-                                  "text": "Modus: text_ocr",
-                                  "width": 90,
+                                  "text": "Modus: interval",
+                                  "width": 88,
                                   "height": 21,
-                                  "x": 754,
+                                  "x": 747,
                                   "y": 248,
                                   "layout": {
                                     "manager": "pack",
@@ -1147,16 +1170,16 @@
                   "id": ".!frame2.!frame2.!frame.!frame2",
                   "width": 1,
                   "height": 1,
-                  "x": 128,
-                  "y": 52,
+                  "x": -294,
+                  "y": -317,
                   "children": [
                     {
                       "class": "Frame",
                       "id": ".!frame2.!frame2.!frame.!frame2.!processingview",
                       "width": 1,
                       "height": 1,
-                      "x": 128,
-                      "y": 52,
+                      "x": -294,
+                      "y": -317,
                       "layout": {
                         "manager": "pack",
                         "pack": {
@@ -1177,8 +1200,8 @@
                           "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!themedlabelframe",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -1200,8 +1223,8 @@
                               "text": "BOT MODUS",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1223,8 +1246,8 @@
                               "text": "Modus wählen:",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1245,8 +1268,8 @@
                               "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!themedlabelframe.!frame",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1268,8 +1291,8 @@
                                   "text": "Zeit",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1291,8 +1314,8 @@
                                   "text": "Pixel",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1314,8 +1337,8 @@
                                   "text": "Smart Text",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1340,8 +1363,8 @@
                           "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame",
                           "width": 1,
                           "height": 1,
-                          "x": 128,
-                          "y": 52,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -1359,11 +1382,11 @@
                           "children": [
                             {
                               "class": "Frame",
-                              "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe",
+                              "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!themedlabelframe",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1374,196 +1397,78 @@
                                   "ipadx": "0",
                                   "ipady": "0",
                                   "padx": "0",
-                                  "pady": "(0, 16)",
+                                  "pady": "(0, 8)",
                                   "side": "top"
                                 }
                               },
                               "children": [
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe.!themedlabel",
-                                  "text": "Neuer Smart-Text-Favorit",
+                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!themedlabelframe.!label",
+                                  "text": "KLASSISCH (INTERVALL IN SEKUNDEN)",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe",
-                                      "anchor": "w",
-                                      "expand": "0",
-                                      "fill": "none",
-                                      "ipadx": "0",
-                                      "ipady": "0",
-                                      "padx": "0",
-                                      "pady": "(0, 8)",
-                                      "side": "top"
-                                    }
-                                  }
-                                },
-                                {
-                                  "class": "Frame",
-                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe.!frame",
-                                  "width": 1,
-                                  "height": 1,
-                                  "x": -138,
-                                  "y": -161,
-                                  "layout": {
-                                    "manager": "pack",
-                                    "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe",
+                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!themedlabelframe",
                                       "anchor": "center",
                                       "expand": "0",
                                       "fill": "x",
                                       "ipadx": "0",
                                       "ipady": "0",
                                       "padx": "0",
-                                      "pady": "8",
-                                      "side": "top"
-                                    }
-                                  },
-                                  "children": [
-                                    {
-                                      "class": "Entry",
-                                      "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe.!frame.!themedentry",
-                                      "text": "PY_VAR27",
-                                      "width": 1,
-                                      "height": 1,
-                                      "x": -138,
-                                      "y": -161,
-                                      "layout": {
-                                        "manager": "pack",
-                                        "pack": {
-                                          "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe.!frame",
-                                          "anchor": "center",
-                                          "expand": "0",
-                                          "fill": "none",
-                                          "ipadx": "0",
-                                          "ipady": "4",
-                                          "padx": "(0, 16)",
-                                          "pady": "0",
-                                          "side": "left"
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "class": "Button",
-                                      "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe.!frame.!themedbutton",
-                                      "text": "+ Hinzufügen",
-                                      "width": 1,
-                                      "height": 1,
-                                      "x": -138,
-                                      "y": -161,
-                                      "layout": {
-                                        "manager": "pack",
-                                        "pack": {
-                                          "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe.!frame",
-                                          "anchor": "center",
-                                          "expand": "1",
-                                          "fill": "x",
-                                          "ipadx": "0",
-                                          "ipady": "2",
-                                          "padx": "0",
-                                          "pady": "0",
-                                          "side": "left"
-                                        }
-                                      }
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "class": "Frame",
-                              "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe2",
-                              "width": 1,
-                              "height": 1,
-                              "x": 128,
-                              "y": 52,
-                              "layout": {
-                                "manager": "pack",
-                                "pack": {
-                                  "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame",
-                                  "anchor": "center",
-                                  "expand": "1",
-                                  "fill": "both",
-                                  "ipadx": "0",
-                                  "ipady": "0",
-                                  "padx": "0",
-                                  "pady": "0",
-                                  "side": "top"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe2.!themedlabel",
-                                  "text": "Aktive Favoriten (KI-Learning)",
-                                  "width": 1,
-                                  "height": 1,
-                                  "x": -138,
-                                  "y": -161,
-                                  "layout": {
-                                    "manager": "pack",
-                                    "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe2",
-                                      "anchor": "w",
-                                      "expand": "0",
-                                      "fill": "none",
-                                      "ipadx": "0",
-                                      "ipady": "0",
-                                      "padx": "0",
                                       "pady": "(0, 8)",
                                       "side": "top"
                                     }
                                   }
                                 },
                                 {
-                                  "class": "TFrame",
-                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe2.!smarttexttab",
+                                  "class": "Entry",
+                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!themedlabelframe.!themedentry",
                                   "width": 1,
                                   "height": 1,
-                                  "x": 128,
-                                  "y": 52,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe2",
+                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!themedlabelframe",
                                       "anchor": "center",
-                                      "expand": "1",
-                                      "fill": "both",
+                                      "expand": "0",
+                                      "fill": "none",
+                                      "ipadx": "0",
+                                      "ipady": "4",
+                                      "padx": "16",
+                                      "pady": "0",
+                                      "side": "left"
+                                    }
+                                  }
+                                },
+                                {
+                                  "class": "Button",
+                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!themedlabelframe.!themedbutton",
+                                  "text": "Speichern",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!themedlabelframe",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "none",
                                       "ipadx": "0",
                                       "ipady": "0",
                                       "padx": "0",
-                                      "pady": "16",
-                                      "side": "top"
+                                      "pady": "0",
+                                      "side": "left"
                                     }
-                                  },
-                                  "children": [
-                                    {
-                                      "class": "Treeview",
-                                      "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe2.!smarttexttab.!themedtreeview",
-                                      "width": 1,
-                                      "height": 1,
-                                      "x": 128,
-                                      "y": 52,
-                                      "layout": {
-                                        "manager": "pack",
-                                        "pack": {
-                                          "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame.!cardframe2.!smarttexttab",
-                                          "anchor": "center",
-                                          "expand": "1",
-                                          "fill": "both",
-                                          "ipadx": "0",
-                                          "ipady": "0",
-                                          "padx": "0",
-                                          "pady": "0",
-                                          "side": "top"
-                                        }
-                                      }
-                                    }
-                                  ]
+                                  }
                                 }
                               ]
                             }
@@ -1574,8 +1479,8 @@
                           "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -1594,11 +1499,11 @@
                             {
                               "class": "Label",
                               "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2.!themedlabel",
-                              "text": "Erfolge (Gesamt): 0 | Skips: 0",
+                              "text": "Session: Erfolge 0 | Skips 0  ·  Lifetime: Erfolge 0 | Skips 0",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1613,6 +1518,99 @@
                                   "side": "left"
                                 }
                               }
+                            },
+                            {
+                              "class": "Frame",
+                              "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2.!frame",
+                              "width": 1,
+                              "height": 1,
+                              "x": -294,
+                              "y": -317,
+                              "layout": {
+                                "manager": "pack",
+                                "pack": {
+                                  "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2",
+                                  "anchor": "center",
+                                  "expand": "0",
+                                  "fill": "none",
+                                  "ipadx": "0",
+                                  "ipady": "0",
+                                  "padx": "(16, 0)",
+                                  "pady": "0",
+                                  "side": "right"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "class": "Button",
+                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2.!frame.!themedbutton",
+                                  "text": "Reset Session",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2.!frame",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "none",
+                                      "ipadx": "6",
+                                      "ipady": "2",
+                                      "padx": "(0, 8)",
+                                      "pady": "0",
+                                      "side": "left"
+                                    }
+                                  }
+                                },
+                                {
+                                  "class": "Button",
+                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2.!frame.!themedbutton2",
+                                  "text": "Reset Lifetime",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2.!frame",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "none",
+                                      "ipadx": "6",
+                                      "ipady": "2",
+                                      "padx": "(0, 8)",
+                                      "pady": "0",
+                                      "side": "left"
+                                    }
+                                  }
+                                },
+                                {
+                                  "class": "Button",
+                                  "id": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2.!frame.!themedbutton3",
+                                  "text": "Kopieren",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame2.!processingview.!frame2.!frame",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "none",
+                                      "ipadx": "6",
+                                      "ipady": "2",
+                                      "padx": "0",
+                                      "pady": "0",
+                                      "side": "left"
+                                    }
+                                  }
+                                }
+                              ]
                             }
                           ]
                         }
@@ -1625,16 +1623,16 @@
                   "id": ".!frame2.!frame2.!frame.!frame3",
                   "width": 1,
                   "height": 1,
-                  "x": -138,
-                  "y": -161,
+                  "x": -294,
+                  "y": -317,
                   "children": [
                     {
                       "class": "Frame",
                       "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview",
                       "width": 1,
                       "height": 1,
-                      "x": -138,
-                      "y": -161,
+                      "x": -294,
+                      "y": -317,
                       "layout": {
                         "manager": "pack",
                         "pack": {
@@ -1655,8 +1653,8 @@
                           "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview.!themedlabelframe",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -1678,8 +1676,8 @@
                               "text": "SCANNER KONFIGURATION",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1701,8 +1699,8 @@
                               "text": "Großhandel-Logik aktivieren",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1723,8 +1721,8 @@
                               "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview.!themedlabelframe.!frame",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1746,8 +1744,8 @@
                                   "text": "Target ($):",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1769,8 +1767,8 @@
                                   "text": "PY_VAR26",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1792,8 +1790,8 @@
                                   "text": "Mindestmenge (Stück):",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1815,8 +1813,8 @@
                                   "text": "PY_VAR19",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1841,8 +1839,8 @@
                           "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview.!themedlabelframe2",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -1864,8 +1862,8 @@
                               "text": "FAVORITEN & LIMITS",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1887,8 +1885,8 @@
                               "text": "Favoriten:",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1909,8 +1907,8 @@
                               "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview.!themedlabelframe2.!frame",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -1932,8 +1930,8 @@
                                   "text": "schutzweste",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1955,8 +1953,8 @@
                                   "text": "weed",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -1978,8 +1976,8 @@
                                   "text": "kokainbeutel",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2001,8 +1999,8 @@
                                   "text": "kevlarfaser",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2024,8 +2022,8 @@
                                   "text": "fragmentxl",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2048,8 +2046,8 @@
                               "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview.!themedlabelframe2.!frame2",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -2071,8 +2069,8 @@
                                   "text": "Automatische Item-Erkennung deaktivieren",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2095,8 +2093,8 @@
                               "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview.!themedlabelframe2.!frame3",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -2118,8 +2116,8 @@
                                   "text": "Item:",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2138,11 +2136,11 @@
                                 {
                                   "class": "Entry",
                                   "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview.!themedlabelframe2.!frame3.!themedentry",
-                                  "text": "PY_VAR28",
+                                  "text": "PY_VAR27",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2164,8 +2162,8 @@
                                   "text": "Max-Preis ($):",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2184,11 +2182,11 @@
                                 {
                                   "class": "Entry",
                                   "id": ".!frame2.!frame2.!frame.!frame3.!wholesaleview.!themedlabelframe2.!frame3.!themedentry2",
-                                  "text": "PY_VAR29",
+                                  "text": "PY_VAR28",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2210,8 +2208,8 @@
                                   "text": "Limit speichern",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2314,8 +2312,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame.!frame",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2337,8 +2335,8 @@
                                       "text": "Unternehmen:",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2360,8 +2358,8 @@
                                       "text": "Blackout Nachtclub",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2384,8 +2382,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame.!frame2",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2407,8 +2405,8 @@
                                       "text": "Empfänger (Kunde):",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2427,11 +2425,11 @@
                                     {
                                       "class": "Entry",
                                       "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame.!frame2.!entry",
-                                      "text": "PY_VAR30",
+                                      "text": "PY_VAR29",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2477,8 +2475,8 @@
                                       "text": "Rollen (Empfänger & Sender):",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2497,7 +2495,7 @@
                                     {
                                       "class": "TCombobox",
                                       "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame.!frame3.!combobox",
-                                      "text": "PY_VAR37",
+                                      "text": "PY_VAR36",
                                       "width": 1,
                                       "height": 1,
                                       "x": 128,
@@ -2523,8 +2521,8 @@
                                       "text": "Rollen tauschen",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2547,8 +2545,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame.!frame4",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2570,8 +2568,8 @@
                                       "text": "Status:",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2593,8 +2591,8 @@
                                       "text": "Ware geliefert",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2616,8 +2614,8 @@
                                       "text": "Ware erhalten",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2663,8 +2661,8 @@
                                       "text": "Handelsart:",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -2683,7 +2681,7 @@
                                     {
                                       "class": "TCombobox",
                                       "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame.!frame5.!combobox",
-                                      "text": "PY_VAR39",
+                                      "text": "PY_VAR38",
                                       "width": 1,
                                       "height": 1,
                                       "x": 128,
@@ -2735,8 +2733,8 @@
                                   "text": "POSITIONEN (MENGE × STÜCKPREIS = GESAMT)",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -2955,8 +2953,8 @@
                               "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame3",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -2978,8 +2976,8 @@
                                   "text": "Gesamtsumme: 2361.00 €",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3002,8 +3000,8 @@
                               "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame4",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -3024,8 +3022,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame4.!label",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3047,8 +3045,8 @@
                                   "text": "Deal abschließen & Speichern",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3070,8 +3068,8 @@
                                   "text": "Kopieren (Legal)",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3093,8 +3091,8 @@
                                   "text": "Kopieren (Illegal)",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3116,8 +3114,8 @@
                                   "text": "Reset",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3139,8 +3137,8 @@
                                   "text": "+ Zeile",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3186,8 +3184,8 @@
                                   "text": "VORLAGEN-EDITOR (HEADER/FOOTER)",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3231,8 +3229,8 @@
                                       "text": "Vorlage:",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -3251,7 +3249,7 @@
                                     {
                                       "class": "TCombobox",
                                       "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame5.!frame.!combobox",
-                                      "text": "PY_VAR40",
+                                      "text": "PY_VAR39",
                                       "width": 1,
                                       "height": 1,
                                       "x": 128,
@@ -3277,8 +3275,8 @@
                                       "text": "Vorlage speichern",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -3300,8 +3298,8 @@
                                       "text": "Vorlage löschen",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -3325,8 +3323,8 @@
                                   "text": "Legal – Header:",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3347,8 +3345,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame5.!text",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3370,8 +3368,8 @@
                                   "text": "Legal – Footer:",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3392,8 +3390,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame5.!text2",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3415,8 +3413,8 @@
                                   "text": "Illegal – Header:",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3437,8 +3435,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame5.!text3",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3460,8 +3458,8 @@
                                   "text": "Illegal – Footer:",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3482,8 +3480,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame4.!deliveryview.!frame.!frame5.!text4",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -3543,8 +3541,8 @@
                           "text": "Deal-Tracking",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -3634,8 +3632,8 @@
                           "text": "Als erledigt markieren",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -3657,8 +3655,8 @@
                           "text": "Aktualisieren",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -3736,8 +3734,8 @@
                               "text": "SCANNER-ZIEL",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -3759,8 +3757,8 @@
                               "text": "Scanner-Ziel:",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -3779,7 +3777,7 @@
                             {
                               "class": "TCombobox",
                               "id": ".!frame2.!frame2.!frame.!frame6.!inventoryview.!themedlabelframe.!combobox",
-                              "text": "PY_VAR65",
+                              "text": "PY_VAR64",
                               "width": 1,
                               "height": 1,
                               "x": 128,
@@ -3807,8 +3805,8 @@
                           "text": "Artikelverwaltung (inventory_items)",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -3897,8 +3895,8 @@
                           "id": ".!frame2.!frame2.!frame.!frame6.!inventoryview.!frame2",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
@@ -3920,8 +3918,8 @@
                               "text": "+ Neuer Artikel",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -3943,8 +3941,8 @@
                               "text": "Ausgewählten entfernen",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -3966,8 +3964,8 @@
                               "text": "Speichern",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -3989,8 +3987,8 @@
                               "text": "Aktualisieren",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -4012,8 +4010,8 @@
                               "text": "Lager-Import (Screenshot)",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -4035,8 +4033,8 @@
                               "text": "Bereich scannen & importieren",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -4116,8 +4114,8 @@
                               "text": "Profil & Familie",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -4138,8 +4136,8 @@
                               "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -4161,8 +4159,8 @@
                                   "text": "Mitarbeiter Name (Pflicht):",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4181,11 +4179,11 @@
                                 {
                                   "class": "Entry",
                                   "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame.!entry",
-                                  "text": "PY_VAR66",
+                                  "text": "PY_VAR65",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4231,8 +4229,8 @@
                                   "text": "Admin-Panel",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4253,8 +4251,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!label2",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4275,8 +4273,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!frame",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4298,8 +4296,8 @@
                                       "text": "Familie:",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4321,8 +4319,8 @@
                                       "text": "blackout",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4344,8 +4342,8 @@
                                       "text": "Copy",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4369,8 +4367,8 @@
                                   "text": "Familie verlassen",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4392,8 +4390,8 @@
                                   "text": "Beitrittsanfragen:",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4415,8 +4413,8 @@
                                   "text": "Mitglieder:",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4437,8 +4435,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!frame2",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4460,8 +4458,8 @@
                                       "text": "Liam Brown (member)",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4483,8 +4481,8 @@
                                       "text": "Kicken",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4506,8 +4504,8 @@
                                       "text": "Bannen",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4530,8 +4528,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!frame3",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4553,8 +4551,8 @@
                                       "text": "Malte Alvarez (admin)",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4577,8 +4575,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!frame4",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4600,8 +4598,8 @@
                                       "text": "Leo Black (member)",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4623,8 +4621,8 @@
                                       "text": "Kicken",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4646,8 +4644,8 @@
                                       "text": "Bannen",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4671,8 +4669,8 @@
                                   "text": "User Bannen (Dialog)",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4694,8 +4692,8 @@
                                   "text": "Top-Runner (Umsatz)",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4717,8 +4715,8 @@
                                   "text": "Keine Deals im Zeitraum.",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4739,8 +4737,8 @@
                                   "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!frame5",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4762,8 +4760,8 @@
                                       "text": "Tag",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4785,8 +4783,8 @@
                                       "text": "Woche",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4808,8 +4806,8 @@
                                       "text": "Monat",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4833,8 +4831,8 @@
                                   "text": "Aktualisieren",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -4878,8 +4876,8 @@
                                       "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!labelframe.!frame",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -4901,8 +4899,8 @@
                                           "text": "Grüngeld:",
                                           "width": 1,
                                           "height": 1,
-                                          "x": -138,
-                                          "y": -161,
+                                          "x": -294,
+                                          "y": -317,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -4921,11 +4919,11 @@
                                         {
                                           "class": "Entry",
                                           "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!labelframe.!frame.!entry",
-                                          "text": "PY_VAR73",
+                                          "text": "PY_VAR72",
                                           "width": 1,
                                           "height": 1,
-                                          "x": -138,
-                                          "y": -161,
+                                          "x": -294,
+                                          "y": -317,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -4947,8 +4945,8 @@
                                           "text": "Schwarzgeld:",
                                           "width": 1,
                                           "height": 1,
-                                          "x": -138,
-                                          "y": -161,
+                                          "x": -294,
+                                          "y": -317,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -4967,11 +4965,11 @@
                                         {
                                           "class": "Entry",
                                           "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!labelframe.!frame.!entry2",
-                                          "text": "PY_VAR74",
+                                          "text": "PY_VAR73",
                                           "width": 1,
                                           "height": 1,
-                                          "x": -138,
-                                          "y": -161,
+                                          "x": -294,
+                                          "y": -317,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -4995,8 +4993,8 @@
                                       "text": "Kasse speichern",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -5018,8 +5016,8 @@
                                       "text": "Lager (dynamisch):",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -5041,8 +5039,8 @@
                                       "text": "gewaechshaus: —  |  labor: —",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -5063,8 +5061,8 @@
                                       "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!labelframe.!frame2",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -5086,8 +5084,8 @@
                                           "text": "Lagername:",
                                           "width": 1,
                                           "height": 1,
-                                          "x": -138,
-                                          "y": -161,
+                                          "x": -294,
+                                          "y": -317,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -5106,11 +5104,11 @@
                                         {
                                           "class": "Entry",
                                           "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!labelframe.!frame2.!entry",
-                                          "text": "PY_VAR75",
+                                          "text": "PY_VAR74",
                                           "width": 1,
                                           "height": 1,
-                                          "x": -138,
-                                          "y": -161,
+                                          "x": -294,
+                                          "y": -317,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -5132,8 +5130,8 @@
                                           "text": "Lager erstellen",
                                           "width": 1,
                                           "height": 1,
-                                          "x": -138,
-                                          "y": -161,
+                                          "x": -294,
+                                          "y": -317,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -5225,8 +5223,8 @@
                                       "text": "Aktualisieren",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -5250,8 +5248,8 @@
                                   "text": "Fraktions-Branding",
                                   "width": 1,
                                   "height": 1,
-                                  "x": -138,
-                                  "y": -161,
+                                  "x": -294,
+                                  "y": -317,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -5273,8 +5271,8 @@
                                       "text": "Anzeigename (Unternehmen/Fraktion):",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -5293,11 +5291,11 @@
                                     {
                                       "class": "Entry",
                                       "id": ".!frame2.!frame2.!frame.!frame7.!familyview.!frame.!frame2.!labelframe2.!entry",
-                                      "text": "PY_VAR69",
+                                      "text": "PY_VAR68",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -5319,8 +5317,8 @@
                                       "text": "Branding speichern",
                                       "width": 1,
                                       "height": 1,
-                                      "x": -138,
-                                      "y": -161,
+                                      "x": -294,
+                                      "y": -317,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -5346,8 +5344,8 @@
                               "text": "Profil speichern",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
@@ -5425,7 +5423,7 @@
                               "class": "Frame",
                               "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame",
                               "width": 496,
-                              "height": 1346,
+                              "height": 1354,
                               "x": 128,
                               "y": 52,
                               "children": [
@@ -6407,7 +6405,7 @@
                                   "class": "Frame",
                                   "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7",
                                   "width": 464,
-                                  "height": 188,
+                                  "height": 196,
                                   "x": 144,
                                   "y": 1016,
                                   "layout": {
@@ -6452,7 +6450,7 @@
                                       "class": "Frame",
                                       "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7.!frame",
                                       "width": 432,
-                                      "height": 21,
+                                      "height": 23,
                                       "x": 160,
                                       "y": 1061,
                                       "layout": {
@@ -6477,7 +6475,7 @@
                                           "width": 46,
                                           "height": 21,
                                           "x": 165,
-                                          "y": 1061,
+                                          "y": 1062,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6497,8 +6495,8 @@
                                           "class": "TCombobox",
                                           "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7.!frame.!combobox",
                                           "text": "PY_VAR12",
-                                          "width": 89,
-                                          "height": 21,
+                                          "width": 105,
+                                          "height": 23,
                                           "x": 221,
                                           "y": 1061,
                                           "layout": {
@@ -6522,9 +6520,9 @@
                                       "class": "Frame",
                                       "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7.!frame2",
                                       "width": 432,
-                                      "height": 21,
+                                      "height": 23,
                                       "x": 160,
-                                      "y": 1086,
+                                      "y": 1088,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -6547,7 +6545,7 @@
                                           "width": 107,
                                           "height": 21,
                                           "x": 165,
-                                          "y": 1086,
+                                          "y": 1089,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6567,10 +6565,10 @@
                                           "class": "TCombobox",
                                           "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7.!frame2.!combobox",
                                           "text": "PY_VAR13",
-                                          "width": 77,
-                                          "height": 21,
+                                          "width": 81,
+                                          "height": 23,
                                           "x": 282,
-                                          "y": 1086,
+                                          "y": 1088,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6594,7 +6592,7 @@
                                       "width": 432,
                                       "height": 25,
                                       "x": 160,
-                                      "y": 1111,
+                                      "y": 1115,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -6617,7 +6615,7 @@
                                           "width": 143,
                                           "height": 25,
                                           "x": 165,
-                                          "y": 1111,
+                                          "y": 1115,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6640,7 +6638,7 @@
                                           "width": 146,
                                           "height": 25,
                                           "x": 318,
-                                          "y": 1111,
+                                          "y": 1115,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6662,9 +6660,9 @@
                                       "class": "Frame",
                                       "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7.!frame4",
                                       "width": 432,
-                                      "height": 21,
+                                      "height": 23,
                                       "x": 160,
-                                      "y": 1140,
+                                      "y": 1144,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -6687,7 +6685,7 @@
                                           "width": 83,
                                           "height": 21,
                                           "x": 165,
-                                          "y": 1140,
+                                          "y": 1145,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6707,10 +6705,10 @@
                                           "class": "TCombobox",
                                           "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7.!frame4.!combobox",
                                           "text": "PY_VAR5",
-                                          "width": 77,
-                                          "height": 21,
+                                          "width": 81,
+                                          "height": 23,
                                           "x": 258,
-                                          "y": 1140,
+                                          "y": 1144,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6732,9 +6730,9 @@
                                       "class": "Frame",
                                       "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7.!frame5",
                                       "width": 432,
-                                      "height": 21,
+                                      "height": 23,
                                       "x": 160,
-                                      "y": 1165,
+                                      "y": 1171,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -6757,7 +6755,7 @@
                                           "width": 62,
                                           "height": 21,
                                           "x": 165,
-                                          "y": 1165,
+                                          "y": 1172,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6777,10 +6775,10 @@
                                           "class": "TCombobox",
                                           "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabelframe7.!frame5.!combobox",
                                           "text": "PY_VAR16",
-                                          "width": 77,
-                                          "height": 21,
+                                          "width": 81,
+                                          "height": 23,
                                           "x": 237,
-                                          "y": 1165,
+                                          "y": 1171,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6806,7 +6804,7 @@
                                   "width": 464,
                                   "height": 117,
                                   "x": 144,
-                                  "y": 1220,
+                                  "y": 1228,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -6829,7 +6827,7 @@
                                       "width": 432,
                                       "height": 19,
                                       "x": 160,
-                                      "y": 1236,
+                                      "y": 1244,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -6851,7 +6849,7 @@
                                       "width": 432,
                                       "height": 25,
                                       "x": 160,
-                                      "y": 1265,
+                                      "y": 1273,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -6874,7 +6872,7 @@
                                           "width": 105,
                                           "height": 21,
                                           "x": 165,
-                                          "y": 1267,
+                                          "y": 1275,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6897,7 +6895,7 @@
                                           "width": 74,
                                           "height": 25,
                                           "x": 280,
-                                          "y": 1265,
+                                          "y": 1273,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6921,7 +6919,7 @@
                                       "width": 432,
                                       "height": 25,
                                       "x": 160,
-                                      "y": 1294,
+                                      "y": 1302,
                                       "layout": {
                                         "manager": "pack",
                                         "pack": {
@@ -6944,7 +6942,7 @@
                                           "width": 94,
                                           "height": 21,
                                           "x": 165,
-                                          "y": 1296,
+                                          "y": 1304,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6967,7 +6965,7 @@
                                           "width": 74,
                                           "height": 25,
                                           "x": 269,
-                                          "y": 1294,
+                                          "y": 1302,
                                           "layout": {
                                             "manager": "pack",
                                             "pack": {
@@ -6990,11 +6988,11 @@
                                 {
                                   "class": "Label",
                                   "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!canvas.!frame.!themedlabel",
-                                  "text": "v5.3.3",
+                                  "text": "v5.6.4",
                                   "width": 36,
                                   "height": 21,
                                   "x": 572,
-                                  "y": 1361,
+                                  "y": 1369,
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
@@ -7017,11 +7015,11 @@
                         {
                           "class": "Label",
                           "id": ".!frame2.!frame2.!frame.!frame8.!settingsview.!themedlabel",
-                          "text": "V5.3.3",
+                          "text": "V5.6.4",
                           "width": 41,
                           "height": 21,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "place",
                             "place": {
@@ -7053,7 +7051,7 @@
                   "children": [
                     {
                       "class": "Frame",
-                      "id": ".!frame2.!frame2.!frame.!frame9.!logview",
+                      "id": ".!frame2.!frame2.!frame.!frame9.!updatesview",
                       "width": 1,
                       "height": 1,
                       "x": 128,
@@ -7075,7 +7073,194 @@
                       "children": [
                         {
                           "class": "Frame",
-                          "id": ".!frame2.!frame2.!frame.!frame9.!logview.!frame",
+                          "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe",
+                          "width": 1,
+                          "height": 1,
+                          "x": -294,
+                          "y": -317,
+                          "layout": {
+                            "manager": "pack",
+                            "pack": {
+                              "in": ".!frame2.!frame2.!frame.!frame9.!updatesview",
+                              "anchor": "center",
+                              "expand": "0",
+                              "fill": "x",
+                              "ipadx": "0",
+                              "ipady": "0",
+                              "padx": "16",
+                              "pady": "16",
+                              "side": "top"
+                            }
+                          },
+                          "children": [
+                            {
+                              "class": "Label",
+                              "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!label",
+                              "text": "VERSION & UPDATE",
+                              "width": 1,
+                              "height": 1,
+                              "x": -294,
+                              "y": -317,
+                              "layout": {
+                                "manager": "pack",
+                                "pack": {
+                                  "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe",
+                                  "anchor": "center",
+                                  "expand": "0",
+                                  "fill": "x",
+                                  "ipadx": "0",
+                                  "ipady": "0",
+                                  "padx": "0",
+                                  "pady": "(0, 8)",
+                                  "side": "top"
+                                }
+                              }
+                            },
+                            {
+                              "class": "Frame",
+                              "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame",
+                              "width": 1,
+                              "height": 1,
+                              "x": -294,
+                              "y": -317,
+                              "layout": {
+                                "manager": "pack",
+                                "pack": {
+                                  "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe",
+                                  "anchor": "center",
+                                  "expand": "0",
+                                  "fill": "x",
+                                  "ipadx": "0",
+                                  "ipady": "0",
+                                  "padx": "0",
+                                  "pady": "4",
+                                  "side": "top"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "class": "Label",
+                                  "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame.!themedlabel",
+                                  "text": "Installierte Version:  V5.6.4",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "none",
+                                      "ipadx": "0",
+                                      "ipady": "0",
+                                      "padx": "5",
+                                      "pady": "0",
+                                      "side": "left"
+                                    }
+                                  }
+                                },
+                                {
+                                  "class": "Label",
+                                  "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame.!themedlabel2",
+                                  "text": "Status: Bereit (manuell prüfen)",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "none",
+                                      "ipadx": "0",
+                                      "ipady": "0",
+                                      "padx": "16",
+                                      "pady": "0",
+                                      "side": "left"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Frame",
+                              "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame2",
+                              "width": 1,
+                              "height": 1,
+                              "x": -294,
+                              "y": -317,
+                              "layout": {
+                                "manager": "pack",
+                                "pack": {
+                                  "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe",
+                                  "anchor": "center",
+                                  "expand": "0",
+                                  "fill": "x",
+                                  "ipadx": "0",
+                                  "ipady": "0",
+                                  "padx": "0",
+                                  "pady": "6",
+                                  "side": "top"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "class": "Button",
+                                  "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame2.!themedbutton",
+                                  "text": "🔄 Jetzt auf Update prüfen",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame2",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "none",
+                                      "ipadx": "0",
+                                      "ipady": "0",
+                                      "padx": "5",
+                                      "pady": "0",
+                                      "side": "left"
+                                    }
+                                  }
+                                },
+                                {
+                                  "class": "Button",
+                                  "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame2.!themedbutton2",
+                                  "text": "📥 Update holen (neueste Version)",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe.!frame2",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "none",
+                                      "ipadx": "0",
+                                      "ipady": "0",
+                                      "padx": "5",
+                                      "pady": "0",
+                                      "side": "left"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Frame",
+                          "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2",
                           "width": 1,
                           "height": 1,
                           "x": 128,
@@ -7083,21 +7268,44 @@
                           "layout": {
                             "manager": "pack",
                             "pack": {
-                              "in": ".!frame2.!frame2.!frame.!frame9.!logview",
+                              "in": ".!frame2.!frame2.!frame.!frame9.!updatesview",
                               "anchor": "center",
                               "expand": "1",
                               "fill": "both",
                               "ipadx": "0",
                               "ipady": "0",
-                              "padx": "0",
-                              "pady": "0",
+                              "padx": "16",
+                              "pady": "8",
                               "side": "top"
                             }
                           },
                           "children": [
                             {
-                              "class": "Text",
-                              "id": ".!frame2.!frame2.!frame.!frame9.!logview.!frame.!text",
+                              "class": "Label",
+                              "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2.!label",
+                              "text": "ALLE CHANGELOGS (MIT DATUM & UHRZEIT)",
+                              "width": 1,
+                              "height": 1,
+                              "x": -294,
+                              "y": -317,
+                              "layout": {
+                                "manager": "pack",
+                                "pack": {
+                                  "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2",
+                                  "anchor": "center",
+                                  "expand": "0",
+                                  "fill": "x",
+                                  "ipadx": "0",
+                                  "ipady": "0",
+                                  "padx": "0",
+                                  "pady": "(0, 8)",
+                                  "side": "top"
+                                }
+                              }
+                            },
+                            {
+                              "class": "Frame",
+                              "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2.!frame",
                               "width": 1,
                               "height": 1,
                               "x": 128,
@@ -7105,7 +7313,7 @@
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
-                                  "in": ".!frame2.!frame2.!frame.!frame9.!logview.!frame",
+                                  "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2",
                                   "anchor": "center",
                                   "expand": "1",
                                   "fill": "both",
@@ -7115,77 +7323,53 @@
                                   "pady": "0",
                                   "side": "top"
                                 }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "class": "Frame",
-                          "id": ".!frame2.!frame2.!frame.!frame9.!logview.!frame2",
-                          "width": 1,
-                          "height": 1,
-                          "x": -138,
-                          "y": -161,
-                          "layout": {
-                            "manager": "pack",
-                            "pack": {
-                              "in": ".!frame2.!frame2.!frame.!frame9.!logview",
-                              "anchor": "center",
-                              "expand": "0",
-                              "fill": "none",
-                              "ipadx": "0",
-                              "ipady": "0",
-                              "padx": "0",
-                              "pady": "(16, 0)",
-                              "side": "top"
-                            }
-                          },
-                          "children": [
-                            {
-                              "class": "Button",
-                              "id": ".!frame2.!frame2.!frame.!frame9.!logview.!frame2.!themedbutton",
-                              "text": "LOG LEEREN",
-                              "width": 1,
-                              "height": 1,
-                              "x": -138,
-                              "y": -161,
-                              "layout": {
-                                "manager": "pack",
-                                "pack": {
-                                  "in": ".!frame2.!frame2.!frame.!frame9.!logview.!frame2",
-                                  "anchor": "center",
-                                  "expand": "0",
-                                  "fill": "none",
-                                  "ipadx": "10",
-                                  "ipady": "4",
-                                  "padx": "(0, 16)",
-                                  "pady": "0",
-                                  "side": "left"
+                              },
+                              "children": [
+                                {
+                                  "class": "Scrollbar",
+                                  "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2.!frame.!scrollbar",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": -294,
+                                  "y": -317,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2.!frame",
+                                      "anchor": "center",
+                                      "expand": "0",
+                                      "fill": "y",
+                                      "ipadx": "0",
+                                      "ipady": "0",
+                                      "padx": "0",
+                                      "pady": "0",
+                                      "side": "right"
+                                    }
+                                  }
+                                },
+                                {
+                                  "class": "Text",
+                                  "id": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2.!frame",
+                                  "width": 1,
+                                  "height": 1,
+                                  "x": 128,
+                                  "y": 52,
+                                  "layout": {
+                                    "manager": "pack",
+                                    "pack": {
+                                      "in": ".!frame2.!frame2.!frame.!frame9.!updatesview.!themedlabelframe2",
+                                      "anchor": "center",
+                                      "expand": "1",
+                                      "fill": "both",
+                                      "ipadx": "0",
+                                      "ipady": "0",
+                                      "padx": "0",
+                                      "pady": "0",
+                                      "side": "top"
+                                    }
+                                  }
                                 }
-                              }
-                            },
-                            {
-                              "class": "Button",
-                              "id": ".!frame2.!frame2.!frame.!frame9.!logview.!frame2.!themedbutton2",
-                              "text": "LOG KOPIEREN",
-                              "width": 1,
-                              "height": 1,
-                              "x": -138,
-                              "y": -161,
-                              "layout": {
-                                "manager": "pack",
-                                "pack": {
-                                  "in": ".!frame2.!frame2.!frame.!frame9.!logview.!frame2",
-                                  "anchor": "center",
-                                  "expand": "0",
-                                  "fill": "none",
-                                  "ipadx": "10",
-                                  "ipady": "4",
-                                  "padx": "0",
-                                  "pady": "0",
-                                  "side": "left"
-                                }
-                              }
+                              ]
                             }
                           ]
                         }
@@ -7203,7 +7387,7 @@
                   "children": [
                     {
                       "class": "Frame",
-                      "id": ".!frame2.!frame2.!frame.!frame10.!helpview",
+                      "id": ".!frame2.!frame2.!frame.!frame10.!logview",
                       "width": 1,
                       "height": 1,
                       "x": 128,
@@ -7225,15 +7409,165 @@
                       "children": [
                         {
                           "class": "Frame",
-                          "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!frame",
+                          "id": ".!frame2.!frame2.!frame.!frame10.!logview.!frame",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": 128,
+                          "y": 52,
                           "layout": {
                             "manager": "pack",
                             "pack": {
-                              "in": ".!frame2.!frame2.!frame.!frame10.!helpview",
+                              "in": ".!frame2.!frame2.!frame.!frame10.!logview",
+                              "anchor": "center",
+                              "expand": "1",
+                              "fill": "both",
+                              "ipadx": "0",
+                              "ipady": "0",
+                              "padx": "0",
+                              "pady": "0",
+                              "side": "top"
+                            }
+                          },
+                          "children": [
+                            {
+                              "class": "Text",
+                              "id": ".!frame2.!frame2.!frame.!frame10.!logview.!frame.!text",
+                              "width": 1,
+                              "height": 1,
+                              "x": 128,
+                              "y": 52,
+                              "layout": {
+                                "manager": "pack",
+                                "pack": {
+                                  "in": ".!frame2.!frame2.!frame.!frame10.!logview.!frame",
+                                  "anchor": "center",
+                                  "expand": "1",
+                                  "fill": "both",
+                                  "ipadx": "0",
+                                  "ipady": "0",
+                                  "padx": "0",
+                                  "pady": "0",
+                                  "side": "top"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Frame",
+                          "id": ".!frame2.!frame2.!frame.!frame10.!logview.!frame2",
+                          "width": 1,
+                          "height": 1,
+                          "x": -294,
+                          "y": -317,
+                          "layout": {
+                            "manager": "pack",
+                            "pack": {
+                              "in": ".!frame2.!frame2.!frame.!frame10.!logview",
+                              "anchor": "center",
+                              "expand": "0",
+                              "fill": "none",
+                              "ipadx": "0",
+                              "ipady": "0",
+                              "padx": "0",
+                              "pady": "(16, 0)",
+                              "side": "top"
+                            }
+                          },
+                          "children": [
+                            {
+                              "class": "Button",
+                              "id": ".!frame2.!frame2.!frame.!frame10.!logview.!frame2.!themedbutton",
+                              "text": "LOG LEEREN",
+                              "width": 1,
+                              "height": 1,
+                              "x": -294,
+                              "y": -317,
+                              "layout": {
+                                "manager": "pack",
+                                "pack": {
+                                  "in": ".!frame2.!frame2.!frame.!frame10.!logview.!frame2",
+                                  "anchor": "center",
+                                  "expand": "0",
+                                  "fill": "none",
+                                  "ipadx": "10",
+                                  "ipady": "4",
+                                  "padx": "(0, 16)",
+                                  "pady": "0",
+                                  "side": "left"
+                                }
+                              }
+                            },
+                            {
+                              "class": "Button",
+                              "id": ".!frame2.!frame2.!frame.!frame10.!logview.!frame2.!themedbutton2",
+                              "text": "LOG KOPIEREN",
+                              "width": 1,
+                              "height": 1,
+                              "x": -294,
+                              "y": -317,
+                              "layout": {
+                                "manager": "pack",
+                                "pack": {
+                                  "in": ".!frame2.!frame2.!frame.!frame10.!logview.!frame2",
+                                  "anchor": "center",
+                                  "expand": "0",
+                                  "fill": "none",
+                                  "ipadx": "10",
+                                  "ipady": "4",
+                                  "padx": "0",
+                                  "pady": "0",
+                                  "side": "left"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Frame",
+                  "id": ".!frame2.!frame2.!frame.!frame11",
+                  "width": 1,
+                  "height": 1,
+                  "x": 128,
+                  "y": 52,
+                  "children": [
+                    {
+                      "class": "Frame",
+                      "id": ".!frame2.!frame2.!frame.!frame11.!helpview",
+                      "width": 1,
+                      "height": 1,
+                      "x": 128,
+                      "y": 52,
+                      "layout": {
+                        "manager": "pack",
+                        "pack": {
+                          "in": ".!frame2.!frame2.!frame.!frame11",
+                          "anchor": "center",
+                          "expand": "1",
+                          "fill": "both",
+                          "ipadx": "0",
+                          "ipady": "0",
+                          "padx": "0",
+                          "pady": "0",
+                          "side": "top"
+                        }
+                      },
+                      "children": [
+                        {
+                          "class": "Frame",
+                          "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!frame",
+                          "width": 1,
+                          "height": 1,
+                          "x": -294,
+                          "y": -317,
+                          "layout": {
+                            "manager": "pack",
+                            "pack": {
+                              "in": ".!frame2.!frame2.!frame.!frame11.!helpview",
                               "anchor": "center",
                               "expand": "0",
                               "fill": "x",
@@ -7247,16 +7581,16 @@
                           "children": [
                             {
                               "class": "Button",
-                              "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!frame.!themedbutton",
+                              "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!frame.!themedbutton",
                               "text": "🔍 UI-Struktur scannen",
                               "width": 1,
                               "height": 1,
-                              "x": -138,
-                              "y": -161,
+                              "x": -294,
+                              "y": -317,
                               "layout": {
                                 "manager": "pack",
                                 "pack": {
-                                  "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!frame",
+                                  "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!frame",
                                   "anchor": "center",
                                   "expand": "0",
                                   "fill": "none",
@@ -7272,7 +7606,7 @@
                         },
                         {
                           "class": "Canvas",
-                          "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas",
+                          "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas",
                           "width": 1,
                           "height": 1,
                           "x": 128,
@@ -7280,7 +7614,7 @@
                           "layout": {
                             "manager": "pack",
                             "pack": {
-                              "in": ".!frame2.!frame2.!frame.!frame10.!helpview",
+                              "in": ".!frame2.!frame2.!frame.!frame11.!helpview",
                               "anchor": "center",
                               "expand": "1",
                               "fill": "both",
@@ -7294,7 +7628,7 @@
                           "children": [
                             {
                               "class": "Frame",
-                              "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                              "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                               "width": 1039,
                               "height": 492,
                               "x": 128,
@@ -7302,7 +7636,7 @@
                               "children": [
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel",
                                   "text": "Syndicate Tool PRO – Kurzanleitung",
                                   "width": 279,
                                   "height": 27,
@@ -7311,7 +7645,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7325,7 +7659,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel2",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel2",
                                   "text": "ALLGEMEIN",
                                   "width": 91,
                                   "height": 26,
@@ -7334,7 +7668,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7348,7 +7682,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel3",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel3",
                                   "text": "Start/Stop: Taste [F8] (Standard). WICHTIG: Immer als ADMIN starten!",
                                   "width": 371,
                                   "height": 21,
@@ -7357,7 +7691,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7371,7 +7705,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel4",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel4",
                                   "text": "VERARBEITUNG (AUTO-E)",
                                   "width": 193,
                                   "height": 26,
@@ -7380,7 +7714,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7394,7 +7728,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel5",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel5",
                                   "text": "Smart Text: Bot liest Menü & lernt Zeiten selbst.\nAuto-Detect: Balken im Spiel starten → Button klicken. Bot findet Balken unten & setzt Messpunkt (10% links).",
                                   "width": 582,
                                   "height": 36,
@@ -7403,7 +7737,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7417,7 +7751,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel6",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel6",
                                   "text": "GROSSHANDEL (Semi-Auto)",
                                   "width": 206,
                                   "height": 26,
@@ -7426,7 +7760,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7440,7 +7774,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel7",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel7",
                                   "text": "Vollautomatische OCR: Keine manuelle Box nötig. Schlechte Deals: Bot lehnt automatisch ab. Gute Deals: Alarm ertönt, du entscheidest manuell.",
                                   "width": 765,
                                   "height": 21,
@@ -7449,7 +7783,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7463,7 +7797,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel8",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel8",
                                   "text": "LIEFERSCHEIN",
                                   "width": 106,
                                   "height": 26,
@@ -7472,7 +7806,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7486,7 +7820,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel9",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel9",
                                   "text": "Legal (Hardware) / Illegal (Intern): Zwei Kopier-Buttons für getarnte vs. Klarnamen. Tarn-Autofill: Kürzel (z.B. ak47) → RTX 4070 Super + Preis. Pro Zeile: Zeile löschen. Vorlagen-Editor: Header/Footer.",
                                   "width": 1039,
                                   "height": 21,
@@ -7495,7 +7829,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7509,7 +7843,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel10",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel10",
                                   "text": "SCHUTZ-FEATURES",
                                   "width": 142,
                                   "height": 26,
@@ -7518,7 +7852,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7532,7 +7866,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel11",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel11",
                                   "text": "Inventar-Sperre: Erkennt 'BELLACITY' Header → Pause. Material-Check: Prüft auf blaue Info-Box → Alarm-Sound. Blacklist: Ignoriert leere Tische automatisch.",
                                   "width": 831,
                                   "height": 21,
@@ -7541,7 +7875,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7555,7 +7889,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel12",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel12",
                                   "text": "UPDATES",
                                   "width": 73,
                                   "height": 26,
@@ -7564,7 +7898,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7578,7 +7912,7 @@
                                 },
                                 {
                                   "class": "Label",
-                                  "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame.!themedlabel13",
+                                  "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame.!themedlabel13",
                                   "text": "Tool prüft alle 5 Min. auf GitHub nach Updates. Download-Fenster erscheint im Vordergrund (Topmost). Speed & Progress werden live angezeigt.",
                                   "width": 771,
                                   "height": 21,
@@ -7587,7 +7921,7 @@
                                   "layout": {
                                     "manager": "pack",
                                     "pack": {
-                                      "in": ".!frame2.!frame2.!frame.!frame10.!helpview.!canvas.!frame",
+                                      "in": ".!frame2.!frame2.!frame.!frame11.!helpview.!canvas.!frame",
                                       "anchor": "w",
                                       "expand": "0",
                                       "fill": "none",
@@ -7605,15 +7939,15 @@
                         },
                         {
                           "class": "Scrollbar",
-                          "id": ".!frame2.!frame2.!frame.!frame10.!helpview.!scrollbar",
+                          "id": ".!frame2.!frame2.!frame.!frame11.!helpview.!scrollbar",
                           "width": 1,
                           "height": 1,
-                          "x": -138,
-                          "y": -161,
+                          "x": -294,
+                          "y": -317,
                           "layout": {
                             "manager": "pack",
                             "pack": {
-                              "in": ".!frame2.!frame2.!frame.!frame10.!helpview",
+                              "in": ".!frame2.!frame2.!frame.!frame11.!helpview",
                               "anchor": "center",
                               "expand": "0",
                               "fill": "y",
@@ -7637,7 +7971,7 @@
               "text": "made by Malte and Gemini with <3",
               "width": 198,
               "height": 19,
-              "x": 458,
+              "x": 455,
               "y": 613,
               "layout": {
                 "manager": "pack",

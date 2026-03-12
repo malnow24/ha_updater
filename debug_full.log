@@ -17795,3 +17795,88 @@ Traceback (most recent call last):
   File "main.py", line 910, in _startup
 ModuleNotFoundError: No module named 'ui'
 
+2026-03-07 05:50:47,130 [DEBUG] SyndicateTool: Programmstart v5.6.4
+2026-03-07 05:50:47,149 [INFO] SyndicateTool: [Startup] SyndicateTool PRO v5.6.4 | Settings: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json
+2026-03-07 05:50:47,221 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): keyauth.win:443
+2026-03-07 05:50:47,968 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-07 05:50:47,972 [WARNING] skills.auth_skill: [Auth] init() Exception (wird ignoriert): You've already initialized...
+2026-03-07 05:50:48,448 [DEBUG] urllib3.connectionpool: https://keyauth.win:443 "POST /api/1.0/ HTTP/1.1" 200 None
+2026-03-07 05:50:48,449 [INFO] skills.auth_skill: [Auth] Gespeicherter Key gültig – starte direkt.
+2026-03-07 05:50:48,646 [INFO] SyndicateTool: [FREEZE-DEBUG] load_settings: JSON geladen, vor Firebase-Thread
+2026-03-07 05:50:48,646 [INFO] SyndicateTool: [Settings] Loaded from disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=6)
+2026-03-07 05:50:48,649 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-07 05:50:48,650 [INFO] SyndicateTool: [Theme] Palette angewendet: Neon
+2026-03-07 05:50:48,965 [INFO] SyndicateTool: Syndicate Tool v5.6.4 geladen.
+2026-03-07 05:50:48,965 [INFO] SyndicateTool: AI Modul: Smart Text Learning aktiv.
+2026-03-07 05:50:48,965 [INFO] SyndicateTool: [Stability] Ghost-Mode fade duration optimized for thread safety.
+2026-03-07 05:50:48,965 [INFO] SyndicateTool: [System] UI-Blueprinting moved to manual/startup trigger to prevent overflows.
+2026-03-07 05:50:48,968 [INFO] ui.main_window: [FREEZE-DEBUG] _build_layout start
+2026-03-07 05:50:49,240 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-07 05:50:49,249 [INFO] ui.views.dashboard_view: [FREEZE-DEBUG] DashboardView._build start
+2026-03-07 05:50:49,254 [INFO] ui.views.dashboard_view: [FREEZE-DEBUG] DashboardView._build end
+2026-03-07 05:50:49,260 [INFO] SyndicateTool: [Interaction] Mode Changed >> Processing sub-mode -> interval
+2026-03-07 05:50:49,260 [INFO] SyndicateTool: [UI-Main] Processing sub-mode changed to: interval
+2026-03-07 05:50:49,260 [DEBUG] SyndicateTool: [Settings] save_settings aufgerufen
+2026-03-07 05:50:49,262 [INFO] SyndicateTool: [Settings] Written to disk: C:\Users\malno\AppData\Roaming\SyndicateTool\settings.json (favorites=6, bot_mode=interval)
+2026-03-07 05:50:49,262 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (2): syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443
+2026-03-07 05:50:49,269 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/branding.json HTTP/1.1" 200 37
+2026-03-07 05:50:49,762 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-07 05:50:49,775 [INFO] ui.tab_lieferschein: [FREEZE-DEBUG] tab_lieferschein.build_tab start
+2026-03-07 05:50:49,775 [DEBUG] ui.tab_lieferschein: Starte Aufbau Tab 1 (Lieferschein/Deals)...
+2026-03-07 05:50:49,972 [DEBUG] ui.tab_lieferschein: Tab 1 (Lieferschein): Aufbau erfolgreich.
+2026-03-07 05:50:49,972 [INFO] ui.tab_lieferschein: [FREEZE-DEBUG] tab_lieferschein.build_tab end
+2026-03-07 05:50:50,008 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/transactions.json HTTP/1.1" 200 223
+2026-03-07 05:50:50,035 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-07 05:50:50,078 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/inventory.json HTTP/1.1" 200 508
+2026-03-07 05:50:50,080 [INFO] ui.tab_family: [FREEZE-DEBUG] tab_family.build_tab start
+2026-03-07 05:50:50,080 [DEBUG] ui.tab_family: Starte Aufbau Tab 4 (Profil & Familie)...
+2026-03-07 05:50:50,112 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/join_requests.json HTTP/1.1" 200 154
+2026-03-07 05:50:50,144 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/members.json HTTP/1.1" 200 221
+2026-03-07 05:50:50,180 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/vault.json HTTP/1.1" 200 36
+2026-03-07 05:50:50,212 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/storage.json HTTP/1.1" 200 4
+2026-03-07 05:50:50,230 [DEBUG] ui.tab_family: Tab 4 (Profil & Familie): Aufbau erfolgreich.
+2026-03-07 05:50:50,231 [INFO] ui.tab_family: [FREEZE-DEBUG] tab_family.build_tab end
+2026-03-07 05:50:50,258 [INFO] ui.views.updates_view: [FREEZE-DEBUG] UpdatesView._build start
+2026-03-07 05:50:50,286 [INFO] ui.views.updates_view: [FREEZE-DEBUG] UpdatesView._build end
+2026-03-07 05:50:50,306 [INFO] ui.main_window: [FREEZE-DEBUG] all views built, calling _show_view(Dashboard)
+2026-03-07 05:50:50,306 [INFO] ui.main_window: [FREEZE-DEBUG] _show_view start: Dashboard
+2026-03-07 05:50:50,306 [INFO] SyndicateTool: [Interaction] Tab Change >> View -> Dashboard
+2026-03-07 05:50:50,831 [INFO] ui.main_window: [FREEZE-DEBUG] _show_view end: Dashboard
+2026-03-07 05:50:50,832 [INFO] ui.main_window: [FREEZE-DEBUG] _build_layout end
+2026-03-07 05:50:50,833 [INFO] SyndicateTool: [FREEZE-DEBUG] mainloop() start – Fenster läuft
+2026-03-07 05:50:50,875 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /families/blackout/deal_history.json HTTP/1.1" 200 4
+2026-03-07 05:50:50,876 [INFO] ui.views.dashboard_view: [FREEZE-DEBUG] DashboardView._refresh_online_status start
+2026-03-07 05:50:50,907 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 379
+2026-03-07 05:50:51,639 [INFO] SyndicateTool: [FREEZE-DEBUG] after_800: ChangelogSkill.show_if_needed start
+2026-03-07 05:50:51,653 [INFO] SyndicateTool: [FREEZE-DEBUG] after_800: ChangelogSkill.show_if_needed end
+2026-03-07 05:50:53,367 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /tool_presence/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 62
+2026-03-07 05:50:53,969 [INFO] SyndicateTool: [UI-Mapper] Generated new blueprint for analysis.
+2026-03-07 05:50:54,192 [INFO] skills.ui_mapper_skill: [UIMapperSkill] Blueprint saved: ui_blueprint.json
+2026-03-07 05:51:05,321 [INFO] ui.main_window: [FREEZE-DEBUG] _show_view start: Updates
+2026-03-07 05:51:05,321 [INFO] SyndicateTool: [Interaction] Tab Change >> View -> Updates
+2026-03-07 05:51:05,326 [INFO] ui.main_window: [FREEZE-DEBUG] _show_view end: Updates
+2026-03-07 05:51:05,727 [INFO] ui.main_window: [FREEZE-DEBUG] _adjust_window_size_step1 start
+2026-03-07 05:51:05,989 [INFO] SyndicateTool: [UI] Magnet-Reset: Snapped to 907x780
+2026-03-07 05:51:05,989 [INFO] ui.main_window: [FREEZE-DEBUG] _adjust_window_size_step2 end
+2026-03-07 05:51:05,991 [INFO] ui.views.dashboard_view: [FREEZE-DEBUG] DashboardView._refresh_online_status start
+2026-03-07 05:51:06,020 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 378
+2026-03-07 05:51:07,070 [INFO] ui.views.updates_view: [Updates] Benutzer klickt auf Update holen
+2026-03-07 05:51:07,173 [INFO] skills.network_skill: [Update] Neue Version verfügbar: 5.6.5 (aktuell: 5.6.4)
+2026-03-07 05:51:08,881 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): github.com:443
+2026-03-07 05:51:09,534 [DEBUG] urllib3.connectionpool: https://github.com:443 "GET /malnow24/ha_updater/raw/main/SyndicateTool_PRO_V5.6.5.exe HTTP/1.1" 302 0
+2026-03-07 05:51:09,535 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): media.githubusercontent.com:443
+2026-03-07 05:51:10,034 [DEBUG] urllib3.connectionpool: https://media.githubusercontent.com:443 "GET /media/malnow24/ha_updater/main/SyndicateTool_PRO_V5.6.5.exe HTTP/1.1" 200 211947142
+2026-03-07 05:51:21,030 [INFO] ui.views.dashboard_view: [FREEZE-DEBUG] DashboardView._refresh_online_status start
+2026-03-07 05:51:21,065 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "GET /tool_presence.json HTTP/1.1" 200 378
+2026-03-07 05:51:33,079 [CRITICAL] SyndicateTool: [CRASH] Uncaught exception in thread Thread-9 (L):
+Traceback (most recent call last):
+  File "threading.py", line 1075, in _bootstrap_inner
+  File "threading.py", line 1012, in run
+  File "skills\network_skill.py", line 78, in L
+    except Exception as T:A.after(0,lambda:ctypes.windll.user32.MessageBoxW(0,f"Fehler: {T}",'Abbruch',16));A.destroy()
+                                                                                                            ^^^^^^^^^^^
+  File "tkinter\__init__.py", line 2390, in destroy
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2026-03-07 05:51:34,411 [DEBUG] urllib3.connectionpool: https://syndicatetool-eabe5-default-rtdb.europe-west1.firebasedatabase.app:443 "PUT /tool_presence/8a7175e7dacb4051bb3a7b6d5706c5a2.json HTTP/1.1" 200 63
+2026-03-07 05:51:34,853 [INFO] SyndicateTool: [FREEZE-DEBUG] mainloop() beendet – Fenster geschlossen
